@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Q1 Prototype Engine — Two Sum</title>
+  <style>
+    :root {
+      --bg: #050505;
+      --panel: #101010;
+      --panel-2: #151515;
+      --panel-3: #1b1b1b;
+      --text: #e5e7eb;
+      --muted: #a3a3a3;
+      --yellow: #facc15;
+      --yellow-soft: rgba(250, 204, 21, 0.12);
+      --green: #4ade80;
+      --red: #f87171;
+      --blue: #60a5fa;
+      --purple: #c084fc;
+      --border: #313131;
+      --glow-yellow: 0 0 14px rgba(250, 204, 21, 0.25);
+      --glow-white: 0 0 10px rgba(255, 255, 255, 0.08);
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    code,
+    pre,
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      background: var(--panel);
+      border-right: 1px solid var(--border);
+      box-shadow: var(--glow-white);
+      padding: 24px 18px;
+    }
+
+    .brand {
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      color: var(--yellow);
+      text-shadow: var(--glow-yellow);
+    }
+
+    .brand p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .nav {
+      display: grid;
+      gap: 8px;
+    }
+
+    .nav a {
+      display: block;
+      text-decoration: none;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      border-radius: 10px;
+      padding: 11px 12px;
+      font-size: 14px;
+    }
+
+    .nav a:hover {
+      color: var(--yellow);
+      border-color: #5d4b00;
+      background: #1b1808;
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, #121212 0%, #0f0f0f 100%);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      margin-bottom: 22px;
+      box-shadow: var(--glow-white);
+    }
+
+    .hero h2 {
+      margin: 0 0 12px;
+      color: var(--yellow);
+      font-size: 30px;
+      text-shadow: var(--glow-yellow);
+    }
+
+    .hero p {
+      margin: 0 0 14px;
+      color: var(--text);
+      max-width: 1000px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .pill {
+      border: 1px solid var(--border);
+      background: var(--panel-3);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+    }
+
+    section {
+      margin-bottom: 22px;
+    }
+
+    .section-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--glow-white);
+    }
+
+    .section-card h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: var(--yellow);
+      font-size: 24px;
+      text-shadow: var(--glow-yellow);
+    }
+
+    .subhead {
+      color: #fde047;
+      margin: 18px 0 8px;
+      font-size: 18px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .box {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .box h4 {
+      margin: 0 0 8px;
+      color: #fde047;
+      font-size: 17px;
+    }
+
+    .accent {
+      color: var(--yellow);
+      font-weight: 700;
+    }
+
+    .good {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .bad {
+      color: var(--red);
+      font-weight: 700;
+    }
+
+    .info {
+      color: var(--blue);
+      font-weight: 700;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    pre {
+      background: #000;
+      color: #f3f4f6;
+      border: 1px solid #4a3d08;
+      border-radius: 12px;
+      padding: 16px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      box-shadow: 0 0 10px rgba(250, 204, 21, 0.12);
+      margin: 10px 0 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      border: 1px solid #393939;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--panel-3);
+      color: var(--yellow);
+    }
+
+    tr:nth-child(even) td {
+      background: #121212;
+    }
+
+    .trace-panel {
+      display: grid;
+      gap: 16px;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: end;
+    }
+
+    select,
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    select,
+    button {
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel-3);
+      color: var(--text);
+      padding: 10px 12px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: #675200;
+      color: var(--yellow);
+    }
+
+    .array-view {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .array-cell {
+      min-width: 56px;
+      text-align: center;
+    }
+
+    .idx {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .val {
+      border: 2px solid #4a4a4a;
+      background: var(--panel-3);
+      border-radius: 10px;
+      padding: 10px 8px;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .val.active {
+      border-color: var(--yellow);
+      color: var(--yellow);
+      box-shadow: var(--glow-yellow);
+      background: rgba(250, 204, 21, 0.1);
+    }
+
+    .val.hit {
+      border-color: var(--green);
+      color: var(--green);
+      background: rgba(74, 222, 128, 0.1);
+    }
+
+    .map-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .map-card {
+      background: var(--panel-3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .map-card.query {
+      border-color: var(--yellow);
+      box-shadow: var(--glow-yellow);
+    }
+
+    .map-card.last {
+      border-color: var(--blue);
+    }
+
+    .map-key {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+
+    .map-value {
+      font-weight: 700;
+    }
+
+    .progress {
+      height: 8px;
+      border-radius: 999px;
+      background: #232323;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+
+    .progress > div {
+      height: 100%;
+      background: linear-gradient(90deg, var(--yellow), #f59e0b);
+      width: 0%;
+    }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 980px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: relative;
+        height: auto;
+      }
+
+      .content {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <h1>Two Sum Engine</h1>
+        <p>Q1 Master Prototype</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#identity">1. Problem Identity</a>
+        <a href="#io-mapping">2. Input-Output Mapping</a>
+        <a href="#logical-view">3. Logical View Mapping</a>
+        <a href="#representations">4. Representation Stack</a>
+        <a href="#patterns">5. Patterns & Tradeoffs</a>
+        <a href="#functions">6. Function Diagrams</a>
+        <a href="#state-engine">7. State Engine</a>
+        <a href="#invariant">8. Invariant & Proof</a>
+        <a href="#runtime">9. Runtime Stack</a>
+        <a href="#measurement">10. Measurement Model</a>
+        <a href="#code">11. Google-Style C++</a>
+        <a href="#traces">12. Trace Engine</a>
+        <a href="#cases">13. 15 Test Cases</a>
+        <a href="#summary">14. Canonical Engine Summary</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <div class="hero">
+        <h2>LeetCode Q1 — Two Sum Advanced Prototype Website</h2>
+        <p>
+          This single-page prototype turns Q1 into a full engine artifact: problem identity,
+          input-output mapping, logical view mapping, representation stack, invariant system,
+          runtime stack behavior, measurement model, trace tools, Google-style C++ code, and
+          replay support for 15 canonical test examples.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Pair relation</span>
+          <span class="pill">Complement lookup</span>
+          <span class="pill">Processed-prefix memory</span>
+          <span class="pill">Hash map semantics</span>
+          <span class="pill">Step trace</span>
+          <span class="pill">Invariant trace</span>
+          <span class="pill">Memory delta</span>
+          <span class="pill">Google-style C++</span>
+        </div>
+      </div>
+
+      <section id="identity" class="section-card">
+        <h3>1. Problem Identity</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Surface Statement</h4>
+            <p>
+              Given an integer array <code>nums</code> and an integer <code>target</code>,
+              return indices of the two numbers such that they add up to <code>target</code>.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Constraint Meaning</h4>
+            <ul>
+              <li>Exactly one valid answer exists.</li>
+              <li>You may not use the same element twice.</li>
+              <li>Output is a pair of indices, not a pair of values.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="subhead">Core Challenge</h4>
+        <pre>value relation
+→ positional answer
+→ preserve original indices while solving efficiently</pre>
+      </section>
+
+      <section id="io-mapping" class="section-card">
+        <h3>2. Input-Output Mapping</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Raw Input</h4>
+            <pre>nums   = [x0, x1, x2, ..., xn-1]
+target = T</pre>
+          </div>
+          <div class="box">
+            <h4>Raw Output</h4>
+            <pre>[i, j]
+nums[i] + nums[j] = T
+i != j</pre>
+          </div>
+        </div>
+
+        <h4 class="subhead">Meaning</h4>
+        <pre>input values
+  ↓
+define arithmetic relation
+  ↓
+output indices preserve original positions</pre>
+      </section>
+
+      <section id="logical-view" class="section-card">
+        <h3>3. Logical View Mapping</h3>
+        <div class="grid-3">
+          <div class="box">
+            <h4>Surface View</h4>
+            <pre>Find two numbers
+that sum to target.</pre>
+          </div>
+          <div class="box">
+            <h4>Structural View</h4>
+            <pre>Find indices (i, j)
+such that nums[i] + nums[j] = target.</pre>
+          </div>
+          <div class="box">
+            <h4>Optimized View</h4>
+            <pre>For current x,
+need = target - x.
+Lookup need in processed prefix.</pre>
+          </div>
+        </div>
+
+        <h4 class="subhead">Main Transformation</h4>
+        <pre>pair search
+→ complement lookup
+→ processed-prefix memory problem</pre>
+      </section>
+
+      <section id="representations" class="section-card">
+        <h3>4. Representation Stack</h3>
+        <table>
+          <tr>
+            <th>Layer</th>
+            <th>Representation</th>
+            <th>Meaning</th>
+          </tr>
+          <tr>
+            <td>Surface</td>
+            <td>English question</td>
+            <td>Two numbers add to target</td>
+          </tr>
+          <tr>
+            <td>Sequence</td>
+            <td>Ordered array</td>
+            <td>Values have original indices</td>
+          </tr>
+          <tr>
+            <td>Pair</td>
+            <td>All pairs <code>(i, j)</code></td>
+            <td>Brute-force search space</td>
+          </tr>
+          <tr>
+            <td>Lookup</td>
+            <td><code>need = target - current</code></td>
+            <td>Current value induces missing complement</td>
+          </tr>
+          <tr>
+            <td>Memory</td>
+            <td><code>value -> index</code></td>
+            <td>Processed prefix summarized as semantic memory</td>
+          </tr>
+          <tr>
+            <td>Output</td>
+            <td><code>[stored_index, current_index]</code></td>
+            <td>Index pair returned immediately on hit</td>
+          </tr>
+        </table>
+
+        <h4 class="subhead">Visual Sequence View</h4>
+        <pre>processed prefix | current item | unprocessed suffix</pre>
+      </section>
+
+      <section id="patterns" class="section-card">
+        <h3>5. Patterns & Tradeoffs</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Brute Force Pattern</h4>
+            <pre>for each i:
+  for each j > i:
+    test nums[i] + nums[j]</pre>
+            <p><span class="bad">Time:</span> O(n²) &nbsp; <span class="good">Space:</span> O(1)</p>
+          </div>
+          <div class="box">
+            <h4>Optimal Pattern</h4>
+            <pre>for each i:
+  need = target - nums[i]
+  if need in map:
+    return
+  insert nums[i]</pre>
+            <p><span class="good">Time:</span> O(n) average &nbsp; <span class="bad">Space:</span> O(n)</p>
+          </div>
+        </div>
+
+        <h4 class="subhead">Tradeoff Law</h4>
+        <pre>use extra memory
+to eliminate repeated pair scanning</pre>
+
+        <h4 class="subhead">Anti-Pattern</h4>
+        <pre>sorting the raw array without preserving original indices
+destroys the required output identity</pre>
+      </section>
+
+      <section id="functions" class="section-card">
+        <h3>6. Function Diagrams</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Scan/Update Function</h4>
+            <pre>state_{i+1} = update(state_i, nums[i])</pre>
+          </div>
+          <div class="box">
+            <h4>Complement Function</h4>
+            <pre>needed_value = target - current_value</pre>
+          </div>
+          <div class="box">
+            <h4>Lookup Function</h4>
+            <pre>find(needed_value) in seen map</pre>
+          </div>
+          <div class="box">
+            <h4>Insert Function</h4>
+            <pre>seen[current_value] = i</pre>
+          </div>
+        </div>
+
+        <h4 class="subhead">Master Function Flow</h4>
+        <pre>(nums, target)
+   ↓
+scan left to right
+   ↓
+read current value
+   ↓
+derive needed complement
+   ↓
+lookup in processed-prefix memory
+   ├─ hit  -> return answer
+   └─ miss -> insert current value</pre>
+      </section>
+
+      <section id="state-engine" class="section-card">
+        <h3>7. State Engine</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Live State Fields</h4>
+            <ul>
+              <li><code>i</code></li>
+              <li><code>current_value</code></li>
+              <li><code>needed_value</code></li>
+              <li><code>seen_index_by_value</code></li>
+              <li>answer status</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h4>State Form</h4>
+            <pre>State(i) =
+(
+  i,
+  current_value,
+  needed_value,
+  seen_map
+)</pre>
+          </div>
+        </div>
+
+        <h4 class="subhead">Semantic Meaning</h4>
+        <pre>the state at index i is not just the current item;
+it is the current item plus everything useful remembered from the processed prefix</pre>
+      </section>
+
+      <section id="invariant" class="section-card">
+        <h3>8. Invariant & Proof Layer</h3>
+        <div class="box">
+          <h4>Main Invariant</h4>
+          <pre>Before processing index i,
+seen_map contains all values from indices [0 .. i-1]
+mapped to valid earlier indices.</pre>
+        </div>
+
+        <div class="grid-2" style="margin-top: 12px;">
+          <div class="box">
+            <h4>Why a Hit Is Correct</h4>
+            <pre>if needed_value is in seen_map,
+then an earlier index already satisfies
+nums[earlier] + nums[i] = target</pre>
+          </div>
+          <div class="box">
+            <h4>Why a Miss Preserves Correctness</h4>
+            <pre>if needed_value is absent,
+storing current_value extends the processed-prefix summary
+for the next iteration</pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="runtime" class="section-card">
+        <h3>9. Runtime Stack & First Steps</h3>
+        <div class="grid-2">
+          <div class="box">
+            <h4>Runtime Stack Behavior</h4>
+            <pre>iterative problem
+→ one main function frame
+→ no recursion
+→ shallow runtime stack</pre>
+          </div>
+          <div class="box">
+            <h4>Main Locals</h4>
+            <ul>
+              <li><code>nums</code></li>
+              <li><code>target</code></li>
+              <li><code>seen_index_by_value</code></li>
+              <li><code>i</code></li>
+              <li><code>current_value</code></li>
+              <li><code>needed_value</code></li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 class="subhead">First Several Steps</h4>
+        <table>
+          <tr>
+            <th>Step</th>
+            <th>Action</th>
+            <th>Meaning</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>Enter function</td>
+            <td>Create main frame</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Initialize empty map</td>
+            <td>Prefix memory starts empty</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Begin first loop iteration</td>
+            <td>Current position becomes active</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Read current value</td>
+            <td>First data element enters live state</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Compute needed complement</td>
+            <td>Pair problem becomes lookup problem</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Lookup map</td>
+            <td>Hit or miss branch created</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Insert or return</td>
+            <td>First invariant becomes active or answer ends execution</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="measurement" class="section-card">
+        <h3>10. Measurement & Cost Model</h3>
+        <table>
+          <tr>
+            <th>Metric</th>
+            <th>Meaning in Q1</th>
+          </tr>
+          <tr>
+            <td>Unit</td>
+            <td>One array element</td>
+          </tr>
+          <tr>
+            <td>Step</td>
+            <td>One loop iteration</td>
+          </tr>
+          <tr>
+            <td>Processed units</td>
+            <td><code>i + 1</code></td>
+          </tr>
+          <tr>
+            <td>Units left</td>
+            <td><code>n - i - 1</code></td>
+          </tr>
+          <tr>
+            <td>Per-step cost</td>
+            <td>read + subtraction + hash lookup + optional insert</td>
+          </tr>
+          <tr>
+            <td>Time</td>
+            <td>O(n) average</td>
+          </tr>
+          <tr>
+            <td>Space</td>
+            <td>O(n)</td>
+          </tr>
+        </table>
+
+        <h4 class="subhead">Memory Delta Rhythm</h4>
+        <pre>lookup miss → insert
+lookup miss → insert
+...
+lookup hit → return</pre>
+      </section>
+
+      <section id="code" class="section-card">
+        <h3>11. Google-Style C++ Prototype</h3>
+        <pre>#include &lt;unordered_map&gt;
+#include &lt;vector&gt;
+
+class Solution {
+ public:
+  // Returns the indices of the two distinct values whose sum is equal to
+  // target. The problem guarantees exactly one valid answer.
+  std::vector&lt;int&gt; twoSum(const std::vector&lt;int&gt;&amp; nums, int target) {
+    std::unordered_map&lt;int, int&gt; seen_index_by_value;
+
+    for (int i = 0; i &lt; static_cast&lt;int&gt;(nums.size()); ++i) {
+      const int current_value = nums[i];
+      const int needed_value = target - current_value;
+
+      const auto it = seen_index_by_value.find(needed_value);
+      if (it != seen_index_by_value.end()) {
+        return {it-&gt;second, i};
+      }
+
+      seen_index_by_value[current_value] = i;
+    }
+
+    return {};
+  }
+
+  // Brute-force baseline for comparison and verification.
+  std::vector&lt;int&gt; twoSumBruteForce(const std::vector&lt;int&gt;&amp; nums,
+                                    int target) {
+    for (int i = 0; i &lt; static_cast&lt;int&gt;(nums.size()); ++i) {
+      for (int j = i + 1; j &lt; static_cast&lt;int&gt;(nums.size()); ++j) {
+        if (nums[i] + nums[j] == target) {
+          return {i, j};
+        }
+      }
+    }
+
+    return {};
+  }
+};</pre>
+      </section>
+
+      <section id="traces" class="section-card">
+        <h3>12. Interactive Trace Engine</h3>
+        <div class="trace-panel">
+          <div class="controls">
+            <div>
+              <label for="case-select" class="muted">Test Case</label><br />
+              <select id="case-select"></select>
+            </div>
+            <div>
+              <label class="muted">Trace Controls</label><br />
+              <button id="reset-btn">Reset</button>
+              <button id="prev-btn">Prev</button>
+              <button id="next-btn">Next</button>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>Current Step</h4>
+            <div id="step-title" class="accent">Not started</div>
+            <div class="progress"><div id="progress-bar"></div></div>
+            <p id="step-description" class="footer-note"></p>
+          </div>
+
+          <div class="grid-2">
+            <div class="box">
+              <h4>Array View</h4>
+              <div id="array-view" class="array-view"></div>
+            </div>
+            <div class="box">
+              <h4>Live State</h4>
+              <table>
+                <tr><th>Field</th><th>Value</th></tr>
+                <tr><td>Index i</td><td id="state-i">-</td></tr>
+                <tr><td>Current Value</td><td id="state-current">-</td></tr>
+                <tr><td>Needed Value</td><td id="state-need">-</td></tr>
+                <tr><td>Lookup Result</td><td id="state-lookup">-</td></tr>
+                <tr><td>Output Status</td><td id="state-output">Not found</td></tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>Seen Map Memory</h4>
+            <div id="map-view" class="map-view"></div>
+          </div>
+
+          <div class="box">
+            <h4>Trace Table</h4>
+            <table id="trace-table">
+              <tr>
+                <th>Step</th>
+                <th>i</th>
+                <th>Current</th>
+                <th>Need</th>
+                <th>Map Before</th>
+                <th>Lookup</th>
+                <th>Map After</th>
+                <th>Output</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="section-card">
+        <h3>13. 15 Canonical Test Cases</h3>
+        <table id="cases-table">
+          <tr>
+            <th>#</th>
+            <th>Label</th>
+            <th>nums</th>
+            <th>target</th>
+            <th>expected</th>
+            <th>Mapping Summary</th>
+          </tr>
+        </table>
+      </section>
+
+      <section id="summary" class="section-card">
+        <h3>14. Canonical Engine Summary</h3>
+        <pre>Input:
+  ordered integer sequence + target
+
+Logical problem:
+  pair relation
+
+Main mapping:
+  pair search → complement lookup
+
+State:
+  (i, current_value, needed_value, seen_map)
+
+Memory:
+  value -> index
+
+Invariant:
+  map stores earlier values only
+
+Execution rhythm:
+  read → derive → lookup → miss/insert or hit/return
+
+Runtime:
+  flat single frame
+
+Cost:
+  O(n) average time
+  O(n) space
+
+Trace tools:
+  hashmap trace
+  memory-delta trace
+  invariant trace
+  micro-step code trace</pre>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const TEST_CASES = [
+      {
+        id: 1,
+        label: "Standard classic case",
+        nums: [2, 7, 11, 15],
+        target: 9,
+        expected: [0, 1],
+        summary: "2 needs 7 → miss, store 2:0; 7 needs 2 → hit at 0."
+      },
+      {
+        id: 2,
+        label: "Duplicate pair",
+        nums: [3, 3],
+        target: 6,
+        expected: [0, 1],
+        summary: "First 3 misses and is stored; second 3 hits first 3."
+      },
+      {
+        id: 3,
+        label: "Middle pair",
+        nums: [3, 2, 4],
+        target: 6,
+        expected: [1, 2],
+        summary: "3 misses, 2 misses, 4 hits earlier 2."
+      },
+      {
+        id: 4,
+        label: "All negatives",
+        nums: [-1, -2, -3, -4, -5],
+        target: -8,
+        expected: [2, 4],
+        summary: "-5 hits earlier -3 at index 2."
+      },
+      {
+        id: 5,
+        label: "Zero target with duplicate zero",
+        nums: [0, 4, 3, 0],
+        target: 0,
+        expected: [0, 3],
+        summary: "First 0 stored; second 0 hits first zero."
+      },
+      {
+        id: 6,
+        label: "Mixed signs",
+        nums: [-10, 7, 19, 15],
+        target: 9,
+        expected: [0, 2],
+        summary: "19 hits earlier -10."
+      },
+      {
+        id: 7,
+        label: "Large boundary values",
+        nums: [1000000000, 500000000, 500000000],
+        target: 1000000000,
+        expected: [1, 2],
+        summary: "Second 500000000 hits the first one."
+      },
+      {
+        id: 8,
+        label: "Valid pair at the end",
+        nums: [15, 11, 7, 2],
+        target: 9,
+        expected: [2, 3],
+        summary: "2 hits earlier 7 at index 2."
+      },
+      {
+        id: 9,
+        label: "First and last elements pair",
+        nums: [2, 3, 4, 1, 7],
+        target: 9,
+        expected: [0, 4],
+        summary: "7 hits earlier 2 at index 0."
+      },
+      {
+        id: 10,
+        label: "Sparse wide gap values",
+        nums: [-99999, 3, 5, 99999],
+        target: 0,
+        expected: [0, 3],
+        summary: "99999 hits earlier -99999."
+      },
+      {
+        id: 11,
+        label: "Early immediate hit",
+        nums: [4, 5, 1, 8],
+        target: 9,
+        expected: [0, 1],
+        summary: "5 immediately hits earlier 4."
+      },
+      {
+        id: 12,
+        label: "Later pair after noise",
+        nums: [1, 3, 5, 6],
+        target: 9,
+        expected: [1, 3],
+        summary: "6 hits earlier 3."
+      },
+      {
+        id: 13,
+        label: "Dense duplicates before hit",
+        nums: [1, 1, 1, 1, 4, 5, 1, 1],
+        target: 9,
+        expected: [4, 5],
+        summary: "5 hits earlier 4 after several misses on 1."
+      },
+      {
+        id: 14,
+        label: "Minimum allowed length",
+        nums: [5, 4],
+        target: 9,
+        expected: [0, 1],
+        summary: "4 hits earlier 5."
+      },
+      {
+        id: 15,
+        label: "Double zero minimum case",
+        nums: [0, 0],
+        target: 0,
+        expected: [0, 1],
+        summary: "Second 0 hits first 0."
+      }
+    ];
+
+    const caseSelect = document.getElementById("case-select");
+    const resetBtn = document.getElementById("reset-btn");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const arrayView = document.getElementById("array-view");
+    const mapView = document.getElementById("map-view");
+    const stateI = document.getElementById("state-i");
+    const stateCurrent = document.getElementById("state-current");
+    const stateNeed = document.getElementById("state-need");
+    const stateLookup = document.getElementById("state-lookup");
+    const stateOutput = document.getElementById("state-output");
+    const stepTitle = document.getElementById("step-title");
+    const stepDescription = document.getElementById("step-description");
+    const progressBar = document.getElementById("progress-bar");
+    const traceTable = document.getElementById("trace-table");
+    const casesTable = document.getElementById("cases-table");
+
+    let currentCase = TEST_CASES[0];
+    let steps = [];
+    let stepIndex = 0;
+
+    function mapToString(mapObj) {
+      const entries = Object.entries(mapObj);
+      if (!entries.length) return "{}";
+      return "{ " + entries.map(([k, v]) => `${k}:${v}`).join(", ") + " }";
+    }
+
+    function clone(obj) {
+      return JSON.parse(JSON.stringify(obj));
+    }
+
+    function generateSteps(testCase) {
+      const arr = testCase.nums;
+      const target = testCase.target;
+      const seen = {};
+      const generated = [];
+
+      generated.push({
+        title: "Initialization",
+        description: "Create the main runtime frame and initialize an empty processed-prefix hash map.",
+        i: "-",
+        current: "-",
+        need: "-",
+        lookup: "-",
+        mapBefore: {},
+        mapAfter: {},
+        output: "Not found",
+        activeIndex: null,
+        hitIndex: null
+      });
+
+      for (let i = 0; i < arr.length; ++i) {
+        const current = arr[i];
+        const need = target - current;
+        const before = clone(seen);
+        const hasNeed = Object.prototype.hasOwnProperty.call(seen, String(need));
+        const output = hasNeed ? `[${seen[String(need)]}, ${i}]` : "Not found";
+
+        generated.push({
+          title: `Process index ${i}`,
+          description: hasNeed
+            ? `Current value ${current} needs ${need}. The needed value already exists in processed-prefix memory at index ${seen[String(need)]}, so the answer is returned now.`
+            : `Current value ${current} needs ${need}. The needed value is not in processed-prefix memory, so insert ${current} -> ${i} and continue.`,
+          i,
+          current,
+          need,
+          lookup: hasNeed ? `HIT at index ${seen[String(need)]}` : "MISS",
+          mapBefore: before,
+          mapAfter: hasNeed ? before : Object.assign({}, before, { [current]: i }),
+          output,
+          activeIndex: i,
+          hitIndex: hasNeed ? seen[String(need)] : null
+        });
+
+        if (hasNeed) {
+          break;
+        }
+
+        seen[String(current)] = i;
+      }
+
+      return generated;
+    }
+
+    function renderCasesTable() {
+      TEST_CASES.forEach((testCase) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${testCase.id}</td>
+          <td>${testCase.label}</td>
+          <td><code>[${testCase.nums.join(", ")}]</code></td>
+          <td><code>${testCase.target}</code></td>
+          <td><code>[${testCase.expected.join(", ")}]</code></td>
+          <td>${testCase.summary}</td>
+        `;
+        casesTable.appendChild(row);
+      });
+    }
+
+    function renderCaseOptions() {
+      TEST_CASES.forEach((testCase, idx) => {
+        const opt = document.createElement("option");
+        opt.value = idx;
+        opt.textContent = `${testCase.id}. ${testCase.label}`;
+        caseSelect.appendChild(opt);
+      });
+    }
+
+    function renderArray(step) {
+      arrayView.innerHTML = "";
+      currentCase.nums.forEach((value, idx) => {
+        const cell = document.createElement("div");
+        cell.className = "array-cell";
+
+        const idxNode = document.createElement("div");
+        idxNode.className = "idx";
+        idxNode.textContent = idx;
+
+        const valNode = document.createElement("div");
+        let cls = "val";
+        if (step.activeIndex === idx) cls += " active";
+        if (step.hitIndex === idx) cls += " hit";
+        valNode.className = cls;
+        valNode.textContent = value;
+
+        cell.appendChild(idxNode);
+        cell.appendChild(valNode);
+        arrayView.appendChild(cell);
+      });
+    }
+
+    function renderMap(step) {
+      mapView.innerHTML = "";
+      const entries = Object.entries(step.mapAfter);
+      if (!entries.length) {
+        const empty = document.createElement("div");
+        empty.className = "muted";
+        empty.textContent = "Map is empty.";
+        mapView.appendChild(empty);
+        return;
+      }
+
+      entries.forEach(([key, value]) => {
+        const card = document.createElement("div");
+        let cls = "map-card";
+        if (`${step.need}` === key && step.lookup.startsWith("HIT")) {
+          cls += " query";
+        }
+        if (`${step.current}` === key && step.lookup === "MISS") {
+          cls += " last";
+        }
+        card.className = cls;
+        card.innerHTML = `
+          <div class="map-key">key → value</div>
+          <div class="map-value">${key} → ${value}</div>
+        `;
+        mapView.appendChild(card);
+      });
+    }
+
+    function renderTraceTable() {
+      while (traceTable.rows.length > 1) {
+        traceTable.deleteRow(1);
+      }
+
+      steps.forEach((step, idx) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${idx}</td>
+          <td>${step.i}</td>
+          <td>${step.current}</td>
+          <td>${step.need}</td>
+          <td><code>${mapToString(step.mapBefore)}</code></td>
+          <td>${step.lookup}</td>
+          <td><code>${mapToString(step.mapAfter)}</code></td>
+          <td>${step.output}</td>
+        `;
+        if (idx === stepIndex) {
+          row.style.outline = "2px solid rgba(250, 204, 21, 0.4)";
+        }
+        traceTable.appendChild(row);
+      });
+    }
+
+    function renderStep() {
+      const step = steps[stepIndex];
+      stepTitle.textContent = `${stepIndex}. ${step.title}`;
+      stepDescription.textContent = step.description;
+
+      stateI.textContent = step.i;
+      stateCurrent.textContent = step.current;
+      stateNeed.textContent = step.need;
+      stateLookup.innerHTML = step.lookup.includes("HIT")
+        ? `<span class="good">${step.lookup}</span>`
+        : step.lookup === "MISS"
+          ? `<span class="bad">${step.lookup}</span>`
+          : step.lookup;
+      stateOutput.textContent = step.output;
+
+      renderArray(step);
+      renderMap(step);
+      renderTraceTable();
+
+      const pct = steps.length > 1 ? (stepIndex / (steps.length - 1)) * 100 : 100;
+      progressBar.style.width = `${pct}%`;
+    }
+
+    function loadCase(index) {
+      currentCase = TEST_CASES[index];
+      steps = generateSteps(currentCase);
+      stepIndex = 0;
+      renderStep();
+    }
+
+    caseSelect.addEventListener("change", (event) => {
+      loadCase(Number(event.target.value));
+    });
+
+    resetBtn.addEventListener("click", () => {
+      stepIndex = 0;
+      renderStep();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      stepIndex = Math.max(0, stepIndex - 1);
+      renderStep();
+    });
+
+    nextBtn.addEventListener("click", () => {
+      stepIndex = Math.min(steps.length - 1, stepIndex + 1);
+      renderStep();
+    });
+
+    renderCaseOptions();
+    renderCasesTable();
+    loadCase(0);
+  </script>
+</body>
+</html>
