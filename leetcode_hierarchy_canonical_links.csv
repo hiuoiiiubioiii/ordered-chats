@@ -1,0 +1,89 @@
+canonical_link,questions
+Canonical: Exact custom named technique,246
+Canonical: Gas Station / local-choice greedy,208
+Canonical: Coin Change / state-transition DP,188
+Canonical: Two Sum II / Container With Most Water,166
+Canonical: Mathematical invariant,152
+Canonical: Frequency counting,139
+Canonical: Grid traversal / DP scan,110
+Canonical: Direct lookup dictionary,110
+Canonical: Minimum Window / variable-size window,109
+Canonical: Group Anagrams / frequency map,100
+Canonical: Range Sum Query,99
+Canonical: Ranking & running-row analytics,94
+Canonical: Top K Frequent Elements / merge-k,92
+Canonical: Text-processing pipeline,89
+Canonical: Combine Two Tables,87
+Canonical: Contains Duplicate / seen-set uniqueness,80
+Canonical: Basic filter / reshape / null-handling,78
+Canonical: Grouped aggregation / departmental summary,72
+Canonical: Binary Search / median partition,71
+Canonical: Permutations / combinations search,70
+Canonical: Path Sum / subtree DFS,63
+Canonical: Shortest-path layer BFS,62
+Canonical: Sort then scan,60
+Canonical: Direct simulation,59
+Canonical: Prefix/Suffix extrema accumulation,58
+Canonical: Binary Tree recursion,57
+Canonical: Valid Parentheses,56
+Canonical: Depth-first component exploration,56
+Canonical: Number of Connected Components / Redundant Connection,55
+Canonical: Merge Intervals / scheduling greedy,53
+Canonical: Daily Temperatures / Largest Rectangle,50
+Canonical: Network Delay Time,47
+Canonical: Koko Eating Bananas,47
+Canonical: Edit Distance / Grid DP,45
+Canonical: Range query / update segment tree,41
+Canonical: Climbing Stairs / House Robber,41
+Canonical: API / object-behavior design,40
+Canonical: Traveling-state / subset DP,34
+Canonical: Implement Trie (Prefix Tree),34
+Canonical: Binary Tree Level Order Traversal,32
+Canonical: Rotting Oranges / 01 Matrix,32
+Canonical: Linear scan with running state,27
+Canonical: Sliding Window Maximum,24
+Canonical: Geometry / sweep / convex-hull family,23
+Canonical: Add Two Numbers / Reverse Integer,23
+Canonical: Course Schedule,22
+Canonical: Pointer rewiring on linked list,21
+Canonical: General graph construction,21
+Canonical: Longest Substring Without Repeating Characters,21
+Canonical: Fixed-size subarray window,20
+Canonical: Bit manipulation,19
+Canonical: Count Primes / GCD-LCM family,19
+Canonical: Single Number / XOR invariant,19
+Canonical: Digit DP counting,18
+Canonical: Fenwick tree / Binary Lifting,16
+Canonical: Binary Tree Maximum Path Sum / tree DP,15
+Canonical: Inorder Traversal / BST validation,14
+Canonical: Weighted shortest path,13
+Canonical: Closure / scope behavior,13
+Canonical: Coin Change (top-down),13
+Canonical: Bitmask subset DP,11
+Canonical: Merge Intervals,10
+Canonical: First/Last Position in Sorted Array,9
+Canonical: Find Median from Data Stream,9
+Canonical: Merge / reverse linked-list pointers,9
+Canonical: Number of Islands,9
+Canonical: Merge-sort / recursive split-combine,9
+Canonical: Lowest Common Ancestor,8
+Canonical: Merge Two Sorted Lists,8
+Canonical: Combination Sum,6
+Canonical: Promise orchestration,6
+Canonical: Linked List Cycle,6
+"Canonical: Pow(x, n)",3
+Canonical: Proxy trap / meta-object,3
+Canonical: Longest Palindromic Substring,3
+Canonical: Bipartite matching / flow,3
+Canonical: Majority Element,2
+Canonical: Reconstruct Itinerary / Eulerian path,2
+Canonical: DFA / parser-style scan,2
+Canonical: Isomorphic Strings / pattern hash,2
+Canonical: N-Queens,2
+Canonical: Precompute then query,2
+Canonical: Basic Calculator,1
+Canonical: 0-1 BFS shortest path,1
+Canonical: Product of Array Except Self,1
+Canonical: Next Permutation,1
+Canonical: Time-limited cache / LRU-style design,1
+Canonical: Two Sum,1

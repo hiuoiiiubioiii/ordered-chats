@@ -1,0 +1,42 @@
+family,count
+Dynamic Programming (DP),511
+Greedy,499
+Counting / Frequency,373
+Sorting,342
+Hash Map / Dictionary,318
+Math / Number Theory,288
+Sliding Window,275
+Depth-First Search (DFS),200
+SQL Join / Aggregation,176
+Binary Search,171
+Breadth-First Search (BFS),168
+Two Pointers,166
+Hash Set / Set,162
+Prefix Sum,157
+Bit Manipulation / Bitmask,138
+Stack,131
+Heap / Priority Queue,127
+Tree,119
+Queue / Deque,103
+Fenwick / BIT,97
+Recursion,96
+Backtracking,86
+Suffix / Postfix,85
+Shortest Path,65
+Simulation,62
+SQL Window Function,60
+Graph,57
+Union Find / DSU,56
+Monotonic Stack,52
+Trie,50
+Interval / Sweep Line,48
+Matrix / Grid,45
+Segment Tree,43
+Linked List,33
+Monotonic Queue,26
+Topological Sort,23
+Prefix Function / KMP / Z,23
+Kadane / Subarray Max,15
+Rolling Hash,14
+Design / Data Structure,11
+Reservoir / Randomization,7

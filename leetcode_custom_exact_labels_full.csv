@@ -1,0 +1,390 @@
+custom_label,question_count,problem_ids,problem_titles,raw_pattern_examples
+Backward Pointer Scan,2,"58, 3856",Length of Last Word | Trim Trailing Vowels (Easy),Backward Pointer Scan
+Binary Lifting (Sparse Table),2,"1483, 2836",Kth Ancestor of a Tree Node | Maximize Value of Function in a Ball Passing Game,Binary Lifting (Sparse Table)
+Closure,2,"2627, 2676",Debounce (JS) | Throttle,Closure + clearTimeout / setTimeout | Closure + setTimeout + Stored Arguments
+Gaps and Islands (Row Number Difference),2,"1225, 1285",Report Contiguous Dates (SQL) | Find the Start and End Number of Continuous Ranges (SQL),Gaps and Islands (Row Number Difference)
+Hierholzer's Algorithm (Eulerian Path),2,"753, 2097",Cracking the Safe | Valid Arrangement of Pairs,Hierholzer's Algorithm (Eulerian Path)
+LCA (Lowest Common Ancestor),2,"2096, 2846",Step-By-Step Directions From a Binary Tree Node to Another | Minimum Edge Weight Equilibrium Queries in a Tree,LCA (Lowest Common Ancestor) + Path Comparison | LCA (Lowest Common Ancestor) + Binary Lifting + Prefix Frequencies
+Single-Pass Flagging,2,"2299, 3136",Strong Password Checker II | Valid Word,Single-Pass Flagging
+Single-Pass Linear Scan,2,"3285, 3386",Find Indices of Stable Mountains | Button with Longest Push Time,Single-Pass Linear Scan
+Two Min-Heaps (Priority Queues),2,"1942, 2462",The Number of the Smallest Unoccupied Chair | Total Cost to Hire K Workers,Two Min-Heaps (Priority Queues)
+2D-to-1D Reduction,1,1074,Number of Submatrices That Sum to Target,2D-to-1D Reduction + Subarray Sum Logic
+8-Directional Raycasting from Move,1,1958,Check if Move is Legal,8-Directional Raycasting from Move
+"Accumulating Closure Scopes (Each timeout creates a new closure, potentially keeping old variables in memory longer)",1,2725,Interval Cancellation (JS),"Accumulating Closure Scopes (Each timeout creates a new closure, potentially keeping old variables in memory longer)"
+Amortized Linear Scan / Precomputation,1,3255,Find the Power of K-Size Subarrays II,Amortized Linear Scan / Precomputation
+Angular Sweep / Fixed Circle Centers,1,1453,Maximum Number of Darts Inside of a Circular Dartboard,Angular Sweep / Fixed Circle Centers
+Arithmetic Computation,1,2469,Convert the Temperature,Arithmetic Computation
+Array Grouping by Set Bits,1,3011,Find if Array Can Be Sorted,Array Grouping by Set Bits + Min/Max Tracking
+Array Indexing (Direct Access),1,1603,Design Parking System,Array Indexing (Direct Access)
+Array Length Property (`this.length`),1,2619,Array Prototype Last (JS),Array Length Property (`this.length`)
+Array modification tracking (snapshotting the entire array state at each simulated step),1,2702,Minimum Operations to Make Numbers Non-positive,Array modification tracking (snapshotting the entire array state at each simulated step)
+Backwards Traversal (Target to Start),1,3724,Minimum Operations to Transform Array (Med),Backwards Traversal (Target to Start)
+Base 3 Representation (Ternary Logic),1,1780,Check if Number is a Sum of Powers of Three,Base 3 Representation (Ternary Logic)
+Bi-directional Linear Scan with Last-Seen Map. O(N,1,3488,Closest Equal Element Queries,Bi-directional Linear Scan with Last-Seen Map. O(N + Q)
+Binary Exponentiation,1,50,"Pow(x, n)",Binary Exponentiation
+Binary Exponentiation (Fast Power),1,1922,Count Good Numbers,Binary Exponentiation (Fast Power)
+Binary Offset Mapping,1,1256,Encode Number,Binary Offset Mapping
+Blocking Main Thread (Visualizing the CPU stuck in a loop waiting for the async task),1,2776,Convert Callback to Promise (JS),Blocking Main Thread (Visualizing the CPU stuck in a loop waiting for the async task)
+Boolean Array,1,2682,Find the Losers of the Circular Game,Boolean Array + Step Increment
+Boolean Indexing: df[df['id'] == 101],1,2880,Select Data (Filtering),Boolean Indexing: df[df['id'] == 101]
+Boundary Contraction,1,59,Spiral Matrix II,Boundary Contraction
+Boundary Shrinking,1,54,Spiral Matrix,Boundary Shrinking
+Brainteaser / Logical Deduction,1,1332,Remove Palindromic Subsequences,Brainteaser / Logical Deduction
+Brute Force (Small Constraints),1,2932,Maximum Strong Pair XOR I,Brute Force (Small Constraints)
+Brute Force / Constraint Optimization,1,1534,Count Good Triplets,Brute Force / Constraint Optimization
+Brute Force Path Memory (Storing every conceivable route configuration simultaneously),1,2714,Find Shortest Path with K Hops,Brute Force Path Memory (Storing every conceivable route configuration simultaneously)
+Brute Force with Early Exit (Small Constraints),1,3345,Smallest Divisible Digit Product I,Brute Force with Early Exit (Small Constraints)
+Buffer Scan (Visualizing the database engine reading the text column repeatedly for each word),1,2738,Count Occurrences in Text (SQL),Buffer Scan (Visualizing the database engine reading the text column repeatedly for each word)
+Buffered Chunk Processing with Bound Checking,1,157,Read N Characters Given Read4,Buffered Chunk Processing with Bound Checking
+COUNT(DISTINCT customer_id),1,2082,The Number of Rich Customers (SQL),COUNT(DISTINCT customer_id)
+Chained Operations: df.loc[...].sort_values(...)[['name']],1,2891,Method Chaining,Chained Operations: df.loc[...].sort_values(...)[['name']]
+"Chebyshev Distance (Max of ΔX, ΔY)",1,1266,Minimum Time Visiting All Points,"Chebyshev Distance (Max of ΔX, ΔY)"
+Closure / Higher-Order Function,1,2666,Allow One Function Call,Closure / Higher-Order Function
+Column-Wise Linear Scan,1,2639,Find the Width of Columns of a Grid,Column-Wise Linear Scan
+Column-Wise Max Pre-calculation,1,3033,Modify the Matrix,Column-Wise Max Pre-calculation
+"Combinatorial Construction. Generate palindromes directly by mirroring the ""first half"" of the binary bits",1,3677,Count Binary Palindromic Numbers (Hard),"Combinatorial Construction. Generate palindromes directly by mirroring the ""first half"" of the binary bits"
+Combinatorial Row Storage (Visualizing all row combinations in memory),1,2732,Find a Good Subset of Matrix,Combinatorial Row Storage (Visualizing all row combinations in memory)
+Compare Current vs Next,1,13,Roman to Integer,Compare Current vs Next
+Concurrency: 3 Semaphores,1,1116,Print Zero Even Odd,Concurrency: 3 Semaphores
+Concurrency: Mutexes / Semaphores / Promises,1,1114,Print in Order,Concurrency: Mutexes / Semaphores / Promises
+Concurrency: Two Alternating Semaphores,1,1115,Print FooBar Alternately,Concurrency: Two Alternating Semaphores
+Condition Variables / Semaphores,1,1188,Design Bounded Blocking Queue,Condition Variables / Semaphores
+Contribution of Each Character (Index tracking),1,828,Count Unique Characters of All Substrings,Contribution of Each Character (Index tracking)
+Convex Hull,1,3588,Find Maximum Area of a Triangle (Med),Convex Hull + Rotating Calipers
+Coordinate Mapping (Direct Indexing),1,2596,Check Knight Tour Configuration,Coordinate Mapping (Direct Indexing)
+Coordinate Mapping (Precomputation),1,3242,Design Neighbor Sum Service,Coordinate Mapping (Precomputation)
+Coordinate Min-Max Comparison,1,3047,Find the Largest Area of Square Inside Two Rectangles,Coordinate Min-Max Comparison
+Coordinate Rotation (Chebyshev Transformation),1,3102,Minimize Manhattan Distances,Coordinate Rotation (Chebyshev Transformation)
+Corner Count Set,1,391,Perfect Rectangle,Corner Count Set + Area Summation
+"Cross Product (Orientation) For every three consecutive points, calculate the cross product. All cross products must have the same sign (all positive or all negative)",1,469,Convex Polygon,"Cross Product (Orientation) For every three consecutive points, calculate the cross product. All cross products must have the same sign (all positive or all negative)"
+Custom Comparator / Partitioning,1,937,Reorder Data in Log Files,Custom Comparator / Partitioning
+Cycle Decomposition (Permutation Theory),1,3863,Minimum Operations to Sort a String (Med.),Cycle Decomposition (Permutation Theory)
+Date Filtering,1,2993,Friday Purchases I,Date Filtering + Grouping
+Days Since Epoch (1971) Calculation,1,1360,Number of Days Between Two Dates,Days Since Epoch (1971) Calculation
+Direct Comparison / O(1) Access,1,2236,Root Equals Sum of Children,Direct Comparison / O(1) Access
+Direct Index Mapping (One-Pass),1,2075,Decode the Slanted Ciphertext,Direct Index Mapping (One-Pass)
+Direct Indexing Compare `words[i].charAt(j)` with `words[j].charAt(i)` with boundary checks,1,422,Valid Word Square,Direct Indexing Compare `words[i].charAt(j)` with `words[j].charAt(i)` with boundary checks
+Direct Integer Accumulation,1,1945,Sum of Digits of String After Convert,Direct Integer Accumulation
+Direct Linear Scan with Set Lookup,1,2586,Count the Number of Vowel Strings in Range,Direct Linear Scan with Set Lookup
+Direct Mapping,1,953,Verifying an Alien Dictionary,Direct Mapping + Pairwise Check
+Direct SQL WHERE Clause,1,620,Not Boring Movies (SQL),Direct SQL WHERE Clause + ORDER BY
+Divisor Iteration,1,3138,Minimum Length of Anagram Concatenation,Divisor Iteration + Freq Map Comparison
+Double In-place Reversal (Reverse Whole,1,186,Reverse Words in a String II,Double In-place Reversal (Reverse Whole + Reverse Words)
+Double Logarithmic Loop (Logarithmic Bounds),1,970,Powerful Integers,Double Logarithmic Loop (Logarithmic Bounds)
+Double Loop with Square Root Check,1,1925,Count Square Sum Triples,Double Loop with Square Root Check
+Dual-Map Bijection or Pattern Normalization,1,890,Find and Replace Pattern,Dual-Map Bijection or Pattern Normalization
+Dynamic Prefix Maximum & Max-Difference Tracking,1,2874,Maximum Value of an Ordered Triplet II,Dynamic Prefix Maximum & Max-Difference Tracking
+Dynamic SQL / Information Schema,1,2253,Dynamic Unpivoting of a Table,Dynamic SQL / Information Schema
+Early Exit Iterator,1,1961,Check If String Is a Prefix of Array,Early Exit Iterator
+Early-Exit Linear Comparison,1,2828,Check if a String Is an Acronym of Words,Early-Exit Linear Comparison
+Edge-Centric,1,2242,Maximum Score of a Node Sequence,Edge-Centric + Top 3 Neighbors
+Enumeration by Zero-Count (O(N√N)),1,3234,Count Substrings With Dominant Ones,Enumeration by Zero-Count (O(N√N))
+Execution Context Overhead (Visualizing the engine creating and destroying complex scopes for every iteration),1,2804,Array Prototype ForEach (JS),Execution Context Overhead (Visualizing the engine creating and destroying complex scopes for every iteration)
+Exhaustive Heatmap Search (Brute Force),1,1620,Coordinate With Maximum Network Quality,Exhaustive Heatmap Search (Brute Force)
+Exponential State Memory (Visualizing the storage of all valid subarray combinations),1,2771,Longest Non-decreasing Subarray From Two Arrays,Exponential State Memory (Visualizing the storage of all valid subarray combinations)
+Exponential State Search (Visualizing all possible combinations of powers being summed),1,2787,Ways to Express an Integer as Sum of Powers,Exponential State Search (Visualizing all possible combinations of powers being summed)
+Fast Fourier Transform (FFT) or Karatsuba,1,3549,Multiply Two Polynomials (Hard),Fast Fourier Transform (FFT) or Karatsuba
+Fast and Slow Pointers,1,2095,Delete the Middle Node of a Linked List,Fast and Slow Pointers
+Filtered Select with Null Handling,1,584,Find Customer Referee (SQL),Filtered Select with Null Handling
+"Find Dip, Swap, Reverse",1,31,Next Permutation,"Find Dip, Swap, Reverse"
+"Finding Bound Indices (Last 1, First 3)",1,3431,Minimum Unlocked Indices to Sort Nums,"Finding Bound Indices (Last 1, First 3) + Linear locked-state count. O(N)"
+First/Last Index Pre-computation,1,1930,Unique Length-3 Palindromic Subsequences,First/Last Index Pre-computation
+Fisher-Yates Shuffle Algorithm,1,384,Shuffle an Array,Fisher-Yates Shuffle Algorithm
+Fixed-Window Sliding (Multiple Passes),1,2067,Number of Equal Count Substrings,Fixed-Window Sliding (Multiple Passes)
+Floating Closure Memory (The callback and its lexical environment stay in memory until the timer naturally finishes),1,2715,Timeout Cancellation (JS),Floating Closure Memory (The callback and its lexical environment stay in memory until the timer naturally finishes)
+Function with Local Variable Offset (N-1) and LIMIT,1,177,Nth Highest Salary,Function with Local Variable Offset (N-1) and LIMIT
+Function.prototype.apply / Symbol Key,1,2693,Call Function with Custom Context (JS),Function.prototype.apply / Symbol Key
+Generators (`yield`),1,2648,Generate Fibonacci Sequence (JS),Generators (`yield`)
+Global Bounding Box Scan,1,2249,Count Lattice Points Inside Circles,Global Bounding Box Scan
+Global Sum Maintenance (Delta Tracking),1,985,Sum of Even Numbers After Queries,Global Sum Maintenance (Delta Tracking)
+Group Consecutive Counts,1,696,Count Binary Substrings,Group Consecutive Counts
+Grouping by Vowel Count,1,3775,Reverse Words With Same Vowel Count (Med),Grouping by Vowel Count + Reverse Pointers
+IN Clause with Multi-Column Key,1,1174,Immediate Food Delivery II (SQL),IN Clause with Multi-Column Key
+In-Degree Accumulator (Array),1,2374,Node With Highest Edge Score,In-Degree Accumulator (Array)
+In-Order Flattening,1,1382,Balance a Binary Search Tree,In-Order Flattening + Midpoint Reconstruction
+In-Order Traversal (Sorted Property),1,783,Minimum Distance Between BST Nodes,In-Order Traversal (Sorted Property)
+In-Order Traversal (natively sorted),1,530,Minimum Absolute Difference in BST,In-Order Traversal (natively sorted) + Track `prev` Node
+"In-Place ""Leapfrog"" Reversal",1,92,Reverse Linked List II,"In-Place ""Leapfrog"" Reversal"
+In-Place Group Iteration & Re-linking,1,2074,Reverse Nodes in Even Length Groups,In-Place Group Iteration & Re-linking
+In-Place In-order Maintain a `first` and `last` pointer. Connect `last.right = current` and `current.left = last` during traversal,1,426,Convert BST to Sorted DLL,In-Place In-order Maintain a `first` and `last` pointer. Connect `last.right = current` and `current.left = last` during traversal
+In-Place Iterative Reduction,1,2293,Min Max Game,In-Place Iterative Reduction
+In-Place Link Manipulation,1,1474,Delete N Nodes After M Nodes of a Linked List,In-Place Link Manipulation
+In-Place Pointer Reversal,1,25,Reverse Nodes in k-Group,In-Place Pointer Reversal
+In-Place Pointer Splicing,1,2807,Insert Greatest Common Divisors in Linked List,In-Place Pointer Splicing + Euclidean Algorithm
+In-Place State Marking,1,73,Set Matrix Zeroes,In-Place State Marking
+In-order Traversal with In-place Re-linking,1,897,Increasing Order Search Tree,In-order Traversal with In-place Re-linking
+In-place Array Mutations (Visualizing the CPU repeatedly writing to memory for every range update),1,2772,Apply Operations to Make All Array Elements Zero,In-place Array Mutations (Visualizing the CPU repeatedly writing to memory for every range update)
+In-place Array Transformation,1,544,Output Contest Matches,In-place Array Transformation
+"In-place Marking For each number x, go to index |x|-1 and flip the value to negative. If already negative, it's a duplicate",1,442,Find All Duplicates in an Array,"In-place Marking For each number x, go to index |x|-1 and flip the value to negative. If already negative, it's a duplicate"
+"In-place Negation For each value x, treat |x|-1 as an index and make the value at that index negative. Positives remaining are the gaps",1,448,Find All Numbers Disappeared in an Array,"In-place Negation For each value x, treat |x|-1 as an index and make the value at that index negative. Positives remaining are the gaps"
+In-place array mutations (Unnecessary write operations to memory),1,2717,Semi-Ordered Permutation,In-place array mutations (Unnecessary write operations to memory)
+In-place modification of Character Array,1,1844,Replace All Digits with Characters,In-place modification of Character Array
+In-place row swapping within the specified submatrix boundaries,1,3643,Flip Square Submatrix Vertically (Easy),In-place row swapping within the specified submatrix boundaries
+Index Mapping,1,1773,Count Items Matching a Rule,Index Mapping + Linear Scan
+Index-as-Hash / Negation Marker,1,645,Set Mismatch,Index-as-Hash / Negation Marker
+Information Theory (N-Dimensional Hypercube) Each pig represents a dimension. The number of states a pig can have is (Tests,1,458,Poor Pigs,Information Theory (N-Dimensional Hypercube) Each pig represents a dimension. The number of states a pig can have is (Tests + 1). Solve (States)^{Pigs} ge Buckets
+Integer State Mutation (Visualizing the variables main and additional changing over time),1,2739,Total Distance Traveled,Integer State Mutation (Visualizing the variables main and additional changing over time)
+Intermediate Array Allocation (Visualize a potentially massive array of strings being created in memory just for a boolean check),1,2727,Is Object Empty,Intermediate Array Allocation (Visualize a potentially massive array of strings being created in memory just for a boolean check)
+"Inverse Transform (Polar) Generate theta in [0, 2π] and r = R √{rand()}. The square root is crucial for uniform density",1,478,Generate Random Point in a Circle,"Inverse Transform (Polar) Generate theta in [0, 2π] and r = R √{rand()}. The square root is crucial for uniform density"
+Iterative Accumulator Update,1,2626,Array Reduce Transformation (JS),Iterative Accumulator Update
+Iterative Brute Force (Optimized Range),1,2928,Distribute Candies Among Children I,Iterative Brute Force (Optimized Range)
+Iterative Cleanup,1,1694,Reformat Phone Number,Iterative Cleanup + Block Processing
+Iterative Comparison,1,2264,Largest 3-Same-Digit Number in String,Iterative Comparison
+Iterative In-order Traversal with Early Stop,1,230,Kth Smallest Element in a BST,Iterative In-order Traversal with Early Stop
+Iterative Mapping (New Array),1,2635,Apply Transform Over Each Element (JS),Iterative Mapping (New Array)
+Iterative New Array Push,1,2634,Filter Elements from Array (JS),Iterative New Array Push
+Iterative Pointer Manipulation (Bottom-Up Logic),1,156,Binary Tree Upside Down,Iterative Pointer Manipulation (Bottom-Up Logic)
+Iterative Pointer Mutation (Visualizing the CPU cycle overhead for millions of small increments),1,2757,Generate Circular Array Values,Iterative Pointer Mutation (Visualizing the CPU cycle overhead for millions of small increments)
+Iterative Slicing (Step = Size),1,2677,Chunk Array,Iterative Slicing (Step = Size)
+JavaScript Generators & Promises,1,2650,Design Cancellable Function,JavaScript Generators & Promises
+JavaScript Prototype Chain Traversal,1,2618,Check if Object Instance of Class (JS),JavaScript Prototype Chain Traversal
+JavaScript Proxy (`get` trap),1,2690,Infinite Method Objects (JS),JavaScript Proxy (`get` trap)
+LCP Array (Longest Common Prefix) / Z-Algorithm,1,3388,Count Beautiful Splits in an Array,LCP Array (Longest Common Prefix) / Z-Algorithm
+LIS (Longest Increasing Subsequence),1,1671,Minimum Number of Removals to Make Mountain Array,LIS (Longest Increasing Subsequence) + LDS (Decreasing)
+Lexical Scope / Closures,1,2620,Counter (JS),Lexical Scope / Closures
+Linear Algebra (System of Equations),1,1276,Number of Burgers with No Waste,Linear Algebra (System of Equations)
+Linear Array Scanning,1,2951,Find the Peaks,Linear Array Scanning
+Linear Boundary Comparison,1,1272,Remove Interval,Linear Boundary Comparison
+Linear Count Tracker,1,3254,Find the Power of K-Size Subarrays I,Linear Count Tracker
+Linear Memory Scan (Visualizing the CPU reading the entire marbles array for every single instruction),1,2766,Relocate Marbles,Linear Memory Scan (Visualizing the CPU reading the entire marbles array for every single instruction)
+Linear One-Pass Update,1,2239,Find Closest Number to Zero,Linear One-Pass Update
+Linear Row Scan,1,2643,Row With Maximum Ones,Linear Row Scan + Tracker
+Linear Scan (Max Property Observation),1,2419,Longest Subarray With Maximum Bitwise AND,Linear Scan (Max Property Observation)
+Linear Scan (Min/Max Tracking),1,3279,Maximum Total Area Occupied by Pistons,Linear Scan (Min/Max Tracking)
+Linear Scan / Substring Search,1,2124,Check if All A's Appears Before All B's,Linear Scan / Substring Search
+Linear Scan of Adjacent Elements,1,163,Missing Ranges,Linear Scan of Adjacent Elements
+Linear Scan with State Tracker,1,2660,Determine the Winner of a Bowling Game,Linear Scan with State Tracker
+Linear Search Overhead (Visualizing indexOf being called repeatedly),1,2794,Create Object from Two Arrays (JS),Linear Search Overhead (Visualizing indexOf being called repeatedly)
+Linear Search Pointers (Drawing the search range for every individual query),1,2747,Count Zero Request Servers,Linear Search Pointers (Drawing the search range for every individual query)
+Linear Traversal (Bidirectional),1,3263,Convert Doubly Linked List to Array II,Linear Traversal (Bidirectional)
+Linear loop checking `nums[i]-nums[i-1]`,1,3423,Maximum Difference Between Adjacent Elements in a Circular Array,Linear loop checking `nums[i]-nums[i-1]` + one explicit edge check for `nums[N-1]-nums[0]`. O(N)
+List Maintenance,1,2899,Last Visited Integers,List Maintenance + Pointer Tracking
+Local Incremental Update,1,2672,Number of Adjacent Elements With the Same Color,Local Incremental Update
+Logical Comparison of First Two Edges,1,1791,Find Center of Star Graph,Logical Comparison of First Two Edges
+Logical Invariance (Existence of '1'),1,2546,Apply Bitwise Operations to Make Strings Equal,Logical Invariance (Existence of '1')
+Longest Common Substring (LCS Variant),1,3135,Equalize Strings by Adding or Removing Characters at Ends,Longest Common Substring (LCS Variant)
+Look-Ahead (Caching),1,284,Peeking Iterator,Look-Ahead (Caching)
+Loop pointers footprint (Draw i and j pointers constantly jumping back and forth across an array),1,2706,Buy Two Chocolates,Loop pointers footprint (Draw i and j pointers constantly jumping back and forth across an array)
+Lowest Common Ancestor (LCA),1,1740,Find Distance in a Binary Tree,Lowest Common Ancestor (LCA) + Node Depth
+Lowest Common Ancestor (LCA) with Binary Lifting,1,3515,Shortest Path in a Weighted Tree (Hard),Lowest Common Ancestor (LCA) with Binary Lifting
+Manacher's Algorithm,1,3504,Longest Palindrome After Substring Concatenation II (Hard),Manacher's Algorithm + Suffix Automaton / Hash
+Massive String Reallocations (Immutable strings mean creating a brand new string in memory for every deletion),1,2716,Minimize String Length,Massive String Reallocations (Immutable strings mean creating a brand new string in memory for every deletion)
+"Maximum Flow / Bipartite Matching. Model robots as one set of nodes, walls as another, and find the maximum matching/coverage",1,3661,Maximum Walls Destroyed by Robots (Hard),"Maximum Flow / Bipartite Matching. Model robots as one set of nodes, walls as another, and find the maximum matching/coverage"
+Median,1,2967,Minimum Cost to Make Array Equalindromic,Median + Palindrome Generation
+Median Property (Independent Dimensions),1,296,Best Meeting Point,Median Property (Independent Dimensions)
+Middle Character Extraction,1,2011,Final Value of Variable After Performing Operations,Middle Character Extraction
+Min-Cost Flow / Hungarian Algorithm,1,3785,Minimum Swaps to Avoid Forbidden Values (Hard),Min-Cost Flow / Hungarian Algorithm
+Min-Max Coordinate Tracking,1,3195,Find the Minimum Area to Cover All 1s I,Min-Max Coordinate Tracking
+Min/Max Tracking,1,2148,Count Elements With Strictly Smaller and Greater Elements,Min/Max Tracking
+Minimal Memory (Only tracking unique category representatives),1,2782,Number of Unique Categories,Minimal Memory (Only tracking unique category representatives)
+Minimal Variable State (Only index i),1,2774,Array Upper Bound (JS),Minimal Variable State (Only index i)
+Minimax / Information Theory (Heuristic Guessing),1,843,Guess the Word,Minimax / Information Theory (Heuristic Guessing)
+Minimum Boundary Tracking,1,598,Range Addition II,Minimum Boundary Tracking
+Mismatch Index Comparison,1,1790,Check if One String Swap Can Make Strings Equal,Mismatch Index Comparison
+Native Pandas Constructor (Vectorized Internal Logic),1,2877,Create a DataFrame from List (Pandas),Native Pandas Constructor (Vectorized Internal Logic)
+Nested Char Loops,1,2194,Cells in a Range on an Excel Sheet,Nested Char Loops
+Net Shift Calculation,1,1427,Perform String Shifts,Net Shift Calculation + Slicing
+Network Socket Overload (Visualizing multiple open connections consuming system file descriptors),1,2756,Query Batching (JS),Network Socket Overload (Visualizing multiple open connections consuming system file descriptors)
+Next Permutation Algorithm (Linear Scan),1,556,Next Greater Element III,Next Permutation Algorithm (Linear Scan)
+Next Permutation Algorithm (Suffix Reversal),1,3720,Lexicographically Smallest Permutation Greater Than Target (Med),Next Permutation Algorithm (Suffix Reversal)
+Next Permutation Algorithm on the first half,1,1842,Next Palindrome Using Same Digits (Premium),Next Permutation Algorithm on the first half
+Next Permutation on Half-String,1,3734,Lexicographically Smallest Palindromic Permutation Greater Than Target (Hard),Next Permutation on Half-String
+Number Theory (Greatest Common Divisor),1,1250,Check If It Is a Good Array,Number Theory (Greatest Common Divisor)
+O(1) State Variables (Draw one sum and one i),1,2778,Sum of Squares of Special Elements,O(1) State Variables (Draw one sum and one i)
+O(N^2) 2D Array Allocation (Massive memory waste for large N),1,2718,Sum of Matrix After Queries,O(N^2) 2D Array Allocation (Massive memory waste for large N)
+ORDER BY Multiple Columns,1,2377,Sort the Olympic Table (SQL Premium),ORDER BY Multiple Columns
+One-Pass Min-Max Tracking,1,1491,Average Salary Excluding the Minimum and Maximum Salary,One-Pass Min-Max Tracking
+One-Pass Neighbor Comparison,1,766,Toeplitz Matrix,One-Pass Neighbor Comparison
+One-Pass Precomputation,1,3349,Adjacent Increasing Subarrays Detection I,One-Pass Precomputation
+One-Pass Running Maximum,1,915,Partition Array into Disjoint Intervals,One-Pass Running Maximum
+One-Pass String Comparison,1,161,One Edit Distance,One-Pass String Comparison
+One-Pass with Toggle/Previous Tracking,1,245,Shortest Word Distance III,One-Pass with Toggle/Previous Tracking
+Optimized Linear Scan (Early Exit),1,2452,Words Within Two Edits of Dictionary,Optimized Linear Scan (Early Exit)
+Parity Logic (Difference is even iff Total Sum is even). O(N),1,3432,Count Partitions with Even Sum Difference,Parity Logic (Difference is even iff Total Sum is even). O(N)
+Parity Summation,1,3274,Check if Two Chessboard Squares Have the Same Color,Parity Summation
+Partition Memory Sets (Visualizing two massive separate heaps for every single partition attempt),1,2740,Find the Value of the Partition,Partition Memory Sets (Visualizing two massive separate heaps for every single partition attempt)
+Pattern Canonicalization / Hashing,1,1072,Flip Columns For Maximum Number of Equal Rows,Pattern Canonicalization / Hashing
+Pattern Categorization (6-Segment Window),1,335,Self Crossing,Pattern Categorization (6-Segment Window)
+"Pattern Searching (Presence of ""01"")",1,1784,Check if Binary String Has at Most One Segment of Ones,"Pattern Searching (Presence of ""01"")"
+Permutation Validation (Fixed Size),1,949,Largest Time for Given Digits,Permutation Validation (Fixed Size)
+Persistent Pointer (Amortized Analysis),1,2424,Longest Uploaded Prefix,Persistent Pointer (Amortized Analysis)
+Polynomial Class / Map of Term-to-Coefficient,1,770,Basic Calculator IV,Polynomial Class / Map of Term-to-Coefficient
+Pre-allocation,1,1313,Decompress Run-Length Encoded List,Pre-allocation + Linear Fill
+Pre-evaluated Boolean Variables mapping to strict logic combinations,1,2525,Categorize Box According to Criteria,Pre-evaluated Boolean Variables mapping to strict logic combinations
+"Pre-mapped Char-to-Row Create a Map or Array of size 26 where `row[char]` is 1, 2, or 3. Check if all chars in a word return the same row ID",1,500,Keyboard Row,"Pre-mapped Char-to-Row Create a Map or Array of size 26 where `row[char]` is 1, 2, or 3. Check if all chars in a word return the same row ID"
+Pre-processing (Index Collection),1,3159,Find Occurrences of an Element in an Array,Pre-processing (Index Collection)
+Precomputation (Prefix Products),1,2438,Range Product Queries of Powers,Precomputation (Prefix Products)
+Precomputation (RowithCol Sum Arrays),1,2482,Difference Between Ones and Zeros in Row and Column,Precomputation (RowithCol Sum Arrays)
+"Precompute ""Longest Decreasing"" from left and ""Longest Increasing"" from right for every index",1,3676,Count Bowl Subarrays (Med),"Precompute ""Longest Decreasing"" from left and ""Longest Increasing"" from right for every index"
+Precomputed Row-Mins and Col-Maxes,1,1380,Lucky Numbers in a Matrix,Precomputed Row-Mins and Col-Maxes
+Prefix & Suffix Arrays,1,3334,Find the Maximum Factor Score of Array,Prefix & Suffix Arrays
+Prefix & Suffix Arrays (State Tracking),1,1525,Number of Good Ways to Split a String,Prefix & Suffix Arrays (State Tracking)
+Prefix & Suffix Products (Flattened 2D to 1D),1,2906,Construct Product Matrix,Prefix & Suffix Products (Flattened 2D to 1D)
+Prefix Expansion / Direct String Construction,1,3324,Find the Sequence of Strings Appeared on the Screen,Prefix Expansion / Direct String Construction
+Prefix Manipulation,1,564,Find the Closest Palindrome,Prefix Manipulation + Candidate Testing
+Prefix Max & Suffix Min,1,768,Max Chunks To Make Sorted II,Prefix Max & Suffix Min
+Prefix Max & Suffix Min Pass,1,1966,Binary Searchable Numbers in an Unsorted Array,Prefix Max & Suffix Min Pass
+Prefix Max / Suffix Max Arrays,1,3745,Maximize Expression of Three Elements (Easy),Prefix Max / Suffix Max Arrays
+Prefix Max and Suffix Min Arrays,1,2012,Sum of Beauty in the Array,Prefix Max and Suffix Min Arrays
+Prefix Maximum & Suffix Maximum (or Pre-calculation),1,2873,Maximum Value of an Ordered Triplet I,Prefix Maximum & Suffix Maximum (or Pre-calculation)
+Prefix Min & Suffix Min Arrays,1,2908,Minimum Sum of Mountain Triplets I,Prefix Min & Suffix Min Arrays
+Prefix Min & Suffix Min Arrays (Identical to 2908),1,2909,Minimum Sum of Mountain Triplets II,Prefix Min & Suffix Min Arrays (Identical to 2908)
+Prefix Product Array with Zero-Reset,1,1352,Product of the Last K Numbers,Prefix Product Array with Zero-Reset
+Prefix and Suffix Accumulators,1,3788,Maximum Score of a Split (Med),Prefix and Suffix Accumulators
+Prefix and Suffix Counts. Count existing '0's and '1's. Inserting '0' at the start pairs with all existing '1's. Inserting '1' at the end pairs with all existing '0's,1,3628,Maximum Number of Subsequences After One Inserting (Med),Prefix and Suffix Counts. Count existing '0's and '1's. Inserting '0' at the start pairs with all existing '1's. Inserting '1' at the end pairs with all existing '0's
+Prefix and Suffix Precomputation Arrays,1,3817,Good Indices in a Digit String (Med.),Prefix and Suffix Precomputation Arrays
+"Prefix and Suffix Sums. Precalculate even/odd sums. When you ""remove"" an element, the suffix even/odd sums simply swap roles!",1,3634,Minimum Removals to Balance Array (Med),"Prefix and Suffix Sums. Precalculate even/odd sums. When you ""remove"" an element, the suffix even/odd sums simply swap roles!"
+Prepared Statements / Dynamic SQL,1,2252,Dynamic Pivoting of a Table,Prepared Statements / Dynamic SQL
+Preprocessing (RowithCol Sums),1,1582,Special Positions in a Binary Matrix,Preprocessing (RowithCol Sums)
+Promise.allSettled Polyfill,1,2795,Parallel Execution of Promises for Individual Results Retrieval,Promise.allSettled Polyfill
+Promise.race() with Timer,1,2637,Promise Time Limit,Promise.race() with Timer
+Promises,1,2621,Sleep (JS),Promises + setTimeout
+Proxy,1,2691,Immutability Helper (JS),Proxy + Structural Sharing
+Range Narrowing (Iterative Intersection). O(N),1,3468,Find the Number of Copy Arrays,Range Narrowing (Iterative Intersection). O(N)
+Redundant Array Rotation Buffers (Storing the state of the array for every single shift),1,2735,Collecting Chocolates,Redundant Array Rotation Buffers (Storing the state of the array for every single shift)
+Redundant Decision Paths (Visualizing same wall counts being re-calculated in different branches),1,2742,Painting the Walls,Redundant Decision Paths (Visualizing same wall counts being re-calculated in different branches)
+Redundant Min/Max Scans (Drawing a search arrow within every window),1,2762,Continuous Subarrays,Redundant Min/Max Scans (Drawing a search arrow within every window)
+Resource Hierarchy / Semaphores,1,1226,The Dining Philosophers,Resource Hierarchy / Semaphores
+Reverse In-Order Traversal (Right → Root → Left),1,538,Convert BST to Greater Tree,Reverse In-Order Traversal (Right → Root → Left)
+Reverse In-order Traversal (Right -> Root -> Left),1,1038,Binary Search Tree to Greater Sum Tree,Reverse In-order Traversal (Right -> Root -> Left)
+Reverse Linear Scan,1,66,Plus One,Reverse Linear Scan
+Reverse Linear Scan (Right-to-Left),1,1299,Replace Elements with Greatest Element on Right Side,Reverse Linear Scan (Right-to-Left)
+"Reverse Traversal Start from the end of the string. Collect K characters, add a dash, and repeat. Reverse the result at the end",1,482,License Key Formatting,"Reverse Traversal Start from the end of the string. Collect K characters, add a dash, and repeat. Reverse the result at the end"
+Revert Half the Number,1,9,Palindrome Number,Revert Half the Number
+Right Max Array,1,3073,Maximum Increasing Triplet Value,Right Max Array + Sorted Set
+Right-Spine Insertion,1,998,Maximum Binary Tree II,Right-Spine Insertion
+Right-to-Left Array Reduce,1,2629,Function Composition (JS),Right-to-Left Array Reduce
+Right-to-Left Monotonic Scan,1,1762,Buildings With an Ocean View,Right-to-Left Monotonic Scan
+"Row Max, Column Max, and Non-Zero Count",1,883,Projection Area of 3D Shapes,"Row Max, Column Max, and Non-Zero Count"
+Row-by-Row Comparison Buffer (Visualizing the SQL engine re-scanning the bookings table for every single record),1,2793,Status of Flight Tickets (SQL),Row-by-Row Comparison Buffer (Visualizing the SQL engine re-scanning the bookings table for every single record)
+Row-by-Row Memory Copy (Intermediate tables filling up Cartesian space),1,2701,Consecutive Transactions with Increasing Amounts (SQL),Row-by-Row Memory Copy (Intermediate tables filling up Cartesian space)
+Row-wise Iteration (Simple Scan),1,1672,Richest Customer Wealth,Row-wise Iteration (Simple Scan)
+Running Maximum Comparison,1,769,Max Chunks To Make Sorted,Running Maximum Comparison
+Running Maximum Property,1,775,Global and Local Inversions,Running Maximum Property
+SELECT DISTINCT,1,1148,Article Views I (SQL),SELECT DISTINCT + ORDER BY
+SQL DATE_FORMAT() function,1,1853,Convert Date Format (SQL),SQL DATE_FORMAT() function
+SQL IS NULL,1,3358,Books with NULL Ratings,SQL IS NULL
+SQL LEAST() and GREATEST() Functions,1,1699,Number of Calls Between Two Persons (SQL),SQL LEAST() and GREATEST() Functions
+SQL LIKE Operator / String Matching,1,1527,Patients With a Condition (SQL),SQL LIKE Operator / String Matching
+SQL Length Function (LENGTH/CHAR_LENGTH),1,1683,Invalid Tweets (SQL),SQL Length Function (LENGTH/CHAR_LENGTH)
+SQL Logical Indexing (`AND` condition),1,1757,Recyclable and Low Fat Products (SQL),SQL Logical Indexing (`AND` condition)
+"SQL String Functions (CONCAT, LEFT) running directly on the database engine",1,2504,Concatenate the Name and the Profession (SQL),"SQL String Functions (CONCAT, LEFT) running directly on the database engine"
+SQL UNION ALL (Unpivoting),1,1795,Rearrange Products Table (SQL),SQL UNION ALL (Unpivoting)
+Semaphores,1,1117,Building H2O,Semaphores + CyclicBarrier / Phasers
+Serialized Memory Wait (The closure for the addition waits twice),1,2723,Add Two Promises,Serialized Memory Wait (The closure for the addition waits twice)
+Set Size vs. Half-Length Comparison,1,575,Distribute Candies,Set Size vs. Half-Length Comparison
+Shunting Yard Algorithm / Two Stacks (Operands & Operators),1,3749,Evaluate Valid Expressions (Hard),Shunting Yard Algorithm / Two Stacks (Operands & Operators)
+Simple Iteration (Small Constraints),1,3162,Find the Number of Good Pairs I,Simple Iteration (Small Constraints)
+Simple Linear Scan,1,2942,Find Words Containing Character,Simple Linear Scan
+Simple WHERE clause with OR,1,595,Big Countries (SQL),Simple WHERE clause with OR
+Single Pass,1,2210,Count Hills and Valleys in an Array,Single Pass + Prev Pointer
+Single Pass (In-Place),1,83,Remove Duplicates from Sorted List,Single Pass (In-Place)
+Single Pass (Shared Edge) Count land cells x 4. Subtract 2 for every shared edge (horizontal or vertical neighbor),1,463,Island Perimeter,Single Pass (Shared Edge) Count land cells x 4. Subtract 2 for every shared edge (horizontal or vertical neighbor)
+Single Pass (Space Detection),1,2490,Circular Sentence,Single Pass (Space Detection)
+Single Pass / Linear Indexing,1,1572,Matrix Diagonal Sum,Single Pass / Linear Indexing
+Single Pass / Offset Comparison,1,1566,Detect Pattern of Length M Repeated K or More Times,Single Pass / Offset Comparison
+Single Pass / State Tracking (Current Streak),1,2414,Length of the Longest Alphabetical Continuous Substring,Single Pass / State Tracking (Current Streak)
+Single Pass Bound Check. O(N),1,3452,Sum of Good Numbers,Single Pass Bound Check. O(N)
+Single Pass Comparison (Pythagorean Theorem),1,3000,Maximum Area of Longest Diagonal Rectangle,Single Pass Comparison (Pythagorean Theorem)
+Single Pass Contraction Check,1,1752,Check if Array Is Sorted and Rotated,Single Pass Contraction Check
+Single Pass Count Iterate through characters. Count a segment whenever you see a non-space character that follows a space (or is at index 0),1,434,Number of Segments in a String,Single Pass Count Iterate through characters. Count a segment whenever you see a non-space character that follows a space (or is at index 0)
+Single Pass First-Occurrence Map,1,2399,Check Distances Between Same Letters,Single Pass First-Occurrence Map
+Single Pass Linear Scan,1,1629,Slowest Key,Single Pass Linear Scan
+Single Pass Max Tracking,1,747,Largest Number At Least Twice of Others,Single Pass Max Tracking
+Single Pass Minimum Tracking,1,1779,Find Nearest Point That Has the Same X or Y Coordinate,Single Pass Minimum Tracking
+Single Pass State Toggle,1,2315,Count Asterisks,Single Pass State Toggle
+Single Pass State Tracking,1,551,Student Attendance Record I,Single Pass State Tracking
+Single Pass Streaming Maximum (King of the Hill),1,1725,Number Of Rectangles That Can Form The Largest Square,Single Pass Streaming Maximum (King of the Hill)
+Single Pass with Lookahead (In-Place),1,2816,Double a Number Represented as a Linked List,Single Pass with Lookahead (In-Place)
+Single Pass with Running Minimum (Prefix Min),1,2016,Maximum Difference Between Increasing Elements,Single Pass with Running Minimum (Prefix Min)
+Single Pass with Three-Node Window,1,2058,Find the Minimum and Maximum Number of Nodes Between Critical Points,Single Pass with Three-Node Window + Edge Point Tracking
+Single Pointer Iteration (count spaces and substring once),1,1816,Truncate Sentence,Single Pointer Iteration (count spaces and substring once)
+Single-Pass Array Mapping,1,3173,Bitwise OR of Adjacent Elements,Single-Pass Array Mapping
+Single-Pass Constant Space Scan,1,3019,Number of Changing Keys,Single-Pass Constant Space Scan
+Single-Pass Early Exit,1,2057,Smallest Index With Equal Value,Single-Pass Early Exit
+Single-Pass Filtering,1,3065,Minimum Operations to Exceed Threshold Value I,Single-Pass Filtering
+Single-Pass Index Mapping,1,1929,Concatenation of Array,Single-Pass Index Mapping
+Single-Pass Index Traversal (Step K),1,3271,Hash Divided String,Single-Pass Index Traversal (Step K)
+Single-Pass Level Accumulation,1,364,Nested List Weight Sum II,Single-Pass Level Accumulation
+Single-Pass Max & Second Max Tracking,1,3833,Count Dominant Indices (Easy),Single-Pass Max & Second Max Tracking
+Single-Pass Parity Check,1,3151,Special Array I,Single-Pass Parity Check
+Single-Pass Pointer Distance,1,1437,Check If All 1's Are at Least Length K Places Away,Single-Pass Pointer Distance
+Single-Pass Pointer Scan,1,1678,Goal Parser Interpretation,Single-Pass Pointer Scan
+Single-Pass Range Intersection,1,1450,Number of Students Doing Homework at a Given Time,Single-Pass Range Intersection
+Single-Pass Reverse Scan (Right-to-Left Pointer),1,1309,Decrypt String from Alphabet to Integer,Single-Pass Reverse Scan (Right-to-Left Pointer)
+Single-Pass Scalar Tracking,1,1796,Second Largest Digit in a String,Single-Pass Scalar Tracking
+Single-Pivot Circularity Check,1,2855,Minimum Right Shifts to Sort the Array,Single-Pivot Circularity Check
+Single-pass: Find the first and last occurrence of different words. The max distance is either LastIndex - FirstIndex or LastIndex - SecondFirstIndex,1,3696,Maximum Distance Between Unequal Words I (Easy),Single-pass: Find the first and last occurrence of different words. The max distance is either LastIndex - FirstIndex or LastIndex - SecondFirstIndex
+Sliding Boundary Pointers,1,2232,Minimize Result by Adding Parentheses to Expression,Sliding Boundary Pointers
+SlowithFast Pointers,1,234,Palindrome Linked List,SlowithFast Pointers + In-Place Reversal of Second Half
+Square Root Decomposition (Block separation),1,1714,Sum Of Special Evenly-Spaced Elements In Array,Square Root Decomposition (Block separation)
+Square Root Divisor Hunt,1,1390,Four Divisors,Square Root Divisor Hunt
+Square-Free Part Grouping,1,2862,Maximum Element-Sum of a Complete Subset of Indices,Square-Free Part Grouping
+Standard Library formatting (bin/format),1,3280,Convert Date to Binary,Standard Library formatting (bin/format)
+Standardization via Pre-filtering,1,831,Masking Personal Information,Standardization via Pre-filtering + Template Mapping
+Start at Square Root Start W at lfloor√{N}rfloor and decrement until N % W == 0. This ensures L and W are as close as possible,1,492,Construct the Rectangle,Start at Square Root Start W at lfloor√{N}rfloor and decrement until N % W == 0. This ensures L and W are as close as possible
+State Array Snapshots (Drawing the entire array state for every microscopic time increment),1,2751,Robot Collisions,State Array Snapshots (Drawing the entire array state for every microscopic time increment)
+State Tracking (Parity / Flip Count),1,3141,Maximum Hamming Distances,State Tracking (Parity / Flip Count)
+String Comparison (In-place `startsWith`),1,2185,Counting Words With a Given Prefix,String Comparison (In-place `startsWith`)
+String Comparison / Line Overlap,1,2446,Determine if Two Events Have Conflict,String Comparison / Line Overlap
+"String Doubling Trick Concatenate S+S. Remove the first and last characters. If S is still a substring of the result, it has a repeated pattern",1,459,Repeated Substring Pattern,"String Doubling Trick Concatenate S+S. Remove the first and last characters. If S is still a substring of the result, it has a repeated pattern"
+String Functions,1,1543,Fix Product Name Format (SQL),String Functions + Aggregation
+String Mutation Buffer (Visualizing repeated string recreations for each swap in languages with immutable strings),1,2785,Sort Vowels in a String,String Mutation Buffer (Visualizing repeated string recreations for each swap in languages with immutable strings)
+String Predicate Filtering,1,3150,Invalid Tweets II (SQL),String Predicate Filtering
+String Slicing / Cyclic Shift,1,3210,Find the Encrypted String,String Slicing / Cyclic Shift
+String Split,1,1859,Sorting the Sentence,String Split + Bucket Array mapping
+Substring Slicing,1,2678,Number of Senior Citizens,Substring Slicing + Direct Integer Comparison
+Suffix Array Traversal (Right-to-Left Scan),1,3818,Minimum Prefix Removal to Make Array Strictly Increasing (Med.),Suffix Array Traversal (Right-to-Left Scan)
+Suffix Sum of Shifts,1,848,Shifting Letters,Suffix Sum of Shifts
+Symmetric Construction (Pairing),1,1304,Find N Unique Integers Sum up to Zero,Symmetric Construction (Pairing)
+Symmetry Grouping (2x2 Blocks,1,3240,Minimum Number of Flips to Make Binary Grid Palindromic II,Symmetry Grouping (2x2 Blocks + Centroids)
+Synchronization (Mutex/Locking),1,1279,Traffic Light Controlled Intersection,Synchronization (Mutex/Locking)
+Synchronization (Semaphores / Mutex,1,1195,Fizz Buzz Multithreaded,Synchronization (Semaphores / Mutex + Conditions)
+Targeted Filter,1,2230,The Users That Are Eligible for Discount,Targeted Filter + Distinct (SQL)
+Temporal State Snapshots (Visualizing the position of every robot at every tick of time),1,2731,Movement of Robots,Temporal State Snapshots (Visualizing the position of every robot at every tick of time)
+Temporary Object Accumulation (Creating massive amounts of intermediate merged objects),1,2722,Join Two Arrays by ID,Temporary Object Accumulation (Creating massive amounts of intermediate merged objects)
+Temporary Property Allocation (Mutation of the target object),1,2754,Bind Function to Context (JS),Temporary Property Allocation (Mutation of the target object)
+The Circular Link (Ring),1,61,Rotate List,The Circular Link (Ring)
+The Reversal Algorithm,1,189,Rotate Array,The Reversal Algorithm
+Three-Phase Linear Scan,1,57,Insert Interval,Three-Phase Linear Scan
+Tokenization,1,1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,Tokenization + `startsWith`
+Top-3 Length Tracking per Character,1,2982,Find Longest Special Substring That Occurs Thrice II,Top-3 Length Tracking per Character
+"Top-3 Variables Keep `first`, `second`, `third` initialized to -Infinity. Update them sequentially as you iterate O(N)",1,414,Third Maximum Number,"Top-3 Variables Keep `first`, `second`, `third` initialized to -Infinity. Update them sequentially as you iterate O(N)"
+Trust Score Array (In-Degree vs Out-Degree),1,997,Find the Town Judge,Trust Score Array (In-Degree vs Out-Degree)
+Two Heaps (Priority Queues) / TreeSet,1,1606,Find Servers That Handled Most Number of Requests,Two Heaps (Priority Queues) / TreeSet
+Two Passes (Prefix and Suffix) using Max-Heaps of size K,1,2519,Count the Number of K-Big Indices,Two Passes (Prefix and Suffix) using Max-Heaps of size K
+Two Queues (Enter and Exit) with State Tracking,1,2534,Time Taken to Cross the Door,Two Queues (Enter and Exit) with State Tracking
+"Two Queues (R_index, D_index)",1,649,Dota2 Senate,"Two Queues (R_index, D_index)"
+"Two Stacks (Amortized O(1) - ""Lazy Transfer"")",1,232,Implement Queue using Stacks,"Two Stacks (Amortized O(1) - ""Lazy Transfer"")"
+Two Stacks (Predecessor & Successor),1,272,Closest BST Value II,Two Stacks (Predecessor & Successor)
+Two Stacks / Gap Buffer,1,2296,Design a Text Editor,Two Stacks / Gap Buffer
+Two Stacks Push all nodes of both lists onto two stacks. Pop from both to add from right-to-left,1,445,Add Two Numbers II,Two Stacks Push all nodes of both lists onto two stacks. Pop from both to add from right-to-left
+Two-Pass / Prefix Tracking,1,1422,Maximum Score After Splitting a String,Two-Pass / Prefix Tracking
+Two-Pass Inclusion/Exclusion (At-Most K),1,795,Number of Subarrays with Bounded Maximum,Two-Pass Inclusion/Exclusion (At-Most K)
+Two-Pass Linear Traversal (Head-to-Tail),1,3294,Convert Doubly Linked List to Array II,Two-Pass Linear Traversal (Head-to-Tail)
+Two-Pass Min-Sweep (Left-to-Right,1,821,Shortest Distance to a Character,Two-Pass Min-Sweep (Left-to-Right + Right-to-Left)
+Two-Pass Monotonic Logic (Min/Max Tracking),1,581,Shortest Unsorted Continuous Subarray,Two-Pass Monotonic Logic (Min/Max Tracking)
+Two-Way Summation (Circular Array),1,1184,Distance Between Bus Stops,Two-Way Summation (Circular Array)
+Two-way expansion from 'start' index,1,1848,Minimum Distance to the Target Element,Two-way expansion from 'start' index
+UNION of two filtered sets,1,1789,Primary Department for Each Employee (SQL),UNION of two filtered sets
+Update-History Log (Inverse Search),1,1476,Subrectangle Queries,Update-History Log (Inverse Search)
+Vectorized Assignment: df['bonus'] = df['salary'] * 2,1,2881,Create a New Column,Vectorized Assignment: df['bonus'] = df['salary'] * 2
+Visited Set / In-Place Marking,1,565,Array Nesting,Visited Set / In-Place Marking
+WHERE clause filtering directly in SQL engine,1,1821,Find Customers With Positive Revenue this Year (SQL),WHERE clause filtering directly in SQL engine
+Win-Condition Invariance Check,1,794,Valid Tic-Tac-Toe State,Win-Condition Invariance Check
+Wormhole Teleportation (O(N) Pre-matching),1,1190,Reverse Substrings Between Each Pair of Parentheses,Wormhole Teleportation (O(N) Pre-matching)
+Z-Algorithm,1,2223,Sum of Scores of Built Strings,Z-Algorithm
+Z-Algorithm (Prefix & Suffix Matching),1,3303,Find the Occurrence of First Almost Equal Substring,Z-Algorithm (Prefix & Suffix Matching)
+Zeller's Congruence / Sum of Days,1,1185,Day of the Week,Zeller's Congruence / Sum of Days
+df.drop_duplicates(subset=['id']),1,2882,Drop Duplicate Rows,df.drop_duplicates(subset=['id'])
+df.dropna(subset=['name']),1,2883,Drop Missing Data,df.dropna(subset=['name'])
+df.head(3) (Slicing),1,2879,Display the First Three Rows,df.head(3) (Slicing)
+"df.melt(id_vars=['product'], ...)",1,2890,Reshape Data: Melt,"df.melt(id_vars=['product'], ...)"
+"df.pivot(index='month', columns='city', values='temperature')",1,2889,Reshape Data: Pivot,"df.pivot(index='month', columns='city', values='temperature')"
+df.rename(columns={...}),1,2885,Rename Columns,df.rename(columns={...})
+df.shape Attribute Access,1,2878,Get the Size of a DataFrame,df.shape Attribute Access
+df['grade'].astype(int),1,2886,Change Data Type,df['grade'].astype(int)
+df['quantity'].fillna(0),1,2887,Fill Missing Data,df['quantity'].fillna(0)
+"pd.concat([df1, df2])",1,2888,Reshape Data: Concatenate,"pd.concat([df1, df2])"
+setTimeout,1,2821,Delay the Resolution of Each Promise,setTimeout + Promise Wrapper
+valueOf() and toString() Overriding,1,2695,Array Wrapper (JS),valueOf() and toString() Overriding

@@ -1,0 +1,120 @@
+primary_engine,variation,questions
+BFS,Single-source breadth-first traversal,105
+BFS,Multi-source / layered BFS,12
+BFS,Level-order traversal,9
+Backtracking,Choice tree with undo,56
+Backtracking,Permutation / choice-tree generation,13
+Backtracking,Combination search,7
+Backtracking,Constraint placement backtracking,2
+Binary Search,Exact / partition binary search,71
+Binary Search,Answer-space binary search,47
+Binary Search,Boundary / insertion search,9
+Bit / Mask,Bitwise state manipulation,19
+Bit / Mask,XOR / parity logic,19
+Bit / Mask,Subset mask state,11
+Counting,Count-driven scan,72
+Counting,Frequency counting,67
+Counting,Voting / dominant element,2
+Custom Exact Technique,Exact custom / named technique,246
+DFS,Tree DFS,62
+DFS,Depth-first traversal,51
+DFS,Flood-fill / component DFS,9
+DFS,Memoized DFS,6
+Design / Process / JS,Object / API behavior,31
+Design / Process / JS,Closure / scope behavior,13
+Design / Process / JS,Concurrency / synchronization,7
+Design / Process / JS,Async promise control,6
+Design / Process / JS,Generator / iterator protocol,3
+Design / Process / JS,Proxy / metaprogramming,3
+Divide and Conquer,Recursive split / combine,9
+Dynamic Programming,State-transition DP,155
+Dynamic Programming,2D DP,45
+Dynamic Programming,1D DP,41
+Dynamic Programming,Bitmask DP,34
+Dynamic Programming,3D DP,25
+Dynamic Programming,Digit DP,18
+Dynamic Programming,Tree DP,15
+Dynamic Programming,Memoized DP,13
+Dynamic Programming,Interval DP,8
+Fenwick / Sparse Table,Fenwick prefix aggregate,14
+Fenwick / Sparse Table,Power-of-two jump table,2
+Geometry,Geometric reasoning,11
+Geometry,Coordinate transform / distance geometry,10
+Geometry,Convex hull / orientation,2
+Graph,General graph modeling,21
+Graph,Eulerian path construction,2
+Greedy,Local-choice optimization,184
+Greedy,Sort-then-greedy,53
+Greedy,Greedy with numeric invariant,24
+Hash Map,Direct keyed lookup,110
+Hash Map,Frequency dictionary,100
+Hash Map,Pattern/signature map,2
+Hash Map,Complement lookup,1
+Hash Set,Uniqueness / seen-set check,78
+Hash Set,Visited-state membership,2
+Heap,Priority-based selection,72
+Heap,Top-K / best-first selection,20
+Heap,Dual-heap balancing,9
+Linked List,Pointer manipulation on list nodes,20
+Linked List,Dummy-node merge / splice,8
+Linked List,Fast-slow pointer cycle / middle,5
+Linked List,In-place reversal / rewiring,1
+Math / Number Theory,Formula / constructive math,141
+Math / Number Theory,Digit arithmetic / carry,23
+Math / Number Theory,Divisor / number theory,19
+Math / Number Theory,Parity / algebraic invariant,11
+Math / Number Theory,Fast exponentiation,3
+Matrix / Grid,Grid / board traversal,110
+Monotonic Stack,Next-greater / monotonic boundary stack,47
+Monotonic Stack,Boundary / histogram stack,3
+Prefix / Suffix Precompute,Range-sum precompute,99
+Prefix / Suffix Precompute,Prefix/suffix extrema or counts,30
+Prefix / Suffix Precompute,Difference-array accumulation,28
+Prefix / Suffix Precompute,Prefix/suffix products,1
+Queue / Deque,Deque-backed range/window state,24
+SQL / Group By,Grouped aggregation,48
+SQL / Group By,Aggregate + HAVING filter,18
+SQL / Group By,Distinct aggregation,6
+SQL / Join,Key-based row matching,42
+SQL / Join,Left join / null retention,34
+SQL / Join,Self-join,11
+SQL / Table Ops,Filtering / reshaping / scalar SQL ops,78
+SQL / Window Function,Partitioned window analytics,39
+SQL / Window Function,RANK / ordering,15
+SQL / Window Function,ROW_NUMBER ranking,14
+SQL / Window Function,DENSE_RANK ranking,13
+SQL / Window Function,Lead/Lag neighbor rows,13
+Segment Tree,Range query / update tree,41
+Shell / Unix,Pipeline / text processing,89
+Shortest Path / Flow,Weighted shortest path,43
+Shortest Path / Flow,Weighted graph optimization,7
+Shortest Path / Flow,All-pairs shortest path,6
+Shortest Path / Flow,0-1 shortest path,5
+Shortest Path / Flow,Flow / matching,3
+Simulation / Scan / Precompute,Direct simulation / scan,38
+Simulation / Scan / Precompute,Single-pass scan,27
+Simulation / Scan / Precompute,State-tracking simulation,21
+Simulation / Scan / Precompute,Deterministic state machine,2
+Simulation / Scan / Precompute,Precompute + lookup,2
+Sliding Window,Variable-size window,109
+Sliding Window,Variable-size + frequency/uniqueness control,21
+Sliding Window,Fixed-size window,20
+Sorting / Sweep,Order-then-scan,60
+Sorting / Sweep,Sweep / interval ordering,10
+Stack,LIFO state maintenance,49
+Stack,Dual-stack transfer / evaluation,7
+Stack,Expression parsing,1
+Topological Sort,DAG ordering / prerequisite resolution,22
+Tree,Recursive subtree aggregation,56
+Tree,Inorder traversal / BST order,14
+Tree,LCA query,8
+Tree,Tree traversal / postorder-preorder,1
+Trie,Prefix-tree traversal / insertion,34
+Two Pointers,Boundary / pointer sweep,172
+Two Pointers,Center expansion,3
+Two Pointers,Same-direction merge / fill,2
+Two Pointers,Fast-slow chase,1
+Two Pointers,Next-permutation pointer choreography,1
+Two Pointers,Opposite-end pinch,1
+Union-Find,Connectivity / component merging,54
+Union-Find,Connectivity + component size,1

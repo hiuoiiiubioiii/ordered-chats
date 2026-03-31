@@ -1,0 +1,82 @@
+# LeetCode Visual Study Guide — Pattern Extraction
+
+- Total rows: 3873
+- Unique raw `Optimised Pattern` strings: 3735
+- Unique after simple normalization (case/punctuation cleanup): 3681
+
+## Canonical pattern families (non-exclusive counts)
+
+- Dynamic Programming (DP): 511
+- Greedy: 499
+- Counting / Frequency: 373
+- Sorting: 342
+- Hash Map / Dictionary: 318
+- Math / Number Theory: 288
+- Sliding Window: 275
+- Depth-First Search (DFS): 200
+- SQL Join / Aggregation: 176
+- Binary Search: 171
+- Breadth-First Search (BFS): 168
+- Two Pointers: 166
+- Hash Set / Set: 162
+- Prefix Sum: 157
+- Bit Manipulation / Bitmask: 138
+- Stack: 131
+- Heap / Priority Queue: 127
+- Tree: 119
+- Queue / Deque: 103
+- Fenwick / BIT: 97
+- Recursion: 96
+- Backtracking: 86
+- Suffix / Postfix: 85
+- Shortest Path: 65
+- Simulation: 62
+- SQL Window Function: 60
+- Graph: 57
+- Union Find / DSU: 56
+- Monotonic Stack: 52
+- Trie: 50
+- Interval / Sweep Line: 48
+- Matrix / Grid: 45
+- Segment Tree: 43
+- Linked List: 33
+- Monotonic Queue: 26
+- Topological Sort: 23
+- Prefix Function / KMP / Z: 23
+- Kadane / Subarray Max: 15
+- Rolling Hash: 14
+- Design / Data Structure: 11
+- Reservoir / Randomization: 7
+
+## Most repeated exact raw labels
+
+- 3D Dynamic Programming: 9
+- 2D Dynamic Programming: 8
+- Sliding Window (Two Pointers): 6
+- Binary Search on Answer.: 6
+- Sorting + Two Pointers: 5
+- Binary Search on Answer: 5
+- Multi-Source BFS: 4
+- Binary Search on Answer Range: 4
+- Greedy (Sorting).: 4
+- Monotonic Stack: 3
+- Two Pointers (In-place Swap): 3
+- Monotonic Stack.: 3
+- Breadth-First Search (BFS): 3
+- 1D Dynamic Programming: 3
+- Window Function (ROW_NUMBER): 3
+- Bitmask DP: 3
+- Window Function (RANK): 3
+- BFS (Level Order Traversal): 3
+- Greedy + Sorting.: 3
+- Prefix Sum / Running Total: 3
+- Sort + Anchor & Squeeze: 2
+- Backtracking (DFS): 2
+- Stack (LIFO): 2
+- Min-Heap (Priority Queue): 2
+- 3D Dynamic Programming / Memoization: 2
+- Backtracking with Pruning: 2
+- Topological Sort (Kahn's Algorithm / BFS): 2
+- Sliding Window + Hash Set: 2
+- Staircase Search (Top-Right Start): 2
+- Dynamic Programming (State Machine): 2

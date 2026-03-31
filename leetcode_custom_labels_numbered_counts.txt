@@ -1,0 +1,392 @@
+Total unique custom / exact-label patterns: 389
+Total question rows covered by these custom labels: 398
+
+1. Backward Pointer Scan — 2 questions
+2. Binary Lifting (Sparse Table) — 2 questions
+3. Closure — 2 questions
+4. Gaps and Islands (Row Number Difference) — 2 questions
+5. Hierholzer's Algorithm (Eulerian Path) — 2 questions
+6. LCA (Lowest Common Ancestor) — 2 questions
+7. Single-Pass Flagging — 2 questions
+8. Single-Pass Linear Scan — 2 questions
+9. Two Min-Heaps (Priority Queues) — 2 questions
+10. 2D-to-1D Reduction — 1 question
+11. 8-Directional Raycasting from Move — 1 question
+12. Accumulating Closure Scopes (Each timeout creates a new closure, potentially keeping old variables in memory longer) — 1 question
+13. Amortized Linear Scan / Precomputation — 1 question
+14. Angular Sweep / Fixed Circle Centers — 1 question
+15. Arithmetic Computation — 1 question
+16. Array Grouping by Set Bits — 1 question
+17. Array Indexing (Direct Access) — 1 question
+18. Array Length Property (`this.length`) — 1 question
+19. Array modification tracking (snapshotting the entire array state at each simulated step) — 1 question
+20. Backwards Traversal (Target to Start) — 1 question
+21. Base 3 Representation (Ternary Logic) — 1 question
+22. Bi-directional Linear Scan with Last-Seen Map. O(N — 1 question
+23. Binary Exponentiation — 1 question
+24. Binary Exponentiation (Fast Power) — 1 question
+25. Binary Offset Mapping — 1 question
+26. Blocking Main Thread (Visualizing the CPU stuck in a loop waiting for the async task) — 1 question
+27. Boolean Array — 1 question
+28. Boolean Indexing: df[df['id'] == 101] — 1 question
+29. Boundary Contraction — 1 question
+30. Boundary Shrinking — 1 question
+31. Brainteaser / Logical Deduction — 1 question
+32. Brute Force (Small Constraints) — 1 question
+33. Brute Force / Constraint Optimization — 1 question
+34. Brute Force Path Memory (Storing every conceivable route configuration simultaneously) — 1 question
+35. Brute Force with Early Exit (Small Constraints) — 1 question
+36. Buffer Scan (Visualizing the database engine reading the text column repeatedly for each word) — 1 question
+37. Buffered Chunk Processing with Bound Checking — 1 question
+38. COUNT(DISTINCT customer_id) — 1 question
+39. Chained Operations: df.loc[...].sort_values(...)[['name']] — 1 question
+40. Chebyshev Distance (Max of ΔX, ΔY) — 1 question
+41. Closure / Higher-Order Function — 1 question
+42. Column-Wise Linear Scan — 1 question
+43. Column-Wise Max Pre-calculation — 1 question
+44. Combinatorial Construction. Generate palindromes directly by mirroring the "first half" of the binary bits — 1 question
+45. Combinatorial Row Storage (Visualizing all row combinations in memory) — 1 question
+46. Compare Current vs Next — 1 question
+47. Concurrency: 3 Semaphores — 1 question
+48. Concurrency: Mutexes / Semaphores / Promises — 1 question
+49. Concurrency: Two Alternating Semaphores — 1 question
+50. Condition Variables / Semaphores — 1 question
+51. Contribution of Each Character (Index tracking) — 1 question
+52. Convex Hull — 1 question
+53. Coordinate Mapping (Direct Indexing) — 1 question
+54. Coordinate Mapping (Precomputation) — 1 question
+55. Coordinate Min-Max Comparison — 1 question
+56. Coordinate Rotation (Chebyshev Transformation) — 1 question
+57. Corner Count Set — 1 question
+58. Cross Product (Orientation) For every three consecutive points, calculate the cross product. All cross products must have the same sign (all positive or all negative) — 1 question
+59. Custom Comparator / Partitioning — 1 question
+60. Cycle Decomposition (Permutation Theory) — 1 question
+61. Date Filtering — 1 question
+62. Days Since Epoch (1971) Calculation — 1 question
+63. Direct Comparison / O(1) Access — 1 question
+64. Direct Index Mapping (One-Pass) — 1 question
+65. Direct Indexing Compare `words[i].charAt(j)` with `words[j].charAt(i)` with boundary checks — 1 question
+66. Direct Integer Accumulation — 1 question
+67. Direct Linear Scan with Set Lookup — 1 question
+68. Direct Mapping — 1 question
+69. Direct SQL WHERE Clause — 1 question
+70. Divisor Iteration — 1 question
+71. Double In-place Reversal (Reverse Whole — 1 question
+72. Double Logarithmic Loop (Logarithmic Bounds) — 1 question
+73. Double Loop with Square Root Check — 1 question
+74. Dual-Map Bijection or Pattern Normalization — 1 question
+75. Dynamic Prefix Maximum & Max-Difference Tracking — 1 question
+76. Dynamic SQL / Information Schema — 1 question
+77. Early Exit Iterator — 1 question
+78. Early-Exit Linear Comparison — 1 question
+79. Edge-Centric — 1 question
+80. Enumeration by Zero-Count (O(N√N)) — 1 question
+81. Execution Context Overhead (Visualizing the engine creating and destroying complex scopes for every iteration) — 1 question
+82. Exhaustive Heatmap Search (Brute Force) — 1 question
+83. Exponential State Memory (Visualizing the storage of all valid subarray combinations) — 1 question
+84. Exponential State Search (Visualizing all possible combinations of powers being summed) — 1 question
+85. Fast Fourier Transform (FFT) or Karatsuba — 1 question
+86. Fast and Slow Pointers — 1 question
+87. Filtered Select with Null Handling — 1 question
+88. Find Dip, Swap, Reverse — 1 question
+89. Finding Bound Indices (Last 1, First 3) — 1 question
+90. First/Last Index Pre-computation — 1 question
+91. Fisher-Yates Shuffle Algorithm — 1 question
+92. Fixed-Window Sliding (Multiple Passes) — 1 question
+93. Floating Closure Memory (The callback and its lexical environment stay in memory until the timer naturally finishes) — 1 question
+94. Function with Local Variable Offset (N-1) and LIMIT — 1 question
+95. Function.prototype.apply / Symbol Key — 1 question
+96. Generators (`yield`) — 1 question
+97. Global Bounding Box Scan — 1 question
+98. Global Sum Maintenance (Delta Tracking) — 1 question
+99. Group Consecutive Counts — 1 question
+100. Grouping by Vowel Count — 1 question
+101. IN Clause with Multi-Column Key — 1 question
+102. In-Degree Accumulator (Array) — 1 question
+103. In-Order Flattening — 1 question
+104. In-Order Traversal (Sorted Property) — 1 question
+105. In-Order Traversal (natively sorted) — 1 question
+106. In-Place "Leapfrog" Reversal — 1 question
+107. In-Place Group Iteration & Re-linking — 1 question
+108. In-Place In-order Maintain a `first` and `last` pointer. Connect `last.right = current` and `current.left = last` during traversal — 1 question
+109. In-Place Iterative Reduction — 1 question
+110. In-Place Link Manipulation — 1 question
+111. In-Place Pointer Reversal — 1 question
+112. In-Place Pointer Splicing — 1 question
+113. In-Place State Marking — 1 question
+114. In-order Traversal with In-place Re-linking — 1 question
+115. In-place Array Mutations (Visualizing the CPU repeatedly writing to memory for every range update) — 1 question
+116. In-place Array Transformation — 1 question
+117. In-place Marking For each number x, go to index |x|-1 and flip the value to negative. If already negative, it's a duplicate — 1 question
+118. In-place Negation For each value x, treat |x|-1 as an index and make the value at that index negative. Positives remaining are the gaps — 1 question
+119. In-place array mutations (Unnecessary write operations to memory) — 1 question
+120. In-place modification of Character Array — 1 question
+121. In-place row swapping within the specified submatrix boundaries — 1 question
+122. Index Mapping — 1 question
+123. Index-as-Hash / Negation Marker — 1 question
+124. Information Theory (N-Dimensional Hypercube) Each pig represents a dimension. The number of states a pig can have is (Tests — 1 question
+125. Integer State Mutation (Visualizing the variables main and additional changing over time) — 1 question
+126. Intermediate Array Allocation (Visualize a potentially massive array of strings being created in memory just for a boolean check) — 1 question
+127. Inverse Transform (Polar) Generate theta in [0, 2π] and r = R √{rand()}. The square root is crucial for uniform density — 1 question
+128. Iterative Accumulator Update — 1 question
+129. Iterative Brute Force (Optimized Range) — 1 question
+130. Iterative Cleanup — 1 question
+131. Iterative Comparison — 1 question
+132. Iterative In-order Traversal with Early Stop — 1 question
+133. Iterative Mapping (New Array) — 1 question
+134. Iterative New Array Push — 1 question
+135. Iterative Pointer Manipulation (Bottom-Up Logic) — 1 question
+136. Iterative Pointer Mutation (Visualizing the CPU cycle overhead for millions of small increments) — 1 question
+137. Iterative Slicing (Step = Size) — 1 question
+138. JavaScript Generators & Promises — 1 question
+139. JavaScript Prototype Chain Traversal — 1 question
+140. JavaScript Proxy (`get` trap) — 1 question
+141. LCP Array (Longest Common Prefix) / Z-Algorithm — 1 question
+142. LIS (Longest Increasing Subsequence) — 1 question
+143. Lexical Scope / Closures — 1 question
+144. Linear Algebra (System of Equations) — 1 question
+145. Linear Array Scanning — 1 question
+146. Linear Boundary Comparison — 1 question
+147. Linear Count Tracker — 1 question
+148. Linear Memory Scan (Visualizing the CPU reading the entire marbles array for every single instruction) — 1 question
+149. Linear One-Pass Update — 1 question
+150. Linear Row Scan — 1 question
+151. Linear Scan (Max Property Observation) — 1 question
+152. Linear Scan (Min/Max Tracking) — 1 question
+153. Linear Scan / Substring Search — 1 question
+154. Linear Scan of Adjacent Elements — 1 question
+155. Linear Scan with State Tracker — 1 question
+156. Linear Search Overhead (Visualizing indexOf being called repeatedly) — 1 question
+157. Linear Search Pointers (Drawing the search range for every individual query) — 1 question
+158. Linear Traversal (Bidirectional) — 1 question
+159. Linear loop checking `nums[i]-nums[i-1]` — 1 question
+160. List Maintenance — 1 question
+161. Local Incremental Update — 1 question
+162. Logical Comparison of First Two Edges — 1 question
+163. Logical Invariance (Existence of '1') — 1 question
+164. Longest Common Substring (LCS Variant) — 1 question
+165. Look-Ahead (Caching) — 1 question
+166. Loop pointers footprint (Draw i and j pointers constantly jumping back and forth across an array) — 1 question
+167. Lowest Common Ancestor (LCA) — 1 question
+168. Lowest Common Ancestor (LCA) with Binary Lifting — 1 question
+169. Manacher's Algorithm — 1 question
+170. Massive String Reallocations (Immutable strings mean creating a brand new string in memory for every deletion) — 1 question
+171. Maximum Flow / Bipartite Matching. Model robots as one set of nodes, walls as another, and find the maximum matching/coverage — 1 question
+172. Median — 1 question
+173. Median Property (Independent Dimensions) — 1 question
+174. Middle Character Extraction — 1 question
+175. Min-Cost Flow / Hungarian Algorithm — 1 question
+176. Min-Max Coordinate Tracking — 1 question
+177. Min/Max Tracking — 1 question
+178. Minimal Memory (Only tracking unique category representatives) — 1 question
+179. Minimal Variable State (Only index i) — 1 question
+180. Minimax / Information Theory (Heuristic Guessing) — 1 question
+181. Minimum Boundary Tracking — 1 question
+182. Mismatch Index Comparison — 1 question
+183. Native Pandas Constructor (Vectorized Internal Logic) — 1 question
+184. Nested Char Loops — 1 question
+185. Net Shift Calculation — 1 question
+186. Network Socket Overload (Visualizing multiple open connections consuming system file descriptors) — 1 question
+187. Next Permutation Algorithm (Linear Scan) — 1 question
+188. Next Permutation Algorithm (Suffix Reversal) — 1 question
+189. Next Permutation Algorithm on the first half — 1 question
+190. Next Permutation on Half-String — 1 question
+191. Number Theory (Greatest Common Divisor) — 1 question
+192. O(1) State Variables (Draw one sum and one i) — 1 question
+193. O(N^2) 2D Array Allocation (Massive memory waste for large N) — 1 question
+194. ORDER BY Multiple Columns — 1 question
+195. One-Pass Min-Max Tracking — 1 question
+196. One-Pass Neighbor Comparison — 1 question
+197. One-Pass Precomputation — 1 question
+198. One-Pass Running Maximum — 1 question
+199. One-Pass String Comparison — 1 question
+200. One-Pass with Toggle/Previous Tracking — 1 question
+201. Optimized Linear Scan (Early Exit) — 1 question
+202. Parity Logic (Difference is even iff Total Sum is even). O(N) — 1 question
+203. Parity Summation — 1 question
+204. Partition Memory Sets (Visualizing two massive separate heaps for every single partition attempt) — 1 question
+205. Pattern Canonicalization / Hashing — 1 question
+206. Pattern Categorization (6-Segment Window) — 1 question
+207. Pattern Searching (Presence of "01") — 1 question
+208. Permutation Validation (Fixed Size) — 1 question
+209. Persistent Pointer (Amortized Analysis) — 1 question
+210. Polynomial Class / Map of Term-to-Coefficient — 1 question
+211. Pre-allocation — 1 question
+212. Pre-evaluated Boolean Variables mapping to strict logic combinations — 1 question
+213. Pre-mapped Char-to-Row Create a Map or Array of size 26 where `row[char]` is 1, 2, or 3. Check if all chars in a word return the same row ID — 1 question
+214. Pre-processing (Index Collection) — 1 question
+215. Precomputation (Prefix Products) — 1 question
+216. Precomputation (RowithCol Sum Arrays) — 1 question
+217. Precompute "Longest Decreasing" from left and "Longest Increasing" from right for every index — 1 question
+218. Precomputed Row-Mins and Col-Maxes — 1 question
+219. Prefix & Suffix Arrays — 1 question
+220. Prefix & Suffix Arrays (State Tracking) — 1 question
+221. Prefix & Suffix Products (Flattened 2D to 1D) — 1 question
+222. Prefix Expansion / Direct String Construction — 1 question
+223. Prefix Manipulation — 1 question
+224. Prefix Max & Suffix Min — 1 question
+225. Prefix Max & Suffix Min Pass — 1 question
+226. Prefix Max / Suffix Max Arrays — 1 question
+227. Prefix Max and Suffix Min Arrays — 1 question
+228. Prefix Maximum & Suffix Maximum (or Pre-calculation) — 1 question
+229. Prefix Min & Suffix Min Arrays — 1 question
+230. Prefix Min & Suffix Min Arrays (Identical to 2908) — 1 question
+231. Prefix Product Array with Zero-Reset — 1 question
+232. Prefix and Suffix Accumulators — 1 question
+233. Prefix and Suffix Counts. Count existing '0's and '1's. Inserting '0' at the start pairs with all existing '1's. Inserting '1' at the end pairs with all existing '0's — 1 question
+234. Prefix and Suffix Precomputation Arrays — 1 question
+235. Prefix and Suffix Sums. Precalculate even/odd sums. When you "remove" an element, the suffix even/odd sums simply swap roles! — 1 question
+236. Prepared Statements / Dynamic SQL — 1 question
+237. Preprocessing (RowithCol Sums) — 1 question
+238. Promise.allSettled Polyfill — 1 question
+239. Promise.race() with Timer — 1 question
+240. Promises — 1 question
+241. Proxy — 1 question
+242. Range Narrowing (Iterative Intersection). O(N) — 1 question
+243. Redundant Array Rotation Buffers (Storing the state of the array for every single shift) — 1 question
+244. Redundant Decision Paths (Visualizing same wall counts being re-calculated in different branches) — 1 question
+245. Redundant Min/Max Scans (Drawing a search arrow within every window) — 1 question
+246. Resource Hierarchy / Semaphores — 1 question
+247. Reverse In-Order Traversal (Right → Root → Left) — 1 question
+248. Reverse In-order Traversal (Right -> Root -> Left) — 1 question
+249. Reverse Linear Scan — 1 question
+250. Reverse Linear Scan (Right-to-Left) — 1 question
+251. Reverse Traversal Start from the end of the string. Collect K characters, add a dash, and repeat. Reverse the result at the end — 1 question
+252. Revert Half the Number — 1 question
+253. Right Max Array — 1 question
+254. Right-Spine Insertion — 1 question
+255. Right-to-Left Array Reduce — 1 question
+256. Right-to-Left Monotonic Scan — 1 question
+257. Row Max, Column Max, and Non-Zero Count — 1 question
+258. Row-by-Row Comparison Buffer (Visualizing the SQL engine re-scanning the bookings table for every single record) — 1 question
+259. Row-by-Row Memory Copy (Intermediate tables filling up Cartesian space) — 1 question
+260. Row-wise Iteration (Simple Scan) — 1 question
+261. Running Maximum Comparison — 1 question
+262. Running Maximum Property — 1 question
+263. SELECT DISTINCT — 1 question
+264. SQL DATE_FORMAT() function — 1 question
+265. SQL IS NULL — 1 question
+266. SQL LEAST() and GREATEST() Functions — 1 question
+267. SQL LIKE Operator / String Matching — 1 question
+268. SQL Length Function (LENGTH/CHAR_LENGTH) — 1 question
+269. SQL Logical Indexing (`AND` condition) — 1 question
+270. SQL String Functions (CONCAT, LEFT) running directly on the database engine — 1 question
+271. SQL UNION ALL (Unpivoting) — 1 question
+272. Semaphores — 1 question
+273. Serialized Memory Wait (The closure for the addition waits twice) — 1 question
+274. Set Size vs. Half-Length Comparison — 1 question
+275. Shunting Yard Algorithm / Two Stacks (Operands & Operators) — 1 question
+276. Simple Iteration (Small Constraints) — 1 question
+277. Simple Linear Scan — 1 question
+278. Simple WHERE clause with OR — 1 question
+279. Single Pass — 1 question
+280. Single Pass (In-Place) — 1 question
+281. Single Pass (Shared Edge) Count land cells x 4. Subtract 2 for every shared edge (horizontal or vertical neighbor) — 1 question
+282. Single Pass (Space Detection) — 1 question
+283. Single Pass / Linear Indexing — 1 question
+284. Single Pass / Offset Comparison — 1 question
+285. Single Pass / State Tracking (Current Streak) — 1 question
+286. Single Pass Bound Check. O(N) — 1 question
+287. Single Pass Comparison (Pythagorean Theorem) — 1 question
+288. Single Pass Contraction Check — 1 question
+289. Single Pass Count Iterate through characters. Count a segment whenever you see a non-space character that follows a space (or is at index 0) — 1 question
+290. Single Pass First-Occurrence Map — 1 question
+291. Single Pass Linear Scan — 1 question
+292. Single Pass Max Tracking — 1 question
+293. Single Pass Minimum Tracking — 1 question
+294. Single Pass State Toggle — 1 question
+295. Single Pass State Tracking — 1 question
+296. Single Pass Streaming Maximum (King of the Hill) — 1 question
+297. Single Pass with Lookahead (In-Place) — 1 question
+298. Single Pass with Running Minimum (Prefix Min) — 1 question
+299. Single Pass with Three-Node Window — 1 question
+300. Single Pointer Iteration (count spaces and substring once) — 1 question
+301. Single-Pass Array Mapping — 1 question
+302. Single-Pass Constant Space Scan — 1 question
+303. Single-Pass Early Exit — 1 question
+304. Single-Pass Filtering — 1 question
+305. Single-Pass Index Mapping — 1 question
+306. Single-Pass Index Traversal (Step K) — 1 question
+307. Single-Pass Level Accumulation — 1 question
+308. Single-Pass Max & Second Max Tracking — 1 question
+309. Single-Pass Parity Check — 1 question
+310. Single-Pass Pointer Distance — 1 question
+311. Single-Pass Pointer Scan — 1 question
+312. Single-Pass Range Intersection — 1 question
+313. Single-Pass Reverse Scan (Right-to-Left Pointer) — 1 question
+314. Single-Pass Scalar Tracking — 1 question
+315. Single-Pivot Circularity Check — 1 question
+316. Single-pass: Find the first and last occurrence of different words. The max distance is either LastIndex - FirstIndex or LastIndex - SecondFirstIndex — 1 question
+317. Sliding Boundary Pointers — 1 question
+318. SlowithFast Pointers — 1 question
+319. Square Root Decomposition (Block separation) — 1 question
+320. Square Root Divisor Hunt — 1 question
+321. Square-Free Part Grouping — 1 question
+322. Standard Library formatting (bin/format) — 1 question
+323. Standardization via Pre-filtering — 1 question
+324. Start at Square Root Start W at lfloor√{N}rfloor and decrement until N % W == 0. This ensures L and W are as close as possible — 1 question
+325. State Array Snapshots (Drawing the entire array state for every microscopic time increment) — 1 question
+326. State Tracking (Parity / Flip Count) — 1 question
+327. String Comparison (In-place `startsWith`) — 1 question
+328. String Comparison / Line Overlap — 1 question
+329. String Doubling Trick Concatenate S+S. Remove the first and last characters. If S is still a substring of the result, it has a repeated pattern — 1 question
+330. String Functions — 1 question
+331. String Mutation Buffer (Visualizing repeated string recreations for each swap in languages with immutable strings) — 1 question
+332. String Predicate Filtering — 1 question
+333. String Slicing / Cyclic Shift — 1 question
+334. String Split — 1 question
+335. Substring Slicing — 1 question
+336. Suffix Array Traversal (Right-to-Left Scan) — 1 question
+337. Suffix Sum of Shifts — 1 question
+338. Symmetric Construction (Pairing) — 1 question
+339. Symmetry Grouping (2x2 Blocks — 1 question
+340. Synchronization (Mutex/Locking) — 1 question
+341. Synchronization (Semaphores / Mutex — 1 question
+342. Targeted Filter — 1 question
+343. Temporal State Snapshots (Visualizing the position of every robot at every tick of time) — 1 question
+344. Temporary Object Accumulation (Creating massive amounts of intermediate merged objects) — 1 question
+345. Temporary Property Allocation (Mutation of the target object) — 1 question
+346. The Circular Link (Ring) — 1 question
+347. The Reversal Algorithm — 1 question
+348. Three-Phase Linear Scan — 1 question
+349. Tokenization — 1 question
+350. Top-3 Length Tracking per Character — 1 question
+351. Top-3 Variables Keep `first`, `second`, `third` initialized to -Infinity. Update them sequentially as you iterate O(N) — 1 question
+352. Trust Score Array (In-Degree vs Out-Degree) — 1 question
+353. Two Heaps (Priority Queues) / TreeSet — 1 question
+354. Two Passes (Prefix and Suffix) using Max-Heaps of size K — 1 question
+355. Two Queues (Enter and Exit) with State Tracking — 1 question
+356. Two Queues (R_index, D_index) — 1 question
+357. Two Stacks (Amortized O(1) - "Lazy Transfer") — 1 question
+358. Two Stacks (Predecessor & Successor) — 1 question
+359. Two Stacks / Gap Buffer — 1 question
+360. Two Stacks Push all nodes of both lists onto two stacks. Pop from both to add from right-to-left — 1 question
+361. Two-Pass / Prefix Tracking — 1 question
+362. Two-Pass Inclusion/Exclusion (At-Most K) — 1 question
+363. Two-Pass Linear Traversal (Head-to-Tail) — 1 question
+364. Two-Pass Min-Sweep (Left-to-Right — 1 question
+365. Two-Pass Monotonic Logic (Min/Max Tracking) — 1 question
+366. Two-Way Summation (Circular Array) — 1 question
+367. Two-way expansion from 'start' index — 1 question
+368. UNION of two filtered sets — 1 question
+369. Update-History Log (Inverse Search) — 1 question
+370. Vectorized Assignment: df['bonus'] = df['salary'] * 2 — 1 question
+371. Visited Set / In-Place Marking — 1 question
+372. WHERE clause filtering directly in SQL engine — 1 question
+373. Win-Condition Invariance Check — 1 question
+374. Wormhole Teleportation (O(N) Pre-matching) — 1 question
+375. Z-Algorithm — 1 question
+376. Z-Algorithm (Prefix & Suffix Matching) — 1 question
+377. Zeller's Congruence / Sum of Days — 1 question
+378. df.drop_duplicates(subset=['id']) — 1 question
+379. df.dropna(subset=['name']) — 1 question
+380. df.head(3) (Slicing) — 1 question
+381. df.melt(id_vars=['product'], ...) — 1 question
+382. df.pivot(index='month', columns='city', values='temperature') — 1 question
+383. df.rename(columns={...}) — 1 question
+384. df.shape Attribute Access — 1 question
+385. df['grade'].astype(int) — 1 question
+386. df['quantity'].fillna(0) — 1 question
+387. pd.concat([df1, df2]) — 1 question
+388. setTimeout — 1 question
+389. valueOf() and toString() Overriding — 1 question

@@ -1,0 +1,13 @@
+Anatomy Bucket,Question Count,Percent
+Lookup-table / bucket canvas,550,14.2
+Strip / timeline / pointer canvas,497,12.8
+Node-link canvas (tree/list/trie),487,12.6
+Grid / board canvas,474,12.2
+Coordinate-plane canvas,416,10.7
+Container canvas (stack/queue/heap),397,10.3
+Relational table canvas,353,9.1
+Graph / state-network canvas,179,4.6
+Range / bit-state canvas,167,4.3
+State-table / recurrence canvas,164,4.2
+Formula / invariant canvas,161,4.2
+Object / process canvas,28,0.7

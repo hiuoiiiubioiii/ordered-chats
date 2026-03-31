@@ -1,0 +1,1325 @@
+data_shape,primary_engine,variation,composite_helper,canonical_link,questions
+Number / Bit / Math,Math / Number Theory,Formula / constructive math,None,Canonical: Mathematical invariant,94
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,None,Canonical: Basic filter / reshape / null-handling,52
+Matrix / Grid,Matrix / Grid,Grid / board traversal,None,Canonical: Grid traversal / DP scan,46
+Array / Sequence,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,45
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,44
+Relational Table / SQL,SQL / Join,Key-based row matching,None,Canonical: Combine Two Tables,36
+Relational Table / SQL,SQL / Group By,Grouped aggregation,None,Canonical: Grouped aggregation / departmental summary,36
+Matrix / Grid,Dynamic Programming,2D DP,None,Canonical: Edit Distance / Grid DP,35
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,33
+Relational Table / SQL,SQL / Join,Left join / null retention,None,Canonical: Combine Two Tables,33
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,None,Canonical: Ranking & running-row analytics,31
+Tree / Trie,Tree,Recursive subtree aggregation,None,Canonical: Binary Tree recursion,30
+Graph / Network,Union-Find,Connectivity / component merging,None,Canonical: Number of Connected Components / Redundant Connection,30
+Number / Bit / Math,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,30
+String / Text,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,28
+Array / Sequence,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,27
+String / Text,Two Pointers,Boundary / pointer sweep,None,Canonical: Two Sum II / Container With Most Water,26
+Array / Sequence,Greedy,Sort-then-greedy,+ Sorting,Canonical: Merge Intervals / scheduling greedy,26
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,25
+Matrix / Grid,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,25
+Array / Sequence,Two Pointers,Boundary / pointer sweep,None,Canonical: Two Sum II / Container With Most Water,24
+Tree / Trie,DFS,Tree DFS,+ Tree,Canonical: Path Sum / subtree DFS,24
+String / Text,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,23
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,21
+Number / Bit / Math,Math / Number Theory,Digit arithmetic / carry,None,Canonical: Add Two Numbers / Reverse Integer,21
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,20
+Tree / Trie,DFS,Tree DFS,None,Canonical: Path Sum / subtree DFS,20
+Object / Process / API,Shell / Unix,Pipeline / text processing,None,Canonical: Text-processing pipeline,20
+Array / Sequence,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,19
+Object / Process / API,Design / Process / JS,Object / API behavior,None,Canonical: API / object-behavior design,18
+Tree / Trie,Trie,Prefix-tree traversal / insertion,None,Canonical: Implement Trie (Prefix Tree),17
+Array / Sequence,Heap,Priority-based selection,None,Canonical: Top K Frequent Elements / merge-k,16
+String / Text,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,16
+String / Text,Math / Number Theory,Formula / constructive math,None,Canonical: Mathematical invariant,16
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,None,Canonical: Two Sum II / Container With Most Water,16
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Stack,Canonical: Text-processing pipeline,16
+Array / Sequence,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,15
+Graph / Network,Shortest Path / Flow,Weighted shortest path,None,Canonical: Network Delay Time,15
+Array / Sequence,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,15
+Tree / Trie,BFS,Single-source breadth-first traversal,None,Canonical: Binary Tree Level Order Traversal,15
+String / Text,Counting,Frequency counting,None,Canonical: Frequency counting,15
+Graph / Network,Topological Sort,DAG ordering / prerequisite resolution,+ Sorting,Canonical: Course Schedule,14
+Number / Bit / Math,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,14
+Matrix / Grid,Dynamic Programming,3D DP,None,Canonical: Coin Change / state-transition DP,14
+Array / Sequence,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,14
+Relational Table / SQL,SQL / Window Function,RANK / ordering,None,Canonical: Ranking & running-row analytics,14
+Relational Table / SQL,SQL / Window Function,ROW_NUMBER ranking,None,Canonical: Ranking & running-row analytics,13
+Number / Bit / Math,Greedy,Sort-then-greedy,+ Sorting,Canonical: Merge Intervals / scheduling greedy,13
+Graph / Network,Graph,General graph modeling,None,Canonical: General graph construction,13
+Linked List,Linked List,Pointer manipulation on list nodes,None,Canonical: Pointer rewiring on linked list,13
+Number / Bit / Math,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,13
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,13
+Tree / Trie,Tree,Inorder traversal / BST order,None,Canonical: Inorder Traversal / BST validation,13
+Intervals / Geometry / Coordinates,Math / Number Theory,Formula / constructive math,None,Canonical: Mathematical invariant,12
+Number / Bit / Math,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,12
+Array / Sequence,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,12
+Array / Sequence,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,12
+Number / Bit / Math,Dynamic Programming,Bitmask DP,+ Bitmask,Canonical: Traveling-state / subset DP,12
+Relational Table / SQL,SQL / Window Function,DENSE_RANK ranking,None,Canonical: Ranking & running-row analytics,12
+Tree / Trie,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,12
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,12
+Matrix / Grid,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,12
+Number / Bit / Math,Math / Number Theory,Divisor / number theory,None,Canonical: Count Primes / GCD-LCM family,11
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,11
+Array / Sequence,Binary Search,Answer-space binary search,None,Canonical: Koko Eating Bananas,11
+Array / Sequence,Stack,LIFO state maintenance,None,Canonical: Valid Parentheses,11
+String / Text,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,11
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Bitmask + Tree + Segment/Fenwick,Canonical: Exact custom named technique,11
+Relational Table / SQL,SQL / Join,Self-join,None,Canonical: Combine Two Tables,11
+Relational Table / SQL,SQL / Window Function,Lead/Lag neighbor rows,None,Canonical: Ranking & running-row analytics,11
+Number / Bit / Math,Counting,Count-driven scan,None,Canonical: Frequency counting,11
+Number / Bit / Math,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,11
+Array / Sequence,Dynamic Programming,State-transition DP,+ Greedy Check,Canonical: Coin Change / state-transition DP,11
+Matrix / Grid,BFS,Multi-source / layered BFS,None,Canonical: Rotting Oranges / 01 Matrix,11
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Heap,Canonical: Network Delay Time,10
+Array / Sequence,Backtracking,Choice tree with undo,None,Canonical: Permutations / combinations search,10
+Array / Sequence,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,10
+Matrix / Grid,BFS,Single-source breadth-first traversal,None,Canonical: Rotting Oranges / 01 Matrix,10
+Linked List,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,10
+Array / Sequence,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,10
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,10
+Number / Bit / Math,Greedy,Greedy with numeric invariant,+ Math,Canonical: Gas Station / local-choice greedy,10
+String / Text,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,9
+Matrix / Grid,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,9
+String / Text,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,9
+Array / Sequence,Greedy,Greedy with numeric invariant,+ Math,Canonical: Gas Station / local-choice greedy,9
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,9
+Relational Table / SQL,SQL / Group By,Aggregate + HAVING filter,None,Canonical: Grouped aggregation / departmental summary,9
+Array / Sequence,Dynamic Programming,Bitmask DP,+ Bitmask,Canonical: Traveling-state / subset DP,9
+Linked List,Two Pointers,Boundary / pointer sweep,None,Canonical: Merge / reverse linked-list pointers,8
+Matrix / Grid,Math / Number Theory,Formula / constructive math,None,Canonical: Mathematical invariant,8
+Graph / Network,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,8
+Number / Bit / Math,Greedy,Local-choice optimization,+ Math,Canonical: Gas Station / local-choice greedy,8
+Number / Bit / Math,Stack,LIFO state maintenance,None,Canonical: Valid Parentheses,8
+Array / Sequence,Queue / Deque,Deque-backed range/window state,None,Canonical: Sliding Window Maximum,8
+Number / Bit / Math,Binary Search,Answer-space binary search,None,Canonical: Koko Eating Bananas,8
+Number / Bit / Math,Bit / Mask,Bitwise state manipulation,+ Math,Canonical: Bit manipulation,8
+Number / Bit / Math,Backtracking,Choice tree with undo,None,Canonical: Permutations / combinations search,8
+Array / Sequence,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick,Canonical: Range query / update segment tree,8
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,8
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Math,Canonical: Text-processing pipeline,8
+Relational Table / SQL,SQL / Group By,Aggregate + HAVING filter,+ Counting,Canonical: Grouped aggregation / departmental summary,7
+Matrix / Grid,Dynamic Programming,Interval DP,+ Intervals/Geometry,Canonical: Coin Change / state-transition DP,7
+Number / Bit / Math,Counting,Frequency counting,None,Canonical: Frequency counting,7
+String / Text,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,7
+Number / Bit / Math,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,7
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ String Parsing,Canonical: Exact custom named technique,7
+Tree / Trie,Stack,LIFO state maintenance,None,Canonical: Valid Parentheses,7
+Object / Process / API,Design / Process / JS,Closure / scope behavior,None,Canonical: Closure / scope behavior,7
+Object / Process / API,Design / Process / JS,Concurrency / synchronization,None,Canonical: API / object-behavior design,7
+Number / Bit / Math,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,None,Canonical: Prefix/Suffix extrema accumulation,7
+Array / Sequence,Sliding Window,Variable-size window,+ Prefix/Suffix,Canonical: Minimum Window / variable-size window,7
+Intervals / Geometry / Coordinates,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,7
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,7
+Number / Bit / Math,Counting,Count-driven scan,+ Math,Canonical: Frequency counting,7
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Greedy Check,Canonical: Grid traversal / DP scan,7
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Prefix/Suffix,Canonical: Grid traversal / DP scan,7
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Math,Canonical: Grid traversal / DP scan,7
+Array / Sequence,Greedy,Local-choice optimization,+ Sorting,Canonical: Gas Station / local-choice greedy,7
+Array / Sequence,Counting,Count-driven scan,None,Canonical: Frequency counting,6
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Sorting,Canonical: Two Sum II / Container With Most Water,6
+Graph / Network,DFS,Depth-first traversal,None,Canonical: Depth-first component exploration,6
+Object / Process / API,Design / Process / JS,Async promise control,None,Canonical: Promise orchestration,6
+Relational Table / SQL,SQL / Group By,Distinct aggregation,+ Counting,Canonical: Grouped aggregation / departmental summary,6
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,6
+Array / Sequence,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,None,Canonical: Prefix/Suffix extrema accumulation,6
+String / Text,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,6
+Intervals / Geometry / Coordinates,Dynamic Programming,Digit DP,+ Math,Canonical: Digit DP counting,6
+String / Text,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,6
+Number / Bit / Math,Math / Number Theory,Parity / algebraic invariant,None,Canonical: Mathematical invariant,6
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map,Canonical: Range Sum Query,6
+Intervals / Geometry / Coordinates,Sorting / Sweep,Sweep / interval ordering,None,Canonical: Merge Intervals,6
+Tree / Trie,BFS,Level-order traversal,None,Canonical: Binary Tree Level Order Traversal,6
+Number / Bit / Math,Bit / Mask,Bitwise state manipulation,None,Canonical: Bit manipulation,6
+Number / Bit / Math,Bit / Mask,Subset mask state,None,Canonical: Bitmask subset DP,6
+Number / Bit / Math,Bit / Mask,XOR / parity logic,None,Canonical: Single Number / XOR invariant,6
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Counting,Canonical: Grid traversal / DP scan,6
+Tree / Trie,Dynamic Programming,Tree DP,+ Tree,Canonical: Binary Tree Maximum Path Sum / tree DP,6
+Linked List,Linked List,Dummy-node merge / splice,None,Canonical: Merge Two Sorted Lists,6
+Number / Bit / Math,Dynamic Programming,Digit DP,+ Math,Canonical: Digit DP counting,6
+String / Text,Stack,LIFO state maintenance,None,Canonical: Valid Parentheses,6
+Number / Bit / Math,Bit / Mask,XOR / parity logic,+ Tree + Segment/Fenwick,Canonical: Single Number / XOR invariant,5
+Matrix / Grid,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,5
+Linked List,Linked List,Fast-slow pointer cycle / middle,None,Canonical: Linked List Cycle,5
+Intervals / Geometry / Coordinates,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,5
+Intervals / Geometry / Coordinates,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,5
+Intervals / Geometry / Coordinates,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,5
+Array / Sequence,Binary Search,Exact / partition binary search,+ Sorting,Canonical: Binary Search / median partition,5
+String / Text,Custom Exact Technique,Exact custom / named technique,+ String Parsing,Canonical: Exact custom named technique,5
+Graph / Network,Union-Find,Connectivity / component merging,+ Sorting,Canonical: Number of Connected Components / Redundant Connection,5
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,+ Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,5
+Number / Bit / Math,Queue / Deque,Deque-backed range/window state,None,Canonical: Sliding Window Maximum,5
+Intervals / Geometry / Coordinates,Greedy,Sort-then-greedy,+ Sorting,Canonical: Merge Intervals / scheduling greedy,5
+Number / Bit / Math,Greedy,Local-choice optimization,+ Bitmask + Tree + Segment/Fenwick,Canonical: Gas Station / local-choice greedy,5
+Graph / Network,Shortest Path / Flow,Weighted graph optimization,None,Canonical: Weighted shortest path,5
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,5
+String / Text,Two Pointers,Boundary / pointer sweep,+ String Parsing,Canonical: Two Sum II / Container With Most Water,5
+String / Text,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,5
+Intervals / Geometry / Coordinates,Two Pointers,Boundary / pointer sweep,None,Canonical: Two Sum II / Container With Most Water,5
+Intervals / Geometry / Coordinates,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,5
+Number / Bit / Math,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,5
+Array / Sequence,Hash Map,Direct keyed lookup,+ Hash Set,Canonical: Direct lookup dictionary,5
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Sorting,Canonical: Text-processing pipeline,5
+Graph / Network,BFS,Single-source breadth-first traversal,+ Graph,Canonical: Shortest-path layer BFS,5
+Array / Sequence,Counting,Frequency counting,None,Canonical: Frequency counting,5
+Array / Sequence,DFS,Depth-first traversal,None,Canonical: Depth-first component exploration,5
+Number / Bit / Math,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,5
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Greedy Check,Canonical: Basic filter / reshape / null-handling,5
+String / Text,Backtracking,Choice tree with undo,None,Canonical: Permutations / combinations search,5
+Number / Bit / Math,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,5
+Matrix / Grid,DFS,Flood-fill / component DFS,None,Canonical: Number of Islands,5
+Array / Sequence,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,4
+Number / Bit / Math,Counting,Frequency counting,+ Math,Canonical: Frequency counting,4
+Number / Bit / Math,Dynamic Programming,Bitmask DP,+ Bitmask + Math,Canonical: Traveling-state / subset DP,4
+String / Text,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,4
+Array / Sequence,Heap,Priority-based selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,4
+Number / Bit / Math,Bit / Mask,XOR / parity logic,+ Math,Canonical: Single Number / XOR invariant,4
+Intervals / Geometry / Coordinates,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,4
+Intervals / Geometry / Coordinates,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,4
+Tree / Trie,Tree,Recursive subtree aggregation,+ Hash Map,Canonical: Binary Tree recursion,4
+Tree / Trie,DFS,Tree DFS,+ Hash Map,Canonical: Path Sum / subtree DFS,4
+Array / Sequence,Dynamic Programming,State-transition DP,+ Prefix/Suffix,Canonical: Coin Change / state-transition DP,4
+Array / Sequence,Dynamic Programming,3D DP,None,Canonical: Coin Change / state-transition DP,4
+Array / Sequence,Dynamic Programming,State-transition DP,+ Sorting,Canonical: Coin Change / state-transition DP,4
+Tree / Trie,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,4
+Matrix / Grid,Backtracking,Choice tree with undo,None,Canonical: Permutations / combinations search,4
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Prefix/Suffix,Canonical: Coin Change / state-transition DP,4
+Tree / Trie,Math / Number Theory,Formula / constructive math,None,Canonical: Mathematical invariant,4
+Array / Sequence,Greedy,Local-choice optimization,+ Math,Canonical: Gas Station / local-choice greedy,4
+Array / Sequence,Hash Map,Direct keyed lookup,+ Math,Canonical: Direct lookup dictionary,4
+Tree / Trie,Counting,Count-driven scan,None,Canonical: Frequency counting,4
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick,Canonical: Range query / update segment tree,4
+Intervals / Geometry / Coordinates,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,4
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,4
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Math,Canonical: Coin Change / state-transition DP,4
+Number / Bit / Math,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,4
+Number / Bit / Math,DFS,Depth-first traversal,None,Canonical: Depth-first component exploration,4
+String / Text,Counting,Count-driven scan,+ Math,Canonical: Frequency counting,4
+Array / Sequence,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,4
+Array / Sequence,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,4
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ String Parsing,Canonical: Basic filter / reshape / null-handling,4
+Array / Sequence,Sliding Window,Variable-size window,+ Hash Map + Counting,Canonical: Minimum Window / variable-size window,4
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,4
+Graph / Network,Topological Sort,DAG ordering / prerequisite resolution,+ Sorting + Memoization,Canonical: Course Schedule,4
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Math,Canonical: Network Delay Time,4
+Number / Bit / Math,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Bitmask,Canonical: Prefix/Suffix extrema accumulation,4
+Number / Bit / Math,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,4
+String / Text,Greedy,Sort-then-greedy,+ Sorting,Canonical: Merge Intervals / scheduling greedy,4
+Intervals / Geometry / Coordinates,Binary Search,Exact / partition binary search,+ Sorting,Canonical: Binary Search / median partition,4
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Sorting,Canonical: Group Anagrams / frequency map,4
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,+ Prefix/Suffix,Canonical: Daily Temperatures / Largest Rectangle,4
+String / Text,Counting,Frequency counting,+ Sorting,Canonical: Frequency counting,4
+Array / Sequence,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map,Canonical: Longest Substring Without Repeating Characters,4
+Graph / Network,Union-Find,Connectivity / component merging,+ Greedy Check,Canonical: Number of Connected Components / Redundant Connection,4
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Sorting + Greedy Check,Canonical: Two Sum II / Container With Most Water,4
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Sorting,Canonical: Two Sum II / Container With Most Water,4
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix,Canonical: Two Sum II / Container With Most Water,4
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix,Canonical: Two Sum II / Container With Most Water,4
+Matrix / Grid,Dynamic Programming,Digit DP,+ Math,Canonical: Digit DP counting,4
+Matrix / Grid,Counting,Frequency counting,None,Canonical: Frequency counting,4
+Graph / Network,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,4
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Trie,Canonical: Text-processing pipeline,4
+Graph / Network,DFS,Depth-first traversal,+ Tree,Canonical: Depth-first component exploration,4
+Matrix / Grid,Geometry,Coordinate transform / distance geometry,None,Canonical: Geometry / sweep / convex-hull family,4
+Array / Sequence,Binary Search,Answer-space binary search,+ Greedy Check,Canonical: Koko Eating Bananas,4
+Array / Sequence,Binary Search,Exact / partition binary search,+ Sorting + Prefix/Suffix,Canonical: Binary Search / median partition,4
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Prefix/Suffix,Canonical: Implement Trie (Prefix Tree),3
+Tree / Trie,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map,Canonical: Longest Substring Without Repeating Characters,3
+Matrix / Grid,Math / Number Theory,Parity / algebraic invariant,None,Canonical: Mathematical invariant,3
+Matrix / Grid,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,3
+Matrix / Grid,Math / Number Theory,Divisor / number theory,None,Canonical: Count Primes / GCD-LCM family,3
+Tree / Trie,Greedy,Local-choice optimization,+ Intervals/Geometry,Canonical: Gas Station / local-choice greedy,3
+Tree / Trie,Dynamic Programming,State-transition DP,+ Greedy Check,Canonical: Coin Change / state-transition DP,3
+Tree / Trie,Dynamic Programming,State-transition DP,None,Canonical: Coin Change / state-transition DP,3
+Tree / Trie,DFS,Tree DFS,+ Hash Map + Tree,Canonical: Path Sum / subtree DFS,3
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Memoization,Canonical: Grid traversal / DP scan,3
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Math,Canonical: Group Anagrams / frequency map,3
+Array / Sequence,Hash Map,Direct keyed lookup,+ Greedy Check,Canonical: Direct lookup dictionary,3
+Array / Sequence,Divide and Conquer,Recursive split / combine,None,Canonical: Merge-sort / recursive split-combine,3
+Object / Process / API,Design / Process / JS,Proxy / metaprogramming,None,Canonical: Proxy trap / meta-object,3
+Object / Process / API,Design / Process / JS,Closure / scope behavior,+ Memoization,Canonical: Closure / scope behavior,3
+Graph / Network,Dynamic Programming,3D DP,None,Canonical: Coin Change / state-transition DP,3
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Greedy Check,Canonical: Text-processing pipeline,3
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Greedy Check + Math,Canonical: Text-processing pipeline,3
+Tree / Trie,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,3
+Array / Sequence,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,3
+Array / Sequence,Dynamic Programming,State-transition DP,+ Math,Canonical: Coin Change / state-transition DP,3
+Array / Sequence,Backtracking,Choice tree with undo,+ Sorting,Canonical: Permutations / combinations search,3
+Tree / Trie,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,3
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Graph,Canonical: Binary Tree Level Order Traversal,3
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,3
+String / Text,Greedy,Local-choice optimization,+ Math,Canonical: Gas Station / local-choice greedy,3
+Number / Bit / Math,DFS,Depth-first traversal,+ Tree,Canonical: Depth-first component exploration,3
+String / Text,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,3
+String / Text,Heap,Priority-based selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,3
+String / Text,Greedy,Local-choice optimization,+ Counting,Canonical: Gas Station / local-choice greedy,3
+Array / Sequence,Heap,Priority-based selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,3
+Array / Sequence,Heap,Dual-heap balancing,None,Canonical: Find Median from Data Stream,3
+Array / Sequence,Heap,Priority-based selection,+ Hash Map,Canonical: Top K Frequent Elements / merge-k,3
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,3
+Number / Bit / Math,Dynamic Programming,Bitmask DP,+ Bitmask + Graph + Math,Canonical: Traveling-state / subset DP,3
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ String Parsing,Canonical: Exact custom named technique,3
+String / Text,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,3
+Intervals / Geometry / Coordinates,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,3
+Intervals / Geometry / Coordinates,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,3
+Intervals / Geometry / Coordinates,Geometry,Geometric reasoning,None,Canonical: Geometry / sweep / convex-hull family,3
+Intervals / Geometry / Coordinates,Geometry,Coordinate transform / distance geometry,None,Canonical: Geometry / sweep / convex-hull family,3
+String / Text,Counting,Count-driven scan,None,Canonical: Frequency counting,3
+String / Text,Counting,Frequency counting,+ Math,Canonical: Frequency counting,3
+Number / Bit / Math,Greedy,Local-choice optimization,+ Prefix/Suffix,Canonical: Gas Station / local-choice greedy,3
+Number / Bit / Math,Sliding Window,Fixed-size window,None,Canonical: Fixed-size subarray window,3
+Number / Bit / Math,Sliding Window,Variable-size window,+ Hash Map + Counting,Canonical: Minimum Window / variable-size window,3
+Number / Bit / Math,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick,Canonical: Range query / update segment tree,3
+Graph / Network,Greedy,Local-choice optimization,None,Canonical: Gas Station / local-choice greedy,3
+Graph / Network,Graph,General graph modeling,+ Counting,Canonical: General graph construction,3
+Graph / Network,Shortest Path / Flow,0-1 shortest path,None,Canonical: Network Delay Time,3
+Graph / Network,Shortest Path / Flow,All-pairs shortest path,None,Canonical: Weighted shortest path,3
+Graph / Network,Matrix / Grid,Grid / board traversal,None,Canonical: Grid traversal / DP scan,3
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,3
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Counting,Canonical: Grouped aggregation / departmental summary,3
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Sorting + Greedy Check,Canonical: Two Sum II / Container With Most Water,3
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,+ Greedy Check,Canonical: Prefix/Suffix extrema accumulation,3
+Array / Sequence,Heap,Top-K / best-first selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,3
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,3
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Math,Canonical: Direct lookup dictionary,3
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Counting,Canonical: Range Sum Query,3
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Math,Canonical: Range Sum Query,3
+Intervals / Geometry / Coordinates,Binary Search,Answer-space binary search,+ Greedy Check,Canonical: Koko Eating Bananas,3
+Graph / Network,Union-Find,Connectivity / component merging,+ Math,Canonical: Number of Connected Components / Redundant Connection,3
+Number / Bit / Math,Heap,Top-K / best-first selection,None,Canonical: Top K Frequent Elements / merge-k,3
+Number / Bit / Math,Heap,Priority-based selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,3
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Math,Canonical: Contains Duplicate / seen-set uniqueness,3
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map,Canonical: Range Sum Query,3
+Number / Bit / Math,Prefix / Suffix Precompute,Difference-array accumulation,+ Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,3
+Number / Bit / Math,Math / Number Theory,Fast exponentiation,None,"Canonical: Pow(x, n)",3
+Graph / Network,Union-Find,Connectivity / component merging,+ Hash Set,Canonical: Number of Connected Components / Redundant Connection,3
+Array / Sequence,Sliding Window,Variable-size window,+ Math,Canonical: Minimum Window / variable-size window,3
+Array / Sequence,Sliding Window,Fixed-size window,None,Canonical: Fixed-size subarray window,3
+Array / Sequence,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Set,Canonical: Longest Substring Without Repeating Characters,3
+Array / Sequence,Sliding Window,Variable-size window,+ Counting,Canonical: Minimum Window / variable-size window,3
+Array / Sequence,Segment Tree,Range query / update tree,+ Prefix/Suffix + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,3
+String / Text,Bit / Mask,Subset mask state,None,Canonical: Bitmask subset DP,3
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,+ Counting,Canonical: Ranking & running-row analytics,3
+Matrix / Grid,Counting,Count-driven scan,None,Canonical: Frequency counting,3
+Tree / Trie,Topological Sort,DAG ordering / prerequisite resolution,+ Sorting,Canonical: Course Schedule,3
+Tree / Trie,Tree,LCA query,None,Canonical: Lowest Common Ancestor,3
+Matrix / Grid,Dynamic Programming,Memoized DP,None,Canonical: Coin Change (top-down),3
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Math,Canonical: Coin Change / state-transition DP,3
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Memoization,Canonical: Exact custom named technique,3
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Queue/Deque,Canonical: Exact custom named technique,3
+Array / Sequence,Counting,Frequency counting,+ Greedy Check,Canonical: Frequency counting,3
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Bitmask + Tree + Segment/Fenwick,Canonical: Exact custom named technique,3
+Tree / Trie,Tree,Recursive subtree aggregation,+ Heap,Canonical: Binary Tree recursion,3
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Graph,Canonical: Shortest-path layer BFS,3
+Matrix / Grid,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,3
+Matrix / Grid,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,3
+Linked List,Linked List,Pointer manipulation on list nodes,+ Hash Map,Canonical: Pointer rewiring on linked list,3
+String / Text,Two Pointers,Boundary / pointer sweep,+ Sorting,Canonical: Two Sum II / Container With Most Water,3
+Number / Bit / Math,Binary Search,Answer-space binary search,+ Math,Canonical: Koko Eating Bananas,3
+Number / Bit / Math,Binary Search,Boundary / insertion search,None,Canonical: First/Last Position in Sorted Array,3
+Array / Sequence,Binary Search,Exact / partition binary search,+ Math,Canonical: Binary Search / median partition,3
+Array / Sequence,Binary Search,Boundary / insertion search,None,Canonical: First/Last Position in Sorted Array,3
+Array / Sequence,Greedy,Local-choice optimization,+ Intervals/Geometry,Canonical: Gas Station / local-choice greedy,3
+Array / Sequence,Counting,Frequency counting,+ Math,Canonical: Frequency counting,2
+Tree / Trie,Tree,Recursive subtree aggregation,+ Hash Set,Canonical: Binary Tree recursion,2
+Array / Sequence,Counting,Count-driven scan,+ Sorting,Canonical: Frequency counting,2
+Tree / Trie,Tree,Recursive subtree aggregation,+ Segment/Fenwick,Canonical: Binary Tree recursion,2
+Array / Sequence,Greedy,Local-choice optimization,+ Counting,Canonical: Gas Station / local-choice greedy,2
+String / Text,Two Pointers,Boundary / pointer sweep,+ Hash Set,Canonical: Two Sum II / Container With Most Water,2
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Greedy Check + Math,Canonical: Binary Search / median partition,2
+Number / Bit / Math,Backtracking,Combination search,None,Canonical: Permutations / combinations search,2
+Number / Bit / Math,Binary Search,Answer-space binary search,+ Greedy Check,Canonical: Koko Eating Bananas,2
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Permutations / combinations search,2
+Linked List,Linked List,Pointer manipulation on list nodes,+ Hash Map + Counting,Canonical: Pointer rewiring on linked list,2
+Linked List,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,2
+Intervals / Geometry / Coordinates,Sorting / Sweep,Sweep / interval ordering,+ Math,Canonical: Merge Intervals,2
+Intervals / Geometry / Coordinates,Two Pointers,Boundary / pointer sweep,+ Hash Map,Canonical: Two Sum II / Container With Most Water,2
+Matrix / Grid,Two Pointers,Boundary / pointer sweep,None,Canonical: Two Sum II / Container With Most Water,2
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Math,Canonical: Shortest-path layer BFS,2
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Memoization,Canonical: Shortest-path layer BFS,2
+Matrix / Grid,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,2
+Matrix / Grid,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,2
+Tree / Trie,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,2
+Tree / Trie,Prefix / Suffix Precompute,Difference-array accumulation,+ Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,2
+Tree / Trie,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Bitmask,Canonical: Prefix/Suffix extrema accumulation,2
+Tree / Trie,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,2
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Counting + Prefix/Suffix + Bitmask,Canonical: Implement Trie (Prefix Tree),2
+Tree / Trie,Tree,Recursive subtree aggregation,+ Greedy Check,Canonical: Binary Tree recursion,2
+Tree / Trie,Tree,Recursive subtree aggregation,+ Hash Map + Sorting,Canonical: Binary Tree recursion,2
+Tree / Trie,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,2
+Array / Sequence,DFS,Depth-first traversal,+ Graph,Canonical: Depth-first component exploration,2
+Array / Sequence,DFS,Depth-first traversal,+ Tree,Canonical: Depth-first component exploration,2
+Array / Sequence,DFS,Depth-first traversal,+ Trie,Canonical: Depth-first component exploration,2
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,2
+Array / Sequence,Backtracking,Choice tree with undo,None,Canonical: Combination Sum,2
+Array / Sequence,Counting,Frequency counting,+ Sorting,Canonical: Frequency counting,2
+Tree / Trie,Two Pointers,Center expansion,None,Canonical: Longest Palindromic Substring,2
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Hash Set,Canonical: Shortest-path layer BFS,2
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Intervals/Geometry,Canonical: Range Sum Query,2
+Matrix / Grid,Geometry,Coordinate transform / distance geometry,+ Math,Canonical: Geometry / sweep / convex-hull family,2
+Matrix / Grid,Geometry,Geometric reasoning,+ Math,Canonical: Geometry / sweep / convex-hull family,2
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Bitmask,Canonical: Coin Change / state-transition DP,2
+Matrix / Grid,Dynamic Programming,2D DP,+ Intervals/Geometry,Canonical: Edit Distance / Grid DP,2
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Bitmask + Tree + Segment/Fenwick,Canonical: Exact custom named technique,2
+Matrix / Grid,Counting,Count-driven scan,+ Grid,Canonical: Frequency counting,2
+Tree / Trie,Sliding Window,Variable-size window,+ Prefix/Suffix,Canonical: Minimum Window / variable-size window,2
+Tree / Trie,Stack,Dual-stack transfer / evaluation,None,Canonical: Valid Parentheses,2
+String / Text,Counting,Count-driven scan,+ Greedy Check,Canonical: Frequency counting,2
+String / Text,Counting,Count-driven scan,+ Greedy Check + Math,Canonical: Frequency counting,2
+String / Text,Backtracking,Permutation / choice-tree generation,None,Canonical: Permutations / combinations search,2
+String / Text,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,2
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,+ Grid,Canonical: Ranking & running-row analytics,2
+Array / Sequence,Sliding Window,Variable-size window,+ Greedy Check,Canonical: Minimum Window / variable-size window,2
+Array / Sequence,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Range query / update segment tree,2
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Math,Canonical: Basic filter / reshape / null-handling,2
+Number / Bit / Math,Simulation / Scan / Precompute,Direct simulation / scan,+ Queue/Deque,Canonical: Direct simulation,2
+Graph / Network,Union-Find,Connectivity / component merging,+ Counting,Canonical: Number of Connected Components / Redundant Connection,2
+Graph / Network,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,2
+Graph / Network,Stack,LIFO state maintenance,None,Canonical: Valid Parentheses,2
+Graph / Network,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,2
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Bitmask,Canonical: Network Delay Time,2
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Grid,Canonical: Network Delay Time,2
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Intervals/Geometry,Canonical: Network Delay Time,2
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,2
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Sorting,Canonical: Range Sum Query,2
+Number / Bit / Math,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Hash Map + Bitmask,Canonical: Prefix/Suffix extrema accumulation,2
+Number / Bit / Math,Math / Number Theory,Divisor / number theory,+ Prefix/Suffix + Graph,Canonical: Count Primes / GCD-LCM family,2
+Number / Bit / Math,Math / Number Theory,Formula / constructive math,+ String Parsing,Canonical: Mathematical invariant,2
+Number / Bit / Math,Heap,Priority-based selection,None,Canonical: Top K Frequent Elements / merge-k,2
+Number / Bit / Math,Heap,Priority-based selection,+ Hash Map,Canonical: Top K Frequent Elements / merge-k,2
+Number / Bit / Math,Heap,Priority-based selection,+ Queue/Deque,Canonical: Top K Frequent Elements / merge-k,2
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Bitmask + Tree + Segment/Fenwick,Canonical: Contains Duplicate / seen-set uniqueness,2
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,2
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Bitmask,Canonical: Contains Duplicate / seen-set uniqueness,2
+Intervals / Geometry / Coordinates,Dynamic Programming,Bitmask DP,+ Bitmask,Canonical: Traveling-state / subset DP,2
+Intervals / Geometry / Coordinates,Binary Search,Answer-space binary search,+ Sorting,Canonical: Koko Eating Bananas,2
+Intervals / Geometry / Coordinates,Binary Search,Answer-space binary search,None,Canonical: Koko Eating Bananas,2
+Intervals / Geometry / Coordinates,BFS,Single-source breadth-first traversal,+ Heap,Canonical: Shortest-path layer BFS,2
+Intervals / Geometry / Coordinates,BFS,Single-source breadth-first traversal,None,Canonical: Shortest-path layer BFS,2
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Greedy Check,Canonical: Group Anagrams / frequency map,2
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Bitmask,Canonical: Direct lookup dictionary,2
+String / Text,Dynamic Programming,State-transition DP,+ Greedy Check,Canonical: Coin Change / state-transition DP,2
+String / Text,Dynamic Programming,State-transition DP,+ Math,Canonical: Coin Change / state-transition DP,2
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,None,Canonical: Prefix/Suffix extrema accumulation,2
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Greedy Check,Canonical: Range Sum Query,2
+Array / Sequence,Heap,Top-K / best-first selection,None,Canonical: Top K Frequent Elements / merge-k,2
+String / Text,Dynamic Programming,3D DP,None,Canonical: Coin Change / state-transition DP,2
+String / Text,Dynamic Programming,Bitmask DP,+ Bitmask,Canonical: Traveling-state / subset DP,2
+String / Text,DFS,Depth-first traversal,+ Trie,Canonical: Depth-first component exploration,2
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ String Parsing,Canonical: Two Sum II / Container With Most Water,2
+Graph / Network,BFS,Single-source breadth-first traversal,+ Bitmask,Canonical: Shortest-path layer BFS,2
+Array / Sequence,Sliding Window,Variable-size window,+ Sorting,Canonical: Minimum Window / variable-size window,2
+Array / Sequence,Sorting / Sweep,Order-then-scan,+ Math,Canonical: Sort then scan,2
+Array / Sequence,Stack,Dual-stack transfer / evaluation,None,Canonical: Valid Parentheses,2
+Number / Bit / Math,Sorting / Sweep,Order-then-scan,+ Math,Canonical: Sort then scan,2
+Number / Bit / Math,Sliding Window,Variable-size window,+ Math,Canonical: Minimum Window / variable-size window,2
+Number / Bit / Math,Sliding Window,Variable-size window,+ Prefix/Suffix + Math,Canonical: Minimum Window / variable-size window,2
+Graph / Network,Shortest Path / Flow,Flow / matching,None,Canonical: Bipartite matching / flow,2
+Graph / Network,Matrix / Grid,Grid / board traversal,+ Graph,Canonical: Grid traversal / DP scan,2
+Graph / Network,Greedy,Local-choice optimization,+ Prefix/Suffix,Canonical: Gas Station / local-choice greedy,2
+Graph / Network,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,2
+Graph / Network,Dynamic Programming,Tree DP,+ Tree,Canonical: Binary Tree Maximum Path Sum / tree DP,2
+Graph / Network,Graph,Eulerian path construction,None,Canonical: Reconstruct Itinerary / Eulerian path,2
+Graph / Network,Graph,General graph modeling,+ Math,Canonical: General graph construction,2
+Graph / Network,Greedy,Greedy with numeric invariant,+ Math,Canonical: Gas Station / local-choice greedy,2
+Number / Bit / Math,Sliding Window,Fixed-size window,+ Sorting,Canonical: Fixed-size subarray window,2
+Number / Bit / Math,Sliding Window,Variable-size + frequency/uniqueness control,None,Canonical: Longest Substring Without Repeating Characters,2
+Number / Bit / Math,Sliding Window,Variable-size window,+ Greedy Check,Canonical: Minimum Window / variable-size window,2
+Number / Bit / Math,Segment Tree,Range query / update tree,+ Queue/Deque + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,2
+String / Text,Counting,Frequency counting,+ Sorting + Greedy Check,Canonical: Frequency counting,2
+String / Text,DFS,Depth-first traversal,None,Canonical: Depth-first component exploration,2
+String / Text,Counting,Frequency counting,+ Greedy Check,Canonical: Frequency counting,2
+Number / Bit / Math,Greedy,Local-choice optimization,+ Tree + Segment/Fenwick,Canonical: Gas Station / local-choice greedy,2
+Number / Bit / Math,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Sorting + Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,2
+Number / Bit / Math,Greedy,Local-choice optimization,+ Bitmask,Canonical: Gas Station / local-choice greedy,2
+Intervals / Geometry / Coordinates,Heap,Priority-based selection,None,Canonical: Top K Frequent Elements / merge-k,2
+Intervals / Geometry / Coordinates,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,2
+Intervals / Geometry / Coordinates,Greedy,Local-choice optimization,+ Sorting,Canonical: Gas Station / local-choice greedy,2
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Greedy Check,Canonical: Coin Change / state-transition DP,2
+Number / Bit / Math,Dynamic Programming,Tree DP,+ Tree,Canonical: Binary Tree Maximum Path Sum / tree DP,2
+Number / Bit / Math,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Prefix/Suffix + Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,2
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Counting + Math,Canonical: Coin Change / state-transition DP,2
+String / Text,Sliding Window,Variable-size window,+ Prefix/Suffix,Canonical: Minimum Window / variable-size window,2
+Array / Sequence,Heap,Priority-based selection,+ Queue/Deque,Canonical: Top K Frequent Elements / merge-k,2
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Sorting + Greedy Check,Canonical: Group Anagrams / frequency map,2
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Bitmask,Canonical: Contains Duplicate / seen-set uniqueness,2
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Math,Canonical: Contains Duplicate / seen-set uniqueness,2
+String / Text,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Counting,Canonical: Range Sum Query,2
+String / Text,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,2
+String / Text,Queue / Deque,Deque-backed range/window state,None,Canonical: Sliding Window Maximum,2
+String / Text,Math / Number Theory,Divisor / number theory,None,Canonical: Count Primes / GCD-LCM family,2
+String / Text,Hash Map,Frequency dictionary,+ Counting + Math,Canonical: Group Anagrams / frequency map,2
+String / Text,Hash Set,Uniqueness / seen-set check,+ Counting,Canonical: Contains Duplicate / seen-set uniqueness,2
+String / Text,Greedy,Local-choice optimization,+ Prefix/Suffix,Canonical: Gas Station / local-choice greedy,2
+Number / Bit / Math,DFS,Depth-first traversal,+ Graph,Canonical: Depth-first component exploration,2
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Counting,Canonical: Exact custom named technique,2
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Counting + Bitmask + Tree,Canonical: Exact custom named technique,2
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Graph + Math,Canonical: Exact custom named technique,2
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Memoization,Canonical: Exact custom named technique,2
+Number / Bit / Math,Counting,Frequency counting,+ Greedy Check,Canonical: Frequency counting,2
+Number / Bit / Math,Counting,Frequency counting,+ Sorting + Greedy Check,Canonical: Frequency counting,2
+Number / Bit / Math,Counting,Voting / dominant element,+ Greedy Check,Canonical: Majority Element,2
+Number / Bit / Math,Counting,Count-driven scan,+ Sorting + Greedy Check,Canonical: Frequency counting,2
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Hash Map + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,2
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Range query / update segment tree,2
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Difference-array accumulation,+ Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,2
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Difference-array accumulation,None,Canonical: Prefix/Suffix extrema accumulation,2
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map,Canonical: Range Sum Query,2
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,2
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix + String Parsing,Canonical: Exact custom named technique,2
+Tree / Trie,Counting,Count-driven scan,+ Math,Canonical: Frequency counting,2
+Tree / Trie,Binary Search,Answer-space binary search,None,Canonical: Koko Eating Bananas,2
+Tree / Trie,Heap,Priority-based selection,None,Canonical: Top K Frequent Elements / merge-k,2
+Array / Sequence,Dynamic Programming,Memoized DP,None,Canonical: Coin Change (top-down),2
+Tree / Trie,Tree,Recursive subtree aggregation,+ Counting,Canonical: Binary Tree recursion,2
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Math + Intervals/Geometry,Canonical: Text-processing pipeline,2
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Queue/Deque,Canonical: Text-processing pipeline,2
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Sorting + Memoization,Canonical: Text-processing pipeline,2
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Counting + Math,Canonical: Text-processing pipeline,2
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Map,Canonical: Text-processing pipeline,2
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Stack + Memoization,Canonical: API / object-behavior design,2
+Object / Process / API,Design / Process / JS,Generator / iterator protocol,None,Canonical: API / object-behavior design,2
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Hash Map,Canonical: API / object-behavior design,2
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Heap,Canonical: API / object-behavior design,2
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Math,Canonical: API / object-behavior design,2
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ String Parsing,Canonical: Two Sum II / Container With Most Water,2
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,2
+Relational Table / SQL,SQL / Window Function,Lead/Lag neighbor rows,+ Sorting,Canonical: Ranking & running-row analytics,2
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Grid,Canonical: Basic filter / reshape / null-handling,2
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Bitmask,Canonical: Basic filter / reshape / null-handling,2
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Counting,Canonical: Basic filter / reshape / null-handling,2
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ String Parsing,Canonical: Grouped aggregation / departmental summary,2
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Tree + String Parsing,Canonical: Grouped aggregation / departmental summary,2
+Relational Table / SQL,SQL / Join,Key-based row matching,+ Counting,Canonical: Combine Two Tables,2
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Sorting + Prefix/Suffix,Canonical: Two Sum II / Container With Most Water,2
+Array / Sequence,Hash Map,Direct keyed lookup,+ Tree,Canonical: Direct lookup dictionary,2
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Greedy Check,Canonical: Group Anagrams / frequency map,2
+Array / Sequence,Greedy,Sort-then-greedy,+ Sorting + Intervals/Geometry,Canonical: Merge Intervals / scheduling greedy,2
+Array / Sequence,Hash Map,Direct keyed lookup,+ Bitmask,Canonical: Direct lookup dictionary,2
+Array / Sequence,Dynamic Programming,2D DP,+ Math,Canonical: Edit Distance / Grid DP,2
+Tree / Trie,Dynamic Programming,Memoized DP,+ DFS/Recursion,Canonical: Coin Change (top-down),2
+Tree / Trie,DFS,Tree DFS,+ Stack,Canonical: Path Sum / subtree DFS,2
+Array / Sequence,Binary Search,Exact / partition binary search,+ Hash Map,Canonical: Binary Search / median partition,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Sorting + Greedy Check,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Stack,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Heap,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Greedy Check + Math,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Map,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Map + Counting,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Bitmask,Canonical: Grid traversal / DP scan,2
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Grid,Canonical: Rotting Oranges / 01 Matrix,2
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Graph,Canonical: Rotting Oranges / 01 Matrix,2
+Linked List,Monotonic Stack,Next-greater / monotonic boundary stack,None,Canonical: Daily Temperatures / Largest Rectangle,2
+Linked List,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,2
+Linked List,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,2
+Matrix / Grid,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,2
+Tree / Trie,Stack,LIFO state maintenance,+ Tree,Canonical: Valid Parentheses,2
+Tree / Trie,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Set,Canonical: Longest Substring Without Repeating Characters,2
+Array / Sequence,Counting,Count-driven scan,+ Math,Canonical: Frequency counting,2
+Tree / Trie,Sliding Window,Fixed-size window,None,Canonical: Fixed-size subarray window,2
+Array / Sequence,DFS,Memoized DFS,+ Hash Map,Canonical: Depth-first component exploration,2
+Tree / Trie,Divide and Conquer,Recursive split / combine,+ String Parsing,Canonical: Merge-sort / recursive split-combine,2
+Array / Sequence,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Permutations / combinations search,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Counting,Canonical: Koko Eating Bananas,1
+Tree / Trie,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix,Canonical: Two Sum II / Container With Most Water,1
+Tree / Trie,Two Pointers,Center expansion,+ Counting,Canonical: Longest Palindromic Substring,1
+Tree / Trie,Union-Find,Connectivity / component merging,+ Math,Canonical: Number of Connected Components / Redundant Connection,1
+Array / Sequence,Counting,Count-driven scan,+ Sorting + Greedy Check,Canonical: Frequency counting,1
+Array / Sequence,Counting,Frequency counting,+ Sorting + Greedy Check,Canonical: Frequency counting,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Graph + Math,Canonical: Exact custom named technique,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Hash Map,Canonical: Exact custom named technique,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Hash Map + Prefix/Suffix + Queue/Deque,Canonical: Exact custom named technique,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map,Canonical: Range Sum Query,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Counting,Canonical: Range Sum Query,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Math,Canonical: Range Sum Query,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,None,Canonical: Range Sum Query,1
+Tree / Trie,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Tree / Trie,Shortest Path / Flow,0-1 shortest path,+ Queue/Deque,Canonical: 0-1 BFS shortest path,1
+Tree / Trie,Two Pointers,Boundary / pointer sweep,+ Math,Canonical: Two Sum II / Container With Most Water,1
+Tree / Trie,Hash Map,Frequency dictionary,+ Counting + Sorting,Canonical: Group Anagrams / frequency map,1
+Tree / Trie,Hash Set,Uniqueness / seen-set check,+ Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,1
+Tree / Trie,Heap,Priority-based selection,+ Memoization,Canonical: Top K Frequent Elements / merge-k,1
+Tree / Trie,Math / Number Theory,Formula / constructive math,+ Bitmask + Tree + Segment/Fenwick,Canonical: Mathematical invariant,1
+Tree / Trie,Monotonic Stack,Next-greater / monotonic boundary stack,+ Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+Tree / Trie,Prefix / Suffix Precompute,Difference-array accumulation,+ Hash Map + Tree + Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,1
+Tree / Trie,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Hash Map + Counting + Bitmask,Canonical: Prefix/Suffix extrema accumulation,1
+Tree / Trie,Prefix / Suffix Precompute,Range-sum precompute,+ Bitmask,Canonical: Range Sum Query,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Bitmask,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Hash Set,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Math,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Prefix/Suffix + Math,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Sorting + Tree,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Direct keyed lookup,+ Tree + Intervals/Geometry,Canonical: Direct lookup dictionary,1
+Tree / Trie,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Graph + Math,Canonical: Exact custom named technique,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Grid,Canonical: Exact custom named technique,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Hash Set,Canonical: Exact custom named technique,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ String Parsing,Canonical: Exact custom named technique,1
+Matrix / Grid,DFS,Flood-fill / component DFS,+ Graph,Canonical: Number of Islands,1
+Matrix / Grid,DFS,Flood-fill / component DFS,+ Grid + Trie,Canonical: Number of Islands,1
+Matrix / Grid,DFS,Flood-fill / component DFS,+ Hash Set,Canonical: Number of Islands,1
+Matrix / Grid,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,1
+Matrix / Grid,Bit / Mask,Bitwise state manipulation,None,Canonical: Bit manipulation,1
+Matrix / Grid,Bit / Mask,XOR / parity logic,+ Math,Canonical: Single Number / XOR invariant,1
+Matrix / Grid,Bit / Mask,XOR / parity logic,+ Tree + Segment/Fenwick + Math,Canonical: Single Number / XOR invariant,1
+Matrix / Grid,Counting,Count-driven scan,+ Greedy Check + Math + Intervals/Geometry,Canonical: Frequency counting,1
+Matrix / Grid,Counting,Frequency counting,+ Math,Canonical: Frequency counting,1
+Matrix / Grid,Counting,Frequency counting,+ Tree + Segment/Fenwick + Math,Canonical: Frequency counting,1
+Matrix / Grid,Custom Exact Technique,Exact custom / named technique,+ Counting,Canonical: Exact custom named technique,1
+Tree / Trie,Tree,LCA query,+ Prefix/Suffix,Canonical: Lowest Common Ancestor,1
+Tree / Trie,Tree,LCA query,+ Prefix/Suffix + Bitmask,Canonical: Lowest Common Ancestor,1
+Matrix / Grid,Backtracking,Permutation / choice-tree generation,None,Canonical: Permutations / combinations search,1
+Matrix / Grid,Binary Search,Answer-space binary search,+ Tree + Segment/Fenwick + Math,Canonical: Koko Eating Bananas,1
+Matrix / Grid,Binary Search,Answer-space binary search,None,Canonical: Koko Eating Bananas,1
+Matrix / Grid,Binary Search,Boundary / insertion search,+ Prefix/Suffix + Grid,Canonical: First/Last Position in Sorted Array,1
+Matrix / Grid,Binary Search,Exact / partition binary search,+ Prefix/Suffix,Canonical: Binary Search / median partition,1
+Matrix / Grid,Binary Search,Exact / partition binary search,+ Prefix/Suffix + Greedy Check,Canonical: Binary Search / median partition,1
+Tree / Trie,Sliding Window,Variable-size window,+ Hash Map + Counting,Canonical: Minimum Window / variable-size window,1
+Tree / Trie,Sliding Window,Variable-size window,+ Hash Set + Counting,Canonical: Minimum Window / variable-size window,1
+Tree / Trie,Sliding Window,Variable-size window,+ String Parsing,Canonical: Minimum Window / variable-size window,1
+Tree / Trie,Sorting / Sweep,Order-then-scan,None,Canonical: Sort then scan,1
+Tree / Trie,Stack,LIFO state maintenance,+ Greedy Check,Canonical: Valid Parentheses,1
+Tree / Trie,Tree,Inorder traversal / BST order,+ Hash Set,Canonical: Inorder Traversal / BST validation,1
+Tree / Trie,Tree,LCA query,+ Graph,Canonical: Lowest Common Ancestor,1
+Tree / Trie,Tree,LCA query,+ Math,Canonical: Lowest Common Ancestor,1
+Linked List,Two Pointers,Fast-slow chase,None,Canonical: Linked List Cycle,1
+Linked List,Two Pointers,Same-direction merge / fill,+ Sorting,Canonical: Merge / reverse linked-list pointers,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Bitmask + Grid,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Graph + Grid + Math,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Greedy Check,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Heap + Stack,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Math,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Sorting,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,Hash Map,Frequency dictionary,+ Counting + Intervals/Geometry,Canonical: Group Anagrams / frequency map,1
+Matrix / Grid,Hash Map,Pattern/signature map,None,Canonical: Isomorphic Strings / pattern hash,1
+Matrix / Grid,Hash Set,Uniqueness / seen-set check,+ Grid,Canonical: Contains Duplicate / seen-set uniqueness,1
+Linked List,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map,Canonical: Range Sum Query,1
+Linked List,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,1
+Linked List,Topological Sort,DAG ordering / prerequisite resolution,+ Sorting,Canonical: Course Schedule,1
+Linked List,Tree,LCA query,None,Canonical: Lowest Common Ancestor,1
+Linked List,Tree,Recursive subtree aggregation,None,Canonical: Binary Tree recursion,1
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Greedy Check,Canonical: Coin Change / state-transition DP,1
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Greedy Check + Graph,Canonical: Coin Change / state-transition DP,1
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Greedy Check + Graph + Math,Canonical: Coin Change / state-transition DP,1
+Matrix / Grid,Dynamic Programming,State-transition DP,+ Sorting,Canonical: Coin Change / state-transition DP,1
+Matrix / Grid,Greedy,Local-choice optimization,+ Math,Canonical: Gas Station / local-choice greedy,1
+Matrix / Grid,Greedy,Local-choice optimization,+ Prefix/Suffix,Canonical: Gas Station / local-choice greedy,1
+Matrix / Grid,Greedy,Sort-then-greedy,+ Sorting,Canonical: Merge Intervals / scheduling greedy,1
+Matrix / Grid,Hash Map,Direct keyed lookup,+ Hash Set + String Parsing + Math,Canonical: Direct lookup dictionary,1
+Matrix / Grid,DFS,Flood-fill / component DFS,+ Sorting,Canonical: Number of Islands,1
+Matrix / Grid,Dynamic Programming,1D DP,+ Greedy Check,Canonical: Climbing Stairs / House Robber,1
+Matrix / Grid,Dynamic Programming,1D DP,+ Math,Canonical: Climbing Stairs / House Robber,1
+Matrix / Grid,Dynamic Programming,2D DP,+ Bitmask,Canonical: Edit Distance / Grid DP,1
+Matrix / Grid,Dynamic Programming,2D DP,+ Prefix/Suffix,Canonical: Edit Distance / Grid DP,1
+Matrix / Grid,Dynamic Programming,Memoized DP,+ DFS/Recursion,Canonical: Coin Change (top-down),1
+Matrix / Grid,Dynamic Programming,Memoized DP,+ Intervals/Geometry,Canonical: Coin Change (top-down),1
+Matrix / Grid,Dynamic Programming,Memoized DP,+ Math,Canonical: Coin Change (top-down),1
+Matrix / Grid,Monotonic Stack,Boundary / histogram stack,+ Counting,Canonical: Daily Temperatures / Largest Rectangle,1
+Matrix / Grid,Monotonic Stack,Boundary / histogram stack,+ Counting + Sorting + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+Matrix / Grid,Prefix / Suffix Precompute,Difference-array accumulation,None,Canonical: Prefix/Suffix extrema accumulation,1
+Matrix / Grid,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,None,Canonical: Prefix/Suffix extrema accumulation,1
+Matrix / Grid,Prefix / Suffix Precompute,Prefix/suffix products,None,Canonical: Product of Array Except Self,1
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,+ Counting,Canonical: Range Sum Query,1
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,+ Grid,Canonical: Range Sum Query,1
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,+ Intervals/Geometry,Canonical: Range Sum Query,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Set,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Set + Greedy Check + Bitmask,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Set + Intervals/Geometry,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Intervals/Geometry,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Math + Intervals/Geometry,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Prefix/Suffix + Math,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Sorting,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Sorting + Bitmask,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Backtracking,Permutation / choice-tree generation,+ Stack,Canonical: Permutations / combinations search,1
+Matrix / Grid,Hash Set,Uniqueness / seen-set check,+ Intervals/Geometry,Canonical: Contains Duplicate / seen-set uniqueness,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Counting + Math,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Counting + Sorting,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Graph + Math,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Greedy Check + Math + Intervals/Geometry,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Map + Prefix/Suffix,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,Matrix / Grid,Grid / board traversal,+ Hash Map + Sorting,Canonical: Grid traversal / DP scan,1
+Matrix / Grid,BFS,Single-source breadth-first traversal,+ Sorting + Heap,Canonical: Rotting Oranges / 01 Matrix,1
+Matrix / Grid,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Permutations / combinations search,1
+Matrix / Grid,Backtracking,Choice tree with undo,+ Hash Set + Intervals/Geometry,Canonical: Permutations / combinations search,1
+Matrix / Grid,Backtracking,Choice tree with undo,None,Canonical: Combination Sum,1
+Matrix / Grid,Backtracking,Combination search,+ Prefix/Suffix + Math,Canonical: Permutations / combinations search,1
+Matrix / Grid,Backtracking,Combination search,None,Canonical: Permutations / combinations search,1
+Matrix / Grid,Backtracking,Constraint placement backtracking,+ Counting,Canonical: N-Queens,1
+Matrix / Grid,Backtracking,Constraint placement backtracking,None,Canonical: N-Queens,1
+Linked List,DFS,Depth-first traversal,+ Stack,Canonical: Depth-first component exploration,1
+Linked List,DFS,Depth-first traversal,+ Tree,Canonical: Depth-first component exploration,1
+Linked List,DFS,Depth-first traversal,None,Canonical: Depth-first component exploration,1
+Linked List,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,1
+Linked List,Hash Map,Direct keyed lookup,None,Canonical: Direct lookup dictionary,1
+Linked List,Hash Map,Frequency dictionary,+ Counting,Canonical: Group Anagrams / frequency map,1
+Linked List,Hash Set,Uniqueness / seen-set check,+ Bitmask,Canonical: Contains Duplicate / seen-set uniqueness,1
+Linked List,Hash Set,Uniqueness / seen-set check,None,Canonical: Contains Duplicate / seen-set uniqueness,1
+Intervals / Geometry / Coordinates,Sorting / Sweep,Sweep / interval ordering,+ Graph + Math,Canonical: Merge Intervals,1
+Intervals / Geometry / Coordinates,Two Pointers,Boundary / pointer sweep,+ Intervals/Geometry,Canonical: Two Sum II / Container With Most Water,1
+Intervals / Geometry / Coordinates,Two Pointers,Boundary / pointer sweep,+ Sorting + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+Linked List,Backtracking,Choice tree with undo,+ Stack,Canonical: Permutations / combinations search,1
+Linked List,Counting,Count-driven scan,+ Math,Canonical: Frequency counting,1
+Linked List,Custom Exact Technique,Exact custom / named technique,+ Bitmask + Tree + Segment/Fenwick,Canonical: Exact custom named technique,1
+Linked List,Custom Exact Technique,Exact custom / named technique,+ Tree,Canonical: Exact custom named technique,1
+Linked List,DFS,Depth-first traversal,+ Sorting,Canonical: Depth-first component exploration,1
+Matrix / Grid,Sliding Window,Fixed-size window,None,Canonical: Fixed-size subarray window,1
+Matrix / Grid,Two Pointers,Boundary / pointer sweep,+ Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+Matrix / Grid,Two Pointers,Boundary / pointer sweep,+ Math,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,BFS,Multi-source / layered BFS,None,Canonical: Shortest-path layer BFS,1
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Bitmask,Canonical: Shortest-path layer BFS,1
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Graph + Math,Canonical: Shortest-path layer BFS,1
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Hash Map,Canonical: Shortest-path layer BFS,1
+Number / Bit / Math,BFS,Single-source breadth-first traversal,+ Hash Set + Graph,Canonical: Shortest-path layer BFS,1
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,1
+Matrix / Grid,Prefix / Suffix Precompute,Range-sum precompute,+ Sorting + Tree,Canonical: Range Sum Query,1
+Matrix / Grid,Queue / Deque,Deque-backed range/window state,None,Canonical: Sliding Window Maximum,1
+Matrix / Grid,Segment Tree,Range query / update tree,+ Hash Set + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Matrix / Grid,Simulation / Scan / Precompute,Precompute + lookup,None,Canonical: Precompute then query,1
+Matrix / Grid,Simulation / Scan / Precompute,State-tracking simulation,+ Prefix/Suffix,Canonical: Direct simulation,1
+Matrix / Grid,Sliding Window,Fixed-size window,+ Counting,Canonical: Fixed-size subarray window,1
+Matrix / Grid,Sliding Window,Fixed-size window,+ Greedy Check,Canonical: Fixed-size subarray window,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ String Parsing,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Bit / Mask,Bitwise state manipulation,+ Prefix/Suffix,Canonical: Bit manipulation,1
+Intervals / Geometry / Coordinates,Heap,Top-K / best-first selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Top-K / best-first selection,None,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Math / Number Theory,Digit arithmetic / carry,None,Canonical: Add Two Numbers / Reverse Integer,1
+Intervals / Geometry / Coordinates,Math / Number Theory,Divisor / number theory,None,Canonical: Count Primes / GCD-LCM family,1
+Intervals / Geometry / Coordinates,Math / Number Theory,Parity / algebraic invariant,+ Counting,Canonical: Mathematical invariant,1
+Intervals / Geometry / Coordinates,Monotonic Stack,Next-greater / monotonic boundary stack,+ Hash Map + Prefix/Suffix,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Binary Search,Answer-space binary search,+ Prefix/Suffix,Canonical: Koko Eating Bananas,1
+Number / Bit / Math,Binary Search,Answer-space binary search,+ Sorting + Greedy Check,Canonical: Koko Eating Bananas,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Hash Map,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Intervals/Geometry,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Math + Intervals/Geometry,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Prefix/Suffix,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Sorting,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Binary Search,Exact / partition binary search,+ Sorting + Prefix/Suffix,Canonical: Binary Search / median partition,1
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Hash Map + Counting,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Prefix/Suffix,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Choice tree with undo,None,Canonical: Combination Sum,1
+Number / Bit / Math,Backtracking,Combination search,+ Hash Set + Tree + Segment/Fenwick,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Permutation / choice-tree generation,+ Counting,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Permutation / choice-tree generation,+ Graph,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Permutation / choice-tree generation,+ Greedy Check,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Permutation / choice-tree generation,+ Math,Canonical: Permutations / combinations search,1
+Linked List,Linked List,Dummy-node merge / splice,+ Hash Set,Canonical: Merge Two Sorted Lists,1
+Linked List,Linked List,Dummy-node merge / splice,+ Intervals/Geometry,Canonical: Merge Two Sorted Lists,1
+Linked List,Linked List,In-place reversal / rewiring,None,Canonical: Pointer rewiring on linked list,1
+Linked List,Linked List,Pointer manipulation on list nodes,+ Counting,Canonical: Pointer rewiring on linked list,1
+Linked List,Linked List,Pointer manipulation on list nodes,+ Stack,Canonical: Pointer rewiring on linked list,1
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Combination Sum,1
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Bitmask + Tree + Segment/Fenwick,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Backtracking,Choice tree with undo,+ Greedy Check + Graph + Math,Canonical: Permutations / combinations search,1
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Hash Set + Queue/Deque,Canonical: Exact custom named technique,1
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Sorting,Canonical: Exact custom named technique,1
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Tree + Segment/Fenwick,Canonical: Exact custom named technique,1
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Tree + Segment/Fenwick + Math,Canonical: Exact custom named technique,1
+Number / Bit / Math,DFS,Depth-first traversal,+ Counting + Tree,Canonical: Depth-first component exploration,1
+Number / Bit / Math,DFS,Depth-first traversal,+ Hash Set + Tree,Canonical: Depth-first component exploration,1
+Number / Bit / Math,DFS,Depth-first traversal,+ Tree + Math,Canonical: Depth-first component exploration,1
+Number / Bit / Math,Dynamic Programming,1D DP,+ Math,Canonical: Climbing Stairs / House Robber,1
+Number / Bit / Math,Counting,Count-driven scan,+ Bitmask + Math,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Count-driven scan,+ Bitmask + Tree + Segment/Fenwick,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Count-driven scan,+ Greedy Check,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Count-driven scan,+ Tree + Segment/Fenwick,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Count-driven scan,+ Tree + Segment/Fenwick + Math,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Frequency counting,+ Bitmask + Math,Canonical: Frequency counting,1
+Number / Bit / Math,Counting,Frequency counting,+ Greedy Check + Math,Canonical: Frequency counting,1
+Number / Bit / Math,Custom Exact Technique,Exact custom / named technique,+ Hash Set,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,1
+Intervals / Geometry / Coordinates,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map,Canonical: Longest Substring Without Repeating Characters,1
+Intervals / Geometry / Coordinates,Sliding Window,Variable-size window,+ Sorting,Canonical: Minimum Window / variable-size window,1
+Intervals / Geometry / Coordinates,Sorting / Sweep,Order-then-scan,+ Math,Canonical: Sort then scan,1
+Intervals / Geometry / Coordinates,Sorting / Sweep,Sweep / interval ordering,+ Bitmask,Canonical: Merge Intervals,1
+Number / Bit / Math,Bit / Mask,Bitwise state manipulation,+ Tree + Segment/Fenwick,Canonical: Bit manipulation,1
+Number / Bit / Math,Bit / Mask,Bitwise state manipulation,+ Tree + Segment/Fenwick + Math,Canonical: Bit manipulation,1
+Number / Bit / Math,Bit / Mask,Subset mask state,+ Tree + Segment/Fenwick,Canonical: Bitmask subset DP,1
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Hash Map,Canonical: Prefix/Suffix extrema accumulation,1
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,1
+Intervals / Geometry / Coordinates,Prefix / Suffix Precompute,Range-sum precompute,+ Sorting + Greedy Check,Canonical: Range Sum Query,1
+Intervals / Geometry / Coordinates,Queue / Deque,Deque-backed range/window state,+ Hash Map,Canonical: Sliding Window Maximum,1
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Bitmask + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Counting + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Greedy Check + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Intervals / Geometry / Coordinates,Segment Tree,Range query / update tree,+ Hash Set + Greedy Check + Tree,Canonical: Range query / update segment tree,1
+Intervals / Geometry / Coordinates,Hash Set,Uniqueness / seen-set check,+ Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,1
+Intervals / Geometry / Coordinates,Heap,Priority-based selection,+ Hash Map + Tree + Intervals/Geometry,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Priority-based selection,+ Prefix/Suffix + Intervals/Geometry,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Priority-based selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Priority-based selection,+ Sorting + Prefix/Suffix,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Top-K / best-first selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Heap,Top-K / best-first selection,+ Queue/Deque + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Sorting + Prefix/Suffix + Tree,Canonical: Fenwick tree / Binary Lifting,1
+Intervals / Geometry / Coordinates,Greedy,Greedy with numeric invariant,+ Math,Canonical: Gas Station / local-choice greedy,1
+Intervals / Geometry / Coordinates,Greedy,Local-choice optimization,+ Sorting + Intervals/Geometry,Canonical: Gas Station / local-choice greedy,1
+Intervals / Geometry / Coordinates,Hash Map,Direct keyed lookup,+ Bitmask,Canonical: Direct lookup dictionary,1
+Intervals / Geometry / Coordinates,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,1
+Intervals / Geometry / Coordinates,Hash Map,Direct keyed lookup,+ Tree + Intervals/Geometry,Canonical: Direct lookup dictionary,1
+Intervals / Geometry / Coordinates,Hash Map,Frequency dictionary,+ Counting + Math,Canonical: Group Anagrams / frequency map,1
+Intervals / Geometry / Coordinates,Hash Set,Uniqueness / seen-set check,+ Counting,Canonical: Contains Duplicate / seen-set uniqueness,1
+Intervals / Geometry / Coordinates,Hash Set,Uniqueness / seen-set check,+ Counting + Bitmask + Tree,Canonical: Contains Duplicate / seen-set uniqueness,1
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Sorting,Canonical: Coin Change / state-transition DP,1
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Tree + Segment/Fenwick,Canonical: Coin Change / state-transition DP,1
+Intervals / Geometry / Coordinates,Dynamic Programming,State-transition DP,+ Greedy Check + Math,Canonical: Coin Change / state-transition DP,1
+Intervals / Geometry / Coordinates,Dynamic Programming,Tree DP,+ Tree + Segment/Fenwick,Canonical: Binary Tree Maximum Path Sum / tree DP,1
+Intervals / Geometry / Coordinates,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,1
+Intervals / Geometry / Coordinates,Geometry,Convex hull / orientation,+ Math,Canonical: Geometry / sweep / convex-hull family,1
+Intervals / Geometry / Coordinates,Geometry,Convex hull / orientation,None,Canonical: Geometry / sweep / convex-hull family,1
+Intervals / Geometry / Coordinates,Geometry,Geometric reasoning,+ Math,Canonical: Geometry / sweep / convex-hull family,1
+Number / Bit / Math,Dynamic Programming,1D DP,+ Prefix/Suffix,Canonical: Climbing Stairs / House Robber,1
+Number / Bit / Math,Dynamic Programming,2D DP,None,Canonical: Edit Distance / Grid DP,1
+Number / Bit / Math,Dynamic Programming,3D DP,None,Canonical: Coin Change / state-transition DP,1
+Number / Bit / Math,Dynamic Programming,Bitmask DP,+ Greedy Check + Bitmask + Math,Canonical: Traveling-state / subset DP,1
+Number / Bit / Math,Dynamic Programming,Digit DP,+ Bitmask + Math,Canonical: Digit DP counting,1
+Number / Bit / Math,Dynamic Programming,Digit DP,+ Greedy Check + Math,Canonical: Digit DP counting,1
+Number / Bit / Math,Dynamic Programming,Memoized DP,+ DFS/Recursion,Canonical: Coin Change (top-down),1
+Number / Bit / Math,Dynamic Programming,State-transition DP,+ Graph + Math,Canonical: Coin Change / state-transition DP,1
+Intervals / Geometry / Coordinates,Counting,Count-driven scan,+ Tree + Segment/Fenwick,Canonical: Frequency counting,1
+Intervals / Geometry / Coordinates,Counting,Count-driven scan,None,Canonical: Frequency counting,1
+Intervals / Geometry / Coordinates,Counting,Frequency counting,+ Greedy Check,Canonical: Frequency counting,1
+Intervals / Geometry / Coordinates,Counting,Frequency counting,+ Intervals/Geometry,Canonical: Frequency counting,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Graph,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Hash Map + Math,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Hash Set + Grid,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix,Canonical: Exact custom named technique,1
+Graph / Network,Union-Find,Connectivity / component merging,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Number of Connected Components / Redundant Connection,1
+Intervals / Geometry / Coordinates,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Permutations / combinations search,1
+Intervals / Geometry / Coordinates,Backtracking,Choice tree with undo,+ Math,Canonical: Permutations / combinations search,1
+Intervals / Geometry / Coordinates,Binary Search,Exact / partition binary search,+ Hash Map,Canonical: Binary Search / median partition,1
+Intervals / Geometry / Coordinates,Binary Search,Exact / partition binary search,+ Intervals/Geometry,Canonical: Binary Search / median partition,1
+Intervals / Geometry / Coordinates,Binary Search,Exact / partition binary search,+ Prefix/Suffix,Canonical: Binary Search / median partition,1
+Intervals / Geometry / Coordinates,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,1
+Intervals / Geometry / Coordinates,Bit / Mask,Subset mask state,None,Canonical: Bitmask subset DP,1
+Number / Bit / Math,Greedy,Sort-then-greedy,+ Sorting + Math,Canonical: Merge Intervals / scheduling greedy,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Greedy Check,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Greedy Check + Math,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Intervals/Geometry,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Queue/Deque,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Sorting + Bitmask + Tree,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ String Parsing,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Hash Map,Direct keyed lookup,+ Tree,Canonical: Direct lookup dictionary,1
+Number / Bit / Math,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,1
+Number / Bit / Math,Fenwick / Sparse Table,Power-of-two jump table,+ Segment/Fenwick + Math,Canonical: Fenwick tree / Binary Lifting,1
+Number / Bit / Math,Geometry,Geometric reasoning,+ Math,Canonical: Geometry / sweep / convex-hull family,1
+Number / Bit / Math,Greedy,Local-choice optimization,+ Counting,Canonical: Gas Station / local-choice greedy,1
+Number / Bit / Math,Greedy,Local-choice optimization,+ Graph + Math,Canonical: Gas Station / local-choice greedy,1
+Number / Bit / Math,Greedy,Local-choice optimization,+ Hash Map,Canonical: Gas Station / local-choice greedy,1
+Number / Bit / Math,Greedy,Local-choice optimization,+ Sorting,Canonical: Gas Station / local-choice greedy,1
+Number / Bit / Math,Greedy,Local-choice optimization,+ Sorting + Intervals/Geometry,Canonical: Gas Station / local-choice greedy,1
+Number / Bit / Math,Heap,Top-K / best-first selection,+ Sorting + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Math / Number Theory,Formula / constructive math,+ Bitmask + Tree + Segment/Fenwick,Canonical: Mathematical invariant,1
+Number / Bit / Math,Math / Number Theory,Formula / constructive math,+ Counting,Canonical: Mathematical invariant,1
+Number / Bit / Math,Math / Number Theory,Formula / constructive math,+ Prefix/Suffix,Canonical: Mathematical invariant,1
+Number / Bit / Math,Math / Number Theory,Parity / algebraic invariant,+ Counting,Canonical: Mathematical invariant,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Counting + Math,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Graph,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Greedy Check + Math,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Heap,Priority-based selection,+ Hash Map + Hash Set,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Priority-based selection,+ Hash Set,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Priority-based selection,+ Prefix/Suffix,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Priority-based selection,+ Prefix/Suffix + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Priority-based selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Priority-based selection,+ Sorting + Math,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Top-K / best-first selection,+ Queue/Deque,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Heap,Top-K / best-first selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,1
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Tree,Canonical: Group Anagrams / frequency map,1
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Hash Set + Counting,Canonical: Group Anagrams / frequency map,1
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Bitmask + Math,Canonical: Contains Duplicate / seen-set uniqueness,1
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Counting,Canonical: Contains Duplicate / seen-set uniqueness,1
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ Counting + Bitmask + Tree,Canonical: Contains Duplicate / seen-set uniqueness,1
+Number / Bit / Math,Hash Set,Uniqueness / seen-set check,+ String Parsing,Canonical: Contains Duplicate / seen-set uniqueness,1
+Number / Bit / Math,Heap,Dual-heap balancing,+ Sorting + Queue/Deque + Tree,Canonical: Find Median from Data Stream,1
+Number / Bit / Math,Heap,Priority-based selection,+ Counting,Canonical: Top K Frequent Elements / merge-k,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix + Bitmask + Tree,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Custom Exact Technique,Exact custom / named technique,+ Queue/Deque,Canonical: Exact custom named technique,1
+Intervals / Geometry / Coordinates,Divide and Conquer,Recursive split / combine,+ Tree,Canonical: Merge-sort / recursive split-combine,1
+Intervals / Geometry / Coordinates,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,1
+Intervals / Geometry / Coordinates,Dynamic Programming,2D DP,None,Canonical: Edit Distance / Grid DP,1
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Math,Canonical: Group Anagrams / frequency map,1
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Sorting + Greedy Check,Canonical: Group Anagrams / frequency map,1
+Number / Bit / Math,Hash Map,Frequency dictionary,+ Counting + Sorting + Queue/Deque,Canonical: Group Anagrams / frequency map,1
+Graph / Network,Union-Find,Connectivity / component merging,+ Bitmask,Canonical: Number of Connected Components / Redundant Connection,1
+Graph / Network,Union-Find,Connectivity / component merging,+ Grid,Canonical: Number of Connected Components / Redundant Connection,1
+Graph / Network,Union-Find,Connectivity / component merging,+ Hash Map,Canonical: Number of Connected Components / Redundant Connection,1
+Graph / Network,Union-Find,Connectivity / component merging,+ Hash Set + Math,Canonical: Number of Connected Components / Redundant Connection,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Sorting + Math,Canonical: Range Sum Query,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Tree + Math,Canonical: Range Sum Query,1
+Number / Bit / Math,Queue / Deque,Deque-backed range/window state,+ Greedy Check,Canonical: Sliding Window Maximum,1
+Number / Bit / Math,Queue / Deque,Deque-backed range/window state,+ Prefix/Suffix,Canonical: Sliding Window Maximum,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Stack,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Tree,Canonical: Network Delay Time,1
+Graph / Network,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,1
+Graph / Network,Sliding Window,Fixed-size window,None,Canonical: Fixed-size subarray window,1
+Graph / Network,Sliding Window,Variable-size window,None,Canonical: Minimum Window / variable-size window,1
+Graph / Network,Stack,LIFO state maintenance,+ Prefix/Suffix + Greedy Check,Canonical: Valid Parentheses,1
+Graph / Network,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+Graph / Network,Union-Find,Connectivity + component size,+ Hash Map,Canonical: Number of Connected Components / Redundant Connection,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Counting + Math,Canonical: Range Sum Query,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Map + Intervals/Geometry,Canonical: Range Sum Query,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Set + Greedy Check,Canonical: Range Sum Query,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Bitmask + Grid,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Counting,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Heap + Memoization,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Prefix/Suffix + Greedy Check,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,Weighted shortest path,+ Queue/Deque,Canonical: Network Delay Time,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Heap,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Math,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Monotonic Stack,Next-greater / monotonic boundary stack,+ Prefix/Suffix + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Prefix / Suffix Precompute,Difference-array accumulation,+ Greedy Check,Canonical: Prefix/Suffix extrema accumulation,1
+Number / Bit / Math,Prefix / Suffix Precompute,Difference-array accumulation,None,Canonical: Prefix/Suffix extrema accumulation,1
+Number / Bit / Math,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Counting + Bitmask,Canonical: Prefix/Suffix extrema accumulation,1
+Number / Bit / Math,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Hash Map + Counting + Bitmask,Canonical: Prefix/Suffix extrema accumulation,1
+Number / Bit / Math,Prefix / Suffix Precompute,Range-sum precompute,+ Counting,Canonical: Range Sum Query,1
+Graph / Network,Monotonic Stack,Next-greater / monotonic boundary stack,+ Hash Map + Counting,Canonical: Daily Temperatures / Largest Rectangle,1
+Graph / Network,Prefix / Suffix Precompute,Difference-array accumulation,None,Canonical: Prefix/Suffix extrema accumulation,1
+Graph / Network,Prefix / Suffix Precompute,Range-sum precompute,+ Math,Canonical: Range Sum Query,1
+Graph / Network,Shortest Path / Flow,0-1 shortest path,+ Queue/Deque,Canonical: Network Delay Time,1
+Graph / Network,Shortest Path / Flow,All-pairs shortest path,+ Bitmask,Canonical: Weighted shortest path,1
+Graph / Network,Shortest Path / Flow,All-pairs shortest path,+ Trie,Canonical: Weighted shortest path,1
+Graph / Network,Shortest Path / Flow,Flow / matching,+ Hash Set,Canonical: Bipartite matching / flow,1
+Graph / Network,Shortest Path / Flow,Weighted graph optimization,+ Hash Map,Canonical: Weighted shortest path,1
+Graph / Network,Graph,General graph modeling,+ Sorting,Canonical: General graph construction,1
+Graph / Network,Greedy,Local-choice optimization,+ Sorting,Canonical: Gas Station / local-choice greedy,1
+Graph / Network,Hash Set,Uniqueness / seen-set check,+ Counting + Graph,Canonical: Contains Duplicate / seen-set uniqueness,1
+Graph / Network,Hash Set,Visited-state membership,None,Canonical: Contains Duplicate / seen-set uniqueness,1
+Graph / Network,Heap,Priority-based selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Graph / Network,Heap,Priority-based selection,+ Stack,Canonical: Top K Frequent Elements / merge-k,1
+Graph / Network,Matrix / Grid,Grid / board traversal,+ Math,Canonical: Grid traversal / DP scan,1
+Graph / Network,Monotonic Stack,Next-greater / monotonic boundary stack,+ Counting + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+Number / Bit / Math,Simulation / Scan / Precompute,State-tracking simulation,+ Queue/Deque,Canonical: Direct simulation,1
+Number / Bit / Math,Simulation / Scan / Precompute,State-tracking simulation,+ Tree + Segment/Fenwick,Canonical: Direct simulation,1
+Number / Bit / Math,Sliding Window,Fixed-size window,+ Hash Map,Canonical: Fixed-size subarray window,1
+Number / Bit / Math,Sliding Window,Fixed-size window,+ Hash Map + Counting,Canonical: Fixed-size subarray window,1
+Number / Bit / Math,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map + Sorting,Canonical: Longest Substring Without Repeating Characters,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Counting + Tree + Segment/Fenwick,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Hash Map + Prefix/Suffix,Canonical: Minimum Window / variable-size window,1
+Graph / Network,Geometry,Coordinate transform / distance geometry,+ Math,Canonical: Geometry / sweep / convex-hull family,1
+Number / Bit / Math,Queue / Deque,Deque-backed range/window state,+ String Parsing,Canonical: Sliding Window Maximum,1
+Number / Bit / Math,Segment Tree,Range query / update tree,+ Greedy Check + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Number / Bit / Math,Segment Tree,Range query / update tree,+ Hash Map + Greedy Check + Tree,Canonical: Range query / update segment tree,1
+Number / Bit / Math,Simulation / Scan / Precompute,Deterministic state machine,None,Canonical: DFA / parser-style scan,1
+Number / Bit / Math,Simulation / Scan / Precompute,Direct simulation / scan,+ Graph + Math,Canonical: Direct simulation,1
+Number / Bit / Math,Simulation / Scan / Precompute,Precompute + lookup,None,Canonical: Precompute then query,1
+Number / Bit / Math,Simulation / Scan / Precompute,Single-pass scan,+ Counting + Prefix/Suffix,Canonical: Linear scan with running state,1
+Number / Bit / Math,Simulation / Scan / Precompute,State-tracking simulation,+ Memoization,Canonical: Direct simulation,1
+Object / Process / API,Design / Process / JS,Closure / scope behavior,+ Hash Map + Heap + Memoization,Canonical: Closure / scope behavior,1
+Object / Process / API,Design / Process / JS,Closure / scope behavior,+ Math,Canonical: Closure / scope behavior,1
+Object / Process / API,Design / Process / JS,Generator / iterator protocol,+ Math,Canonical: API / object-behavior design,1
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Hash Map,Canonical: Time-limited cache / LRU-style design,1
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Heap + Memoization,Canonical: API / object-behavior design,1
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Memoization,Canonical: API / object-behavior design,1
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Stack + Queue/Deque,Canonical: API / object-behavior design,1
+Object / Process / API,Design / Process / JS,Object / API behavior,+ Trie,Canonical: API / object-behavior design,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Bitmask,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Counting,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Counting + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Hash Map,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Hash Map + Counting,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Hash Set + Sorting,Canonical: Two Sum II / Container With Most Water,1
+Number / Bit / Math,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+Object / Process / API,Design / Process / JS,Closure / scope behavior,+ Hash Map,Canonical: Closure / scope behavior,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ String Parsing,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sorting / Sweep,Order-then-scan,+ Bitmask,Canonical: Sort then scan,1
+Number / Bit / Math,Sorting / Sweep,Order-then-scan,+ Counting + Bitmask,Canonical: Sort then scan,1
+Number / Bit / Math,Sorting / Sweep,Order-then-scan,+ Graph,Canonical: Sort then scan,1
+Number / Bit / Math,Stack,Dual-stack transfer / evaluation,None,Canonical: Valid Parentheses,1
+Number / Bit / Math,Stack,LIFO state maintenance,+ Greedy Check,Canonical: Valid Parentheses,1
+Number / Bit / Math,Stack,LIFO state maintenance,+ Hash Map,Canonical: Valid Parentheses,1
+Number / Bit / Math,Stack,LIFO state maintenance,+ Math,Canonical: Valid Parentheses,1
+Graph / Network,Shortest Path / Flow,Weighted graph optimization,+ Hash Set + Queue/Deque,Canonical: Weighted shortest path,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Intervals/Geometry,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Prefix/Suffix,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Prefix/Suffix + Greedy Check,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Queue/Deque,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Sorting,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Sorting + Greedy Check,Canonical: Minimum Window / variable-size window,1
+Number / Bit / Math,Sliding Window,Variable-size window,+ Sorting + Prefix/Suffix,Canonical: Minimum Window / variable-size window,1
+Graph / Network,DFS,Depth-first traversal,+ Hash Map + Tree,Canonical: Depth-first component exploration,1
+Graph / Network,DFS,Memoized DFS,+ Sorting,Canonical: Depth-first component exploration,1
+Graph / Network,Dynamic Programming,2D DP,+ Prefix/Suffix,Canonical: Edit Distance / Grid DP,1
+Graph / Network,Dynamic Programming,2D DP,None,Canonical: Edit Distance / Grid DP,1
+Graph / Network,Dynamic Programming,Bitmask DP,+ Bitmask,Canonical: Traveling-state / subset DP,1
+Graph / Network,Dynamic Programming,State-transition DP,+ Grid,Canonical: Coin Change / state-transition DP,1
+Graph / Network,Dynamic Programming,Tree DP,+ Greedy Check + Tree + Graph,Canonical: Binary Tree Maximum Path Sum / tree DP,1
+Graph / Network,Dynamic Programming,Tree DP,+ Sorting + Greedy Check + Tree,Canonical: Binary Tree Maximum Path Sum / tree DP,1
+Graph / Network,Binary Search,Exact / partition binary search,+ Sorting,Canonical: Binary Search / median partition,1
+Graph / Network,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,1
+Graph / Network,Custom Exact Technique,Exact custom / named technique,+ Graph,Canonical: Exact custom named technique,1
+Graph / Network,Custom Exact Technique,Exact custom / named technique,+ Memoization,Canonical: Exact custom named technique,1
+Graph / Network,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix + Tree,Canonical: Exact custom named technique,1
+Graph / Network,Custom Exact Technique,Exact custom / named technique,None,Canonical: Exact custom named technique,1
+Graph / Network,DFS,Depth-first traversal,+ Counting,Canonical: Depth-first component exploration,1
+Graph / Network,DFS,Depth-first traversal,+ Hash Map,Canonical: Depth-first component exploration,1
+Graph / Network,BFS,Single-source breadth-first traversal,+ Hash Set,Canonical: Shortest-path layer BFS,1
+Graph / Network,BFS,Single-source breadth-first traversal,+ Heap + Greedy Check,Canonical: Shortest-path layer BFS,1
+Graph / Network,BFS,Single-source breadth-first traversal,+ Math,Canonical: Shortest-path layer BFS,1
+Graph / Network,Backtracking,Choice tree with undo,+ Greedy Check,Canonical: Permutations / combinations search,1
+Graph / Network,Backtracking,Choice tree with undo,None,Canonical: Permutations / combinations search,1
+Graph / Network,Backtracking,Permutation / choice-tree generation,+ Math,Canonical: Permutations / combinations search,1
+Graph / Network,Backtracking,Permutation / choice-tree generation,+ Prefix/Suffix,Canonical: Permutations / combinations search,1
+Graph / Network,Backtracking,Permutation / choice-tree generation,None,Canonical: Permutations / combinations search,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Counting + Greedy Check,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Counting + Greedy Check + Math,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Graph,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Grid,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Map + Counting + Graph,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Map + Counting + Sorting,Canonical: Text-processing pipeline,1
+Graph / Network,BFS,Single-source breadth-first traversal,+ Graph + Math,Canonical: Shortest-path layer BFS,1
+Graph / Network,BFS,Single-source breadth-first traversal,+ Hash Map,Canonical: Shortest-path layer BFS,1
+Array / Sequence,Stack,LIFO state maintenance,+ Counting,Canonical: Valid Parentheses,1
+Array / Sequence,Stack,LIFO state maintenance,+ Greedy Check,Canonical: Valid Parentheses,1
+Array / Sequence,Stack,LIFO state maintenance,+ Heap,Canonical: Valid Parentheses,1
+Array / Sequence,Stack,LIFO state maintenance,+ String Parsing,Canonical: Valid Parentheses,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Counting,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Hash Map,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Hash Map + Counting,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Hash Map + Counting + Sorting,Canonical: Two Sum II / Container With Most Water,1
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Hash Map,Canonical: Grouped aggregation / departmental summary,1
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Hash Map + Heap,Canonical: Grouped aggregation / departmental summary,1
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Intervals/Geometry,Canonical: Grouped aggregation / departmental summary,1
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Prefix/Suffix + Trie,Canonical: Grouped aggregation / departmental summary,1
+Array / Sequence,Sliding Window,Variable-size window,+ Sorting + Intervals/Geometry,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Sorting + Queue/Deque,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sorting / Sweep,Order-then-scan,+ Counting,Canonical: Sort then scan,1
+Array / Sequence,Stack,Expression parsing,None,Canonical: Basic Calculator,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Prefix/Suffix,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Prefix/Suffix + Trie,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Sorting + Graph,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Sorting + Stack + Greedy Check,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Stack + Intervals/Geometry,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Text-processing pipeline,1
+Relational Table / SQL,SQL / Group By,Aggregate + HAVING filter,+ Hash Map,Canonical: Grouped aggregation / departmental summary,1
+Relational Table / SQL,SQL / Group By,Aggregate + HAVING filter,+ Hash Set,Canonical: Grouped aggregation / departmental summary,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Map + Memoization + Bitmask,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Set + Counting,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Hash Set + Graph + Math,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Heap,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Heap + Greedy Check,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Heap + Queue/Deque,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Heap + Queue/Deque + Grid,Canonical: Text-processing pipeline,1
+Object / Process / API,Shell / Unix,Pipeline / text processing,+ Intervals/Geometry,Canonical: Text-processing pipeline,1
+Array / Sequence,Segment Tree,Range query / update tree,+ Counting + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Array / Sequence,Segment Tree,Range query / update tree,+ Hash Map + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Array / Sequence,Simulation / Scan / Precompute,Direct simulation / scan,+ Hash Set,Canonical: Direct simulation,1
+Array / Sequence,Simulation / Scan / Precompute,Single-pass scan,+ Prefix/Suffix,Canonical: Linear scan with running state,1
+Array / Sequence,Simulation / Scan / Precompute,State-tracking simulation,+ Memoization + Tree,Canonical: Direct simulation,1
+Array / Sequence,Sliding Window,Fixed-size window,+ Prefix/Suffix,Canonical: Fixed-size subarray window,1
+Array / Sequence,Sliding Window,Fixed-size window,+ Sorting,Canonical: Fixed-size subarray window,1
+Array / Sequence,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map + Hash Set + Sorting,Canonical: Longest Substring Without Repeating Characters,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Hash Map + Counting + Prefix/Suffix,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Hash Map + Sorting,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Hash Set + Graph,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Queue/Deque,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Tree + String Parsing,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Window Function,DENSE_RANK ranking,+ Counting,Canonical: Ranking & running-row analytics,1
+Array / Sequence,Queue / Deque,Deque-backed range/window state,+ Prefix/Suffix + Greedy Check,Canonical: Sliding Window Maximum,1
+Array / Sequence,Segment Tree,Range query / update tree,+ Bitmask + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Relational Table / SQL,SQL / Join,Key-based row matching,+ Hash Map,Canonical: Combine Two Tables,1
+Relational Table / SQL,SQL / Join,Key-based row matching,+ Hash Set,Canonical: Combine Two Tables,1
+Relational Table / SQL,SQL / Join,Key-based row matching,+ Prefix/Suffix + String Parsing,Canonical: Combine Two Tables,1
+Relational Table / SQL,SQL / Join,Left join / null retention,+ Intervals/Geometry,Canonical: Combine Two Tables,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Counting + Prefix/Suffix,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Greedy Check + Math,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Hash Map,Canonical: Basic filter / reshape / null-handling,1
+Relational Table / SQL,SQL / Table Ops,Filtering / reshaping / scalar SQL ops,+ Hash Map + Counting,Canonical: Basic filter / reshape / null-handling,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Intervals/Geometry,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Math,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ Sorting + Greedy Check + Math,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Boundary / pointer sweep,+ String Parsing + Math,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Two Pointers,Next-permutation pointer choreography,None,Canonical: Next Permutation,1
+Array / Sequence,Two Pointers,Same-direction merge / fill,+ Counting + Sorting + Intervals/Geometry,Canonical: Two Sum II / Container With Most Water,1
+Relational Table / SQL,SQL / Group By,Grouped aggregation,+ Sorting,Canonical: Grouped aggregation / departmental summary,1
+Relational Table / SQL,SQL / Join,Key-based row matching,+ Counting + Memoization,Canonical: Combine Two Tables,1
+String / Text,Counting,Count-driven scan,+ Sorting,Canonical: Frequency counting,1
+String / Text,Counting,Count-driven scan,+ Sorting + Greedy Check,Canonical: Frequency counting,1
+String / Text,Counting,Count-driven scan,+ Tree + Segment/Fenwick + Math,Canonical: Frequency counting,1
+String / Text,Counting,Frequency counting,+ Graph + Math,Canonical: Frequency counting,1
+String / Text,Counting,Frequency counting,+ Sorting + Greedy Check + Math,Canonical: Frequency counting,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Counting,Canonical: Exact custom named technique,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Graph,Canonical: Exact custom named technique,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Memoization,Canonical: Exact custom named technique,1
+String / Text,Backtracking,Combination search,+ Hash Map + Counting + Math,Canonical: Permutations / combinations search,1
+String / Text,Backtracking,Permutation / choice-tree generation,+ Math,Canonical: Permutations / combinations search,1
+String / Text,Binary Search,Boundary / insertion search,None,Canonical: First/Last Position in Sorted Array,1
+String / Text,Binary Search,Exact / partition binary search,+ Sorting,Canonical: Binary Search / median partition,1
+String / Text,Binary Search,Exact / partition binary search,+ Sorting + Prefix/Suffix,Canonical: Binary Search / median partition,1
+String / Text,Binary Search,Exact / partition binary search,None,Canonical: Binary Search / median partition,1
+String / Text,Bit / Mask,Bitwise state manipulation,None,Canonical: Bit manipulation,1
+String / Text,Bit / Mask,XOR / parity logic,None,Canonical: Single Number / XOR invariant,1
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,+ Memoization,Canonical: Ranking & running-row analytics,1
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,+ Prefix/Suffix,Canonical: Ranking & running-row analytics,1
+Relational Table / SQL,SQL / Window Function,RANK / ordering,+ Counting,Canonical: Ranking & running-row analytics,1
+Relational Table / SQL,SQL / Window Function,ROW_NUMBER ranking,+ Counting,Canonical: Ranking & running-row analytics,1
+String / Text,BFS,Single-source breadth-first traversal,+ Counting,Canonical: Shortest-path layer BFS,1
+String / Text,BFS,Single-source breadth-first traversal,+ Trie,Canonical: Shortest-path layer BFS,1
+String / Text,Backtracking,Choice tree with undo,+ Bitmask,Canonical: Permutations / combinations search,1
+String / Text,Backtracking,Choice tree with undo,+ Counting,Canonical: Permutations / combinations search,1
+Array / Sequence,Sliding Window,Variable-size + frequency/uniqueness control,None,Canonical: Longest Substring Without Repeating Characters,1
+Array / Sequence,Sliding Window,Variable-size window,+ Bitmask,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Counting + Sorting,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Hash Map + Counting + Bitmask,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Hash Map + Hash Set + Counting,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Hash Set,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,Sliding Window,Variable-size window,+ Prefix/Suffix + Greedy Check,Canonical: Minimum Window / variable-size window,1
+Relational Table / SQL,SQL / Window Function,Partitioned window analytics,+ Math,Canonical: Ranking & running-row analytics,1
+Array / Sequence,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Greedy Check,Canonical: Prefix/Suffix extrema accumulation,1
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Counting,Canonical: Range Sum Query,1
+Array / Sequence,Prefix / Suffix Precompute,Range-sum precompute,+ Hash Set,Canonical: Range Sum Query,1
+Array / Sequence,Queue / Deque,Deque-backed range/window state,+ Hash Set,Canonical: Sliding Window Maximum,1
+Array / Sequence,Queue / Deque,Deque-backed range/window state,+ Prefix/Suffix,Canonical: Sliding Window Maximum,1
+String / Text,Dynamic Programming,State-transition DP,+ Prefix/Suffix,Canonical: Coin Change / state-transition DP,1
+String / Text,Dynamic Programming,State-transition DP,+ Sorting,Canonical: Coin Change / state-transition DP,1
+String / Text,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Prefix/Suffix + Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,1
+Array / Sequence,Monotonic Stack,Boundary / histogram stack,+ Counting,Canonical: Daily Temperatures / Largest Rectangle,1
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,+ Hash Map,Canonical: Daily Temperatures / Largest Rectangle,1
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,+ Hash Map + Counting + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,+ Heap,Canonical: Daily Temperatures / Largest Rectangle,1
+Array / Sequence,Monotonic Stack,Next-greater / monotonic boundary stack,+ Sorting + Memoization,Canonical: Daily Temperatures / Largest Rectangle,1
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,+ Greedy Check + Intervals/Geometry,Canonical: Prefix/Suffix extrema accumulation,1
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,+ Hash Map + Counting,Canonical: Prefix/Suffix extrema accumulation,1
+Array / Sequence,Prefix / Suffix Precompute,Difference-array accumulation,+ Sorting + Greedy Check,Canonical: Prefix/Suffix extrema accumulation,1
+String / Text,Divide and Conquer,Recursive split / combine,None,Canonical: Merge-sort / recursive split-combine,1
+String / Text,Dynamic Programming,1D DP,+ Bitmask + Tree + Segment/Fenwick,Canonical: Climbing Stairs / House Robber,1
+String / Text,Dynamic Programming,State-transition DP,+ Counting,Canonical: Coin Change / state-transition DP,1
+String / Text,Dynamic Programming,State-transition DP,+ Counting + Greedy Check,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Heap,Top-K / best-first selection,+ Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Top-K / best-first selection,+ Hash Map,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Top-K / best-first selection,+ Hash Map + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Top-K / best-first selection,+ Hash Set + Sorting,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Memoization + String Parsing,Canonical: Exact custom named technique,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Prefix/Suffix + Math,Canonical: Exact custom named technique,1
+String / Text,Custom Exact Technique,Exact custom / named technique,+ Tree + String Parsing,Canonical: Exact custom named technique,1
+String / Text,DFS,Depth-first traversal,+ Bitmask,Canonical: Depth-first component exploration,1
+String / Text,DFS,Depth-first traversal,+ Hash Set,Canonical: Depth-first component exploration,1
+String / Text,DFS,Depth-first traversal,+ Stack,Canonical: Depth-first component exploration,1
+String / Text,DFS,Depth-first traversal,+ Tree,Canonical: Depth-first component exploration,1
+String / Text,DFS,Memoized DFS,+ Sorting + Trie,Canonical: Depth-first component exploration,1
+String / Text,Heap,Priority-based selection,+ String Parsing,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Heap,Priority-based selection,None,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Heap,Top-K / best-first selection,+ Hash Map,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Math / Number Theory,Digit arithmetic / carry,None,Canonical: Add Two Numbers / Reverse Integer,1
+String / Text,Math / Number Theory,Formula / constructive math,+ Counting + Bitmask + Tree,Canonical: Mathematical invariant,1
+String / Text,Monotonic Stack,Next-greater / monotonic boundary stack,+ Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+String / Text,Monotonic Stack,Next-greater / monotonic boundary stack,+ Hash Map + Counting + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+String / Text,Monotonic Stack,Next-greater / monotonic boundary stack,+ Queue/Deque + Greedy Check,Canonical: Daily Temperatures / Largest Rectangle,1
+String / Text,Hash Set,Uniqueness / seen-set check,+ Bitmask + Math,Canonical: Contains Duplicate / seen-set uniqueness,1
+String / Text,Hash Set,Uniqueness / seen-set check,+ Counting + Sorting + Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,1
+String / Text,Hash Set,Uniqueness / seen-set check,+ Greedy Check,Canonical: Contains Duplicate / seen-set uniqueness,1
+String / Text,Hash Set,Uniqueness / seen-set check,+ Sorting + Bitmask,Canonical: Contains Duplicate / seen-set uniqueness,1
+String / Text,Heap,Priority-based selection,+ Counting + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Heap,Priority-based selection,+ Counting + Greedy Check + Bitmask,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Heap,Priority-based selection,+ Memoization,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Heap,Priority-based selection,+ Sorting,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Hash Map,Direct keyed lookup,+ Sorting,Canonical: Direct lookup dictionary,1
+String / Text,Hash Map,Direct keyed lookup,+ Sorting + Math,Canonical: Direct lookup dictionary,1
+String / Text,Hash Map,Direct keyed lookup,+ String Parsing,Canonical: Direct lookup dictionary,1
+String / Text,Hash Map,Frequency dictionary,+ Counting + Bitmask,Canonical: Group Anagrams / frequency map,1
+String / Text,Hash Map,Frequency dictionary,+ Counting + Greedy Check,Canonical: Group Anagrams / frequency map,1
+String / Text,Hash Map,Frequency dictionary,+ Counting + Prefix/Suffix + String Parsing,Canonical: Group Anagrams / frequency map,1
+String / Text,Hash Map,Frequency dictionary,+ Hash Set + Counting,Canonical: Group Anagrams / frequency map,1
+String / Text,Hash Map,Pattern/signature map,None,Canonical: Isomorphic Strings / pattern hash,1
+String / Text,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Fenwick tree / Binary Lifting,1
+String / Text,Greedy,Greedy with numeric invariant,+ Math,Canonical: Gas Station / local-choice greedy,1
+String / Text,Greedy,Local-choice optimization,+ Counting + Prefix/Suffix,Canonical: Gas Station / local-choice greedy,1
+String / Text,Greedy,Local-choice optimization,+ Hash Set + Bitmask,Canonical: Gas Station / local-choice greedy,1
+String / Text,Greedy,Local-choice optimization,+ String Parsing,Canonical: Gas Station / local-choice greedy,1
+String / Text,Hash Map,Direct keyed lookup,+ Counting,Canonical: Direct lookup dictionary,1
+String / Text,Hash Map,Direct keyed lookup,+ Hash Set + String Parsing,Canonical: Direct lookup dictionary,1
+String / Text,Hash Map,Direct keyed lookup,+ Math,Canonical: Direct lookup dictionary,1
+Array / Sequence,Heap,Priority-based selection,+ Hash Map + Queue/Deque,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Hash Map + Sorting + Queue/Deque,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Hash Map + Sorting + Tree,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Intervals/Geometry,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Memoization,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Sorting + Greedy Check,Canonical: Top K Frequent Elements / merge-k,1
+Array / Sequence,Heap,Priority-based selection,+ Stack,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Simulation / Scan / Precompute,Deterministic state machine,None,Canonical: DFA / parser-style scan,1
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Sorting + Math,Canonical: Contains Duplicate / seen-set uniqueness,1
+Array / Sequence,Hash Set,Visited-state membership,None,Canonical: Contains Duplicate / seen-set uniqueness,1
+Array / Sequence,Heap,Dual-heap balancing,+ Greedy Check,Canonical: Find Median from Data Stream,1
+Array / Sequence,Heap,Dual-heap balancing,+ Hash Map,Canonical: Find Median from Data Stream,1
+Array / Sequence,Heap,Dual-heap balancing,+ Hash Map + Sorting + Tree,Canonical: Find Median from Data Stream,1
+Array / Sequence,Heap,Dual-heap balancing,+ Hash Map + Tree,Canonical: Find Median from Data Stream,1
+Array / Sequence,Heap,Dual-heap balancing,+ Prefix/Suffix + Queue/Deque,Canonical: Find Median from Data Stream,1
+Array / Sequence,Heap,Priority-based selection,+ Greedy Check + Math,Canonical: Top K Frequent Elements / merge-k,1
+String / Text,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick + Intervals/Geometry,Canonical: Range query / update segment tree,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Sorting + Prefix/Suffix,Canonical: Group Anagrams / frequency map,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Stack,Canonical: Group Anagrams / frequency map,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + String Parsing,Canonical: Group Anagrams / frequency map,1
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Memoization,Canonical: Contains Duplicate / seen-set uniqueness,1
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Prefix/Suffix,Canonical: Contains Duplicate / seen-set uniqueness,1
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Queue/Deque,Canonical: Contains Duplicate / seen-set uniqueness,1
+Array / Sequence,Hash Set,Uniqueness / seen-set check,+ Sorting,Canonical: Contains Duplicate / seen-set uniqueness,1
+String / Text,Prefix / Suffix Precompute,Difference-array accumulation,+ Greedy Check + Tree + Segment/Fenwick,Canonical: Prefix/Suffix extrema accumulation,1
+String / Text,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Counting,Canonical: Prefix/Suffix extrema accumulation,1
+String / Text,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,+ Greedy Check + Bitmask + Math,Canonical: Prefix/Suffix extrema accumulation,1
+String / Text,Prefix / Suffix Precompute,Prefix/suffix extrema or counts,None,Canonical: Prefix/Suffix extrema accumulation,1
+String / Text,Queue / Deque,Deque-backed range/window state,+ Stack,Canonical: Sliding Window Maximum,1
+String / Text,Segment Tree,Range query / update tree,+ Greedy Check + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+String / Text,Segment Tree,Range query / update tree,+ Sorting + Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+String / Text,Segment Tree,Range query / update tree,+ Tree + Segment/Fenwick,Canonical: Range query / update segment tree,1
+Array / Sequence,Greedy,Local-choice optimization,+ Graph + Math,Canonical: Gas Station / local-choice greedy,1
+Array / Sequence,Greedy,Sort-then-greedy,+ Sorting + Math,Canonical: Merge Intervals / scheduling greedy,1
+Array / Sequence,Hash Map,Complement lookup,None,Canonical: Two Sum,1
+Array / Sequence,Hash Map,Direct keyed lookup,+ Grid,Canonical: Direct lookup dictionary,1
+Array / Sequence,Hash Map,Direct keyed lookup,+ Prefix/Suffix,Canonical: Direct lookup dictionary,1
+Array / Sequence,Hash Map,Direct keyed lookup,+ Prefix/Suffix + Math,Canonical: Direct lookup dictionary,1
+Array / Sequence,Hash Map,Direct keyed lookup,+ Sorting + Tree + Intervals/Geometry,Canonical: Direct lookup dictionary,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Bitmask,Canonical: Group Anagrams / frequency map,1
+String / Text,Two Pointers,Boundary / pointer sweep,+ Hash Map + Sorting,Canonical: Two Sum II / Container With Most Water,1
+String / Text,Two Pointers,Boundary / pointer sweep,+ Prefix/Suffix + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+String / Text,Two Pointers,Boundary / pointer sweep,+ Sorting + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+String / Text,Two Pointers,Boundary / pointer sweep,+ String Parsing + Math,Canonical: Two Sum II / Container With Most Water,1
+Array / Sequence,Geometry,Geometric reasoning,+ Queue/Deque,Canonical: Geometry / sweep / convex-hull family,1
+Array / Sequence,Geometry,Geometric reasoning,None,Canonical: Geometry / sweep / convex-hull family,1
+Array / Sequence,Greedy,Greedy with numeric invariant,+ Counting + Math,Canonical: Gas Station / local-choice greedy,1
+Array / Sequence,Greedy,Local-choice optimization,+ Bitmask + Tree + Segment/Fenwick,Canonical: Gas Station / local-choice greedy,1
+String / Text,Sorting / Sweep,Order-then-scan,+ Prefix/Suffix + Tree,Canonical: Sort then scan,1
+String / Text,Stack,Dual-stack transfer / evaluation,+ Counting,Canonical: Valid Parentheses,1
+String / Text,Stack,Dual-stack transfer / evaluation,None,Canonical: Valid Parentheses,1
+String / Text,Stack,LIFO state maintenance,+ Counting,Canonical: Valid Parentheses,1
+String / Text,Stack,LIFO state maintenance,+ Counting + Greedy Check,Canonical: Valid Parentheses,1
+String / Text,Stack,LIFO state maintenance,+ Greedy Check,Canonical: Valid Parentheses,1
+String / Text,Stack,LIFO state maintenance,+ String Parsing,Canonical: Valid Parentheses,1
+String / Text,Two Pointers,Boundary / pointer sweep,+ Counting + Greedy Check,Canonical: Two Sum II / Container With Most Water,1
+String / Text,Simulation / Scan / Precompute,Single-pass scan,+ Counting,Canonical: Linear scan with running state,1
+String / Text,Simulation / Scan / Precompute,State-tracking simulation,+ Prefix/Suffix,Canonical: Direct simulation,1
+String / Text,Simulation / Scan / Precompute,State-tracking simulation,None,Canonical: Direct simulation,1
+String / Text,Sliding Window,Fixed-size window,+ Hash Map + Counting,Canonical: Fixed-size subarray window,1
+String / Text,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Set,Canonical: Longest Substring Without Repeating Characters,1
+String / Text,Sliding Window,Variable-size window,+ Greedy Check,Canonical: Minimum Window / variable-size window,1
+String / Text,Sliding Window,Variable-size window,+ Hash Map + Counting,Canonical: Minimum Window / variable-size window,1
+String / Text,Sorting / Sweep,Order-then-scan,+ Math,Canonical: Sort then scan,1
+Tree / Trie,DFS,Memoized DFS,+ Graph,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Bitmask + Tree + Segment/Fenwick,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Bitmask + Trie,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Counting,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Hash Set,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Hash Set + Tree,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Prefix/Suffix,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Sorting + Tree + Segment/Fenwick,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,Counting,Count-driven scan,+ Greedy Check,Canonical: Frequency counting,1
+Tree / Trie,Counting,Count-driven scan,+ Memoization,Canonical: Frequency counting,1
+Tree / Trie,Counting,Count-driven scan,+ Tree,Canonical: Frequency counting,1
+Tree / Trie,Counting,Frequency counting,None,Canonical: Frequency counting,1
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Counting,Canonical: Exact custom named technique,1
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Hash Set + Memoization,Canonical: Exact custom named technique,1
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Tree,Canonical: Exact custom named technique,1
+Tree / Trie,Custom Exact Technique,Exact custom / named technique,+ Tree + Intervals/Geometry,Canonical: Exact custom named technique,1
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Hash Map,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Memoization,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Tree + Graph,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,Backtracking,Choice tree with undo,+ Hash Set,Canonical: Permutations / combinations search,1
+Tree / Trie,Backtracking,Choice tree with undo,+ Tree,Canonical: Permutations / combinations search,1
+Tree / Trie,Binary Search,Boundary / insertion search,None,Canonical: First/Last Position in Sorted Array,1
+Tree / Trie,Binary Search,Exact / partition binary search,+ Tree,Canonical: Binary Search / median partition,1
+Tree / Trie,Bit / Mask,XOR / parity logic,+ Math,Canonical: Single Number / XOR invariant,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Greedy Check + Math,Canonical: Group Anagrams / frequency map,1
+Array / Sequence,Hash Map,Frequency dictionary,+ Counting + Sorting,Canonical: Group Anagrams / frequency map,1
+String / Text,Two Pointers,Opposite-end pinch,None,Canonical: Two Sum II / Container With Most Water,1
+Tree / Trie,BFS,Level-order traversal,+ Counting,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Level-order traversal,+ Hash Set,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Level-order traversal,+ Sorting + Heap,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Counting + Graph,Canonical: Binary Tree Level Order Traversal,1
+Tree / Trie,BFS,Single-source breadth-first traversal,+ Counting + Tree + Math,Canonical: Binary Tree Level Order Traversal,1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Prefix/Suffix + Math,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Sorting + Greedy Check,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Tree + Segment/Fenwick,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,Tree DP,+ Tree + Math,Canonical: Binary Tree Maximum Path Sum / tree DP,1
+Array / Sequence,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Sorting + Tree + Segment/Fenwick,Canonical: Fenwick tree / Binary Lifting,1
+Array / Sequence,Fenwick / Sparse Table,Fenwick prefix aggregate,+ Tree + Segment/Fenwick + Math,Canonical: Fenwick tree / Binary Lifting,1
+Array / Sequence,Fenwick / Sparse Table,Power-of-two jump table,+ Prefix/Suffix + Segment/Fenwick + Math,Canonical: Fenwick tree / Binary Lifting,1
+Array / Sequence,Geometry,Geometric reasoning,+ Hash Map + Math,Canonical: Geometry / sweep / convex-hull family,1
+Array / Sequence,Dynamic Programming,1D DP,+ Sorting + Greedy Check,Canonical: Climbing Stairs / House Robber,1
+Array / Sequence,Dynamic Programming,3D DP,+ Intervals/Geometry,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,Interval DP,+ Sorting + Intervals/Geometry,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,Memoized DP,+ Bitmask,Canonical: Coin Change (top-down),1
+Array / Sequence,Dynamic Programming,Memoized DP,+ Prefix/Suffix,Canonical: Coin Change (top-down),1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Bitmask,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Graph + Math,Canonical: Coin Change / state-transition DP,1
+Array / Sequence,Dynamic Programming,State-transition DP,+ Hash Map,Canonical: Coin Change / state-transition DP,1
+Tree / Trie,Geometry,Geometric reasoning,+ Math,Canonical: Geometry / sweep / convex-hull family,1
+Tree / Trie,Graph,General graph modeling,+ Counting,Canonical: General graph construction,1
+Tree / Trie,Graph,General graph modeling,+ Sorting,Canonical: General graph construction,1
+Tree / Trie,Greedy,Local-choice optimization,+ Prefix/Suffix,Canonical: Gas Station / local-choice greedy,1
+Tree / Trie,Greedy,Local-choice optimization,+ String Parsing,Canonical: Gas Station / local-choice greedy,1
+Array / Sequence,DFS,Memoized DFS,None,Canonical: Depth-first component exploration,1
+Array / Sequence,Divide and Conquer,Recursive split / combine,+ Intervals/Geometry,Canonical: Merge-sort / recursive split-combine,1
+Array / Sequence,Dynamic Programming,1D DP,+ Sorting,Canonical: Climbing Stairs / House Robber,1
+Tree / Trie,DFS,Tree DFS,+ String Parsing,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,DFS,Tree DFS,+ Tree + Math,Canonical: Path Sum / subtree DFS,1
+Tree / Trie,Divide and Conquer,Recursive split / combine,None,Canonical: Merge-sort / recursive split-combine,1
+Tree / Trie,Dynamic Programming,1D DP,None,Canonical: Climbing Stairs / House Robber,1
+Tree / Trie,Dynamic Programming,State-transition DP,+ Counting,Canonical: Coin Change / state-transition DP,1
+Tree / Trie,Dynamic Programming,State-transition DP,+ Greedy Check + Graph,Canonical: Coin Change / state-transition DP,1
+Tree / Trie,Dynamic Programming,State-transition DP,+ Math,Canonical: Coin Change / state-transition DP,1
+Tree / Trie,Dynamic Programming,Tree DP,+ Greedy Check + Tree,Canonical: Binary Tree Maximum Path Sum / tree DP,1
+Array / Sequence,Binary Search,Exact / partition binary search,+ Sorting + Greedy Check + Tree,Canonical: Binary Search / median partition,1
+Array / Sequence,Binary Search,Exact / partition binary search,+ Sorting + Tree,Canonical: Binary Search / median partition,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Bitmask,Canonical: Binary Tree recursion,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Hash Map + Segment/Fenwick,Canonical: Binary Tree recursion,1
+Tree / Trie,Sliding Window,Variable-size window,+ Hash Map,Canonical: Minimum Window / variable-size window,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Greedy Check + Math,Canonical: Binary Tree recursion,1
+Array / Sequence,Backtracking,Choice tree with undo,+ Counting,Canonical: Permutations / combinations search,1
+Tree / Trie,Union-Find,Connectivity / component merging,None,Canonical: Number of Connected Components / Redundant Connection,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Counting + Greedy Check,Canonical: Koko Eating Bananas,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Greedy Check + Math,Canonical: Koko Eating Bananas,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Intervals/Geometry,Canonical: Koko Eating Bananas,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Math,Canonical: Koko Eating Bananas,1
+Array / Sequence,Binary Search,Answer-space binary search,+ Sorting + Greedy Check,Canonical: Koko Eating Bananas,1
+Array / Sequence,Binary Search,Exact / partition binary search,+ Counting + Tree + Segment/Fenwick,Canonical: Binary Search / median partition,1
+Array / Sequence,Binary Search,Exact / partition binary search,+ Hash Set + Sorting,Canonical: Binary Search / median partition,1
+Array / Sequence,Binary Search,Exact / partition binary search,+ Prefix/Suffix + Math,Canonical: Binary Search / median partition,1
+Tree / Trie,Simulation / Scan / Precompute,Direct simulation / scan,None,Canonical: Direct simulation,1
+Tree / Trie,Simulation / Scan / Precompute,Single-pass scan,None,Canonical: Linear scan with running state,1
+Tree / Trie,Sliding Window,Fixed-size window,+ Hash Set,Canonical: Fixed-size subarray window,1
+Array / Sequence,Backtracking,Choice tree with undo,+ Greedy Check,Canonical: Permutations / combinations search,1
+Array / Sequence,Backtracking,Choice tree with undo,+ Sorting,Canonical: Combination Sum,1
+Array / Sequence,Backtracking,Combination search,None,Canonical: Permutations / combinations search,1
+Array / Sequence,Backtracking,Permutation / choice-tree generation,None,Canonical: Permutations / combinations search,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Hash Map + Graph,Canonical: Shortest-path layer BFS,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Hash Set,Canonical: Exact custom named technique,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Sorting,Canonical: Exact custom named technique,1
+Array / Sequence,Custom Exact Technique,Exact custom / named technique,+ Trie,Canonical: Exact custom named technique,1
+Array / Sequence,DFS,Depth-first traversal,+ Hash Set,Canonical: Depth-first component exploration,1
+Array / Sequence,DFS,Depth-first traversal,+ Sorting + Bitmask,Canonical: Depth-first component exploration,1
+Array / Sequence,DFS,Depth-first traversal,+ Stack,Canonical: Depth-first component exploration,1
+Tree / Trie,Shortest Path / Flow,All-pairs shortest path,+ Bitmask,Canonical: Weighted shortest path,1
+Tree / Trie,Shortest Path / Flow,Weighted shortest path,None,Canonical: Network Delay Time,1
+Array / Sequence,Counting,Count-driven scan,+ Greedy Check + Tree + Segment/Fenwick,Canonical: Frequency counting,1
+Array / Sequence,Counting,Count-driven scan,+ Prefix/Suffix,Canonical: Frequency counting,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Memoization,Canonical: Shortest-path layer BFS,1
+Tree / Trie,Sliding Window,Variable-size + frequency/uniqueness control,+ Hash Map + Counting,Canonical: Longest Substring Without Repeating Characters,1
+Tree / Trie,Sliding Window,Variable-size + frequency/uniqueness control,None,Canonical: Longest Substring Without Repeating Characters,1
+Tree / Trie,Sliding Window,Variable-size window,+ Counting,Canonical: Minimum Window / variable-size window,1
+Tree / Trie,Sliding Window,Variable-size window,+ Greedy Check,Canonical: Minimum Window / variable-size window,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Math,Canonical: Shortest-path layer BFS,1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Hash Set + Prefix/Suffix,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Heap,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Prefix/Suffix + Math,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Prefix/Suffix + String Parsing,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Sorting,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Sorting + Prefix/Suffix,Canonical: Implement Trie (Prefix Tree),1
+Array / Sequence,Counting,Count-driven scan,+ Greedy Check,Canonical: Frequency counting,1
+Array / Sequence,Counting,Count-driven scan,+ Greedy Check + Math,Canonical: Frequency counting,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Sorting,Canonical: Binary Tree recursion,1
+Tree / Trie,Tree,Tree traversal / postorder-preorder,+ Greedy Check,Canonical: Binary Tree recursion,1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Bitmask,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Bitmask + Segment/Fenwick,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Counting,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Counting + Prefix/Suffix,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Greedy Check + Segment/Fenwick,Canonical: Implement Trie (Prefix Tree),1
+Tree / Trie,Trie,Prefix-tree traversal / insertion,+ Hash Map,Canonical: Implement Trie (Prefix Tree),1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Greedy Check,Canonical: Shortest-path layer BFS,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Hash Map + Counting + Sorting,Canonical: Shortest-path layer BFS,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Hash Map + Counting + Tree,Canonical: Shortest-path layer BFS,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Hash Set + Segment/Fenwick,Canonical: Binary Tree recursion,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Heap + Memoization,Canonical: Binary Tree recursion,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Math,Canonical: Binary Tree recursion,1
+Tree / Trie,Tree,Recursive subtree aggregation,+ Prefix/Suffix,Canonical: Binary Tree recursion,1
+Array / Sequence,BFS,Single-source breadth-first traversal,+ Sorting + Math,Canonical: Shortest-path layer BFS,1
