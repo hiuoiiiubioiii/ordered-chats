@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sum | Deep Algorithm Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg-deep: #050505;
+            --bg-panel: #111111;
+            --border-color: #222222;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: #e5e5e5;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .code-font { font-family: 'Fira Code', monospace; }
+
+        /* Glow & Semantic Colors */
+        .text-yellow-glow { color: #facc15; text-shadow: 0 0 10px rgba(250, 204, 21, 0.5); }
+        .text-cyan-glow { color: #22d3ee; text-shadow: 0 0 10px rgba(34, 211, 238, 0.5); }
+        .text-green-glow { color: #4ade80; text-shadow: 0 0 10px rgba(74, 222, 128, 0.5); }
+        .text-red-glow { color: #f87171; text-shadow: 0 0 10px rgba(248, 113, 113, 0.5); }
+        
+        .border-yellow-glow { border-color: #facc15; box-shadow: 0 0 15px rgba(250, 204, 21, 0.3); }
+        .border-green-glow { border-color: #4ade80; box-shadow: 0 0 15px rgba(74, 222, 128, 0.3); }
+        .border-cyan-glow { border-color: #22d3ee; box-shadow: 0 0 15px rgba(34, 211, 238, 0.3); }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        /* Sync Highlighting */
+        .line-active { background-color: rgba(250, 204, 21, 0.15); border-left: 4px solid #facc15; }
+        .line-hit { background-color: rgba(74, 222, 128, 0.15); border-left: 4px solid #4ade80; }
+        .line-miss { background-color: rgba(248, 113, 113, 0.15); border-left: 4px solid #f87171; }
+        
+        /* Layout Grid */
+        .app-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr 400px;
+            grid-template-rows: auto 1fr 250px;
+            height: 100%;
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .panel {
+            background-color: var(--bg-panel);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .panel-header {
+            background-color: #1a1a1a;
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #888;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP NAV -->
+    <header class="border-b border-gray-800 px-6 py-4 flex justify-between items-center bg-[#0a0a0a] z-10 shrink-0">
+        <div>
+            <h1 class="text-2xl font-bold text-yellow-glow">Two Sum <span class="text-gray-500 font-light text-lg">| Master Artifact Engine</span></h1>
+            <div class="text-xs text-gray-500 mt-1 code-font">O(n) Time | O(n) Space | One-Pass Hash Map</div>
+        </div>
+        <div class="flex items-center gap-6">
+            <div class="flex gap-2 code-font text-sm">
+                <button onclick="loadScenario('standard')" class="px-3 py-1 bg-gray-800 hover:bg-gray-700 rounded border border-gray-700 transition">Standard</button>
+                <button onclick="loadScenario('duplicates')" class="px-3 py-1 bg-gray-800 hover:bg-gray-700 rounded border border-gray-700 transition">Duplicates</button>
+                <button onclick="loadScenario('negatives')" class="px-3 py-1 bg-gray-800 hover:bg-gray-700 rounded border border-gray-700 transition">Negatives</button>
+            </div>
+            <div class="text-right border-l border-gray-800 pl-6">
+                <div class="text-[10px] uppercase text-gray-500 tracking-wider">Target</div>
+                <div class="text-3xl font-bold text-cyan-glow code-font" id="global-target">6</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN APP GRID -->
+    <div class="app-grid">
+        
+        <!-- LEFT: Controls & Input -->
+        <div class="panel grid-row-span-2" style="grid-row: 1 / 3;">
+            <div class="panel-header">Artifact 27: Universe & Config</div>
+            <div class="p-4 flex flex-col gap-6 flex-grow overflow-y-auto">
+                <div>
+                    <label class="text-xs text-gray-500 uppercase block mb-2">Input Array (comma separated)</label>
+                    <input type="text" id="custom-array" value="3, 2, 4" class="w-full bg-gray-900 border border-gray-700 rounded p-2 code-font text-sm text-gray-300 focus:outline-none focus:border-yellow-500 transition">
+                </div>
+                <div>
+                    <label class="text-xs text-gray-500 uppercase block mb-2">Target Sum</label>
+                    <input type="number" id="custom-target" value="6" class="w-full bg-gray-900 border border-gray-700 rounded p-2 code-font text-sm text-gray-300 focus:outline-none focus:border-cyan-500 transition">
+                </div>
+                <button onclick="applyCustom()" class="w-full py-2 bg-yellow-600 hover:bg-yellow-500 text-black font-bold rounded text-sm transition">Generate Engine State</button>
+                
+                <hr class="border-gray-800 my-2">
+
+                <div class="flex flex-col gap-3">
+                    <div class="text-xs text-gray-500 uppercase mb-1">Execution Controls</div>
+                    <div class="flex items-center justify-between code-font text-xs text-yellow-400" id="step-counter">Step 0 / 0</div>
+                    <input type="range" id="timeline" min="0" max="0" value="0" class="w-full accent-yellow-500 cursor-pointer">
+                    
+                    <div class="grid grid-cols-2 gap-2 mt-2">
+                        <button onclick="prevStep()" class="py-2 bg-gray-800 hover:bg-gray-700 rounded border border-gray-700 code-font text-sm transition">&lt; Prev</button>
+                        <button onclick="nextStep()" class="py-2 bg-gray-800 hover:bg-gray-700 rounded border border-gray-700 code-font text-sm transition">Next &gt;</button>
+                    </div>
+                    <button onclick="togglePlay()" id="play-btn" class="w-full py-2 bg-green-900 hover:bg-green-800 text-green-300 border border-green-700 rounded code-font text-sm transition mt-1">▶ Auto Play</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- CENTER: Visualizer (Array & ALU) -->
+        <div class="panel flex-col">
+            <div class="panel-header">Artifact 44: Execution Visualizer</div>
+            
+            <div class="flex-grow flex flex-col items-center justify-center p-6 gap-8 relative">
+                <!-- Status Badge -->
+                <div id="status-badge" class="absolute top-4 right-4 px-3 py-1 rounded code-font text-xs font-bold bg-gray-800 text-gray-400">WAITING</div>
+
+                <!-- Array Strip -->
+                <div class="w-full flex justify-center gap-3 flex-wrap" id="array-strip">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Math ALU -->
+                <div class="w-full bg-gray-900/50 border border-gray-800 rounded p-6 flex flex-col items-center justify-center mt-4 h-32 relative overflow-hidden">
+                    <div class="absolute top-2 left-2 text-[10px] uppercase text-gray-600 tracking-wider">Derived Complement (ALU)</div>
+                    <div id="alu-display" class="text-xl md:text-3xl code-font text-gray-500 flex items-center gap-4 transition-all">
+                        Engine idle...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT: Code Sync & Hash Map -->
+        <div class="panel" style="grid-row: 1 / 3;">
+            <div class="panel-header flex-col items-start gap-1">
+                <div>Artifact 47: Code-Sync Execution</div>
+                <div class="text-[10px] text-gray-600 normal-case">Micro-stepped execution tracking</div>
+            </div>
+            
+            <!-- Code Block -->
+            <div class="border-b border-gray-800 bg-[#0d0d0d] overflow-x-auto text-xs code-font leading-loose relative" id="code-block">
+                <div class="absolute left-0 top-0 bottom-0 w-8 bg-[#111] border-r border-gray-800 z-0"></div>
+                <div class="relative z-10 py-4 w-full" id="code-lines">
+                    <!-- Lines injected via JS -->
+                </div>
+            </div>
+
+            <!-- Hash Map Panel -->
+            <div class="panel-header border-t border-b-0 border-gray-800">Artifact 36: State Engine (seen_map)</div>
+            <div class="flex-grow bg-[#0a0a0a] p-4 overflow-y-auto">
+                <div class="grid grid-cols-2 text-xs code-font text-gray-500 mb-2 border-b border-gray-800 pb-2">
+                    <div>Key (nums[i])</div>
+                    <div>Value (Index i)</div>
+                </div>
+                <div id="hash-map" class="flex flex-col gap-2 code-font text-sm mt-2">
+                    <!-- Map Items injected here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTTOM: Trace Table / Notebook -->
+        <div class="panel" style="grid-column: 1 / 3; grid-row: 3 / 4;">
+            <div class="panel-header">Artifact 43 & 45: Trace Table & Notebook</div>
+            <div class="flex h-full w-full">
+                
+                <!-- State Table -->
+                <div class="w-2/3 border-r border-gray-800 flex flex-col">
+                    <div class="grid grid-cols-6 text-[10px] uppercase text-gray-500 border-b border-gray-800 bg-gray-900 p-2 code-font sticky top-0">
+                        <div>Step (i)</div>
+                        <div>Value</div>
+                        <div>Comp.</div>
+                        <div>Map Before</div>
+                        <div>Action</div>
+                        <div>Map After</div>
+                    </div>
+                    <div id="trace-table" class="overflow-y-auto flex-grow p-2 flex flex-col gap-1 text-xs code-font">
+                        <!-- Table Rows -->
+                    </div>
+                </div>
+
+                <!-- Notebook Dry Run -->
+                <div class="w-1/3 bg-[#161616] relative p-4 overflow-y-auto custom-scrollbar shadow-inner">
+                    <div class="absolute top-0 bottom-0 left-6 w-px bg-red-900/20"></div>
+                    <pre id="notebook-log" class="code-font text-xs text-gray-400 whitespace-pre-wrap pl-6 leading-relaxed relative z-10"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENGINE JAVASCRIPT -->
+    <script>
+        // C++ Code Representation
+        const codeLines = [
+            { line: 9, text: "vector<int> twoSum(vector<int>& nums, int target) {" },
+            { line: 10, text: "    unordered_map<int, int> seen;" },
+            { line: 11, text: "" },
+            { line: 12, text: "    for (int i = 0; i < nums.size(); ++i) {" },
+            { line: 13, text: "        int comp = target - nums[i];" },
+            { line: 14, text: "" },
+            { line: 15, text: "        // Check if complement exists" },
+            { line: 16, text: "        if (seen.count(comp)) {" },
+            { line: 17, text: "            return {seen[comp], i};" },
+            { line: 18, text: "        }" },
+            { line: 19, text: "" },
+            { line: 20, text: "        // Store current element" },
+            { line: 21, text: "        seen[nums[i]] = i;" },
+            { line: 22, text: "    }" },
+            { line: 23, text: "    return {};" },
+            { line: 24, text: "}" }
+        ];
+
+        let engineFrames = [];
+        let currentFrameIdx = 0;
+        let isPlaying = false;
+        let playInterval;
+
+        const scenarios = {
+            standard: { nums: [2, 7, 11, 15], target: 9 },
+            duplicates: { nums: [3, 3], target: 6 },
+            negatives: { nums: [-1, -2, -3, -4, -5], target: -8 }
+        };
+
+        // DOM Elements
+        const elArray = document.getElementById('array-strip');
+        const elAlu = document.getElementById('alu-display');
+        const elMap = document.getElementById('hash-map');
+        const elCode = document.getElementById('code-lines');
+        const elBadge = document.getElementById('status-badge');
+        const elTable = document.getElementById('trace-table');
+        const elNotebook = document.getElementById('notebook-log');
+        const elTarget = document.getElementById('global-target');
+        const elTimeline = document.getElementById('timeline');
+        const elCounter = document.getElementById('step-counter');
+
+        // ENGINE: Generate exact micro-stepped execution frames (Artifact 38 & 39)
+        function compileEngineState(nums, target) {
+            let frames = [];
+            let seen = {};
+            let log = `Target: ${target}\nArray: [${nums.join(', ')}]\n\nMap: {}\n`;
+            let table = [];
+
+            // Frame 0: Init
+            frames.push({
+                activeLine: 10, i: null, val: null, comp: null, 
+                mapState: {...seen}, status: 'INIT', log, tableRows: [...table]
+            });
+
+            for(let i = 0; i < nums.length; i++) {
+                let val = nums[i];
+                let comp = target - val;
+                let mapBeforeStr = JSON.stringify(seen);
+
+                // Start loop
+                frames.push({
+                    activeLine: 12, i, val, comp: null, mapState: {...seen}, 
+                    status: 'LOOP', log: log + `\n--- i=${i} ---\n`, tableRows: [...table]
+                });
+
+                // Derive Complement
+                let stepLog = `[i=${i}] val=${val}.\nneed ${target} - ${val} = ${comp}.\n`;
+                log += stepLog;
+                frames.push({
+                    activeLine: 13, i, val, comp, mapState: {...seen}, 
+                    status: 'DERIVE', log, tableRows: [...table]
+                });
+
+                // Check Map
+                log += `seen map: ${mapBeforeStr}\n-> ${comp} in Map? `;
+                frames.push({
+                    activeLine: 16, i, val, comp, mapState: {...seen}, 
+                    status: 'CHECK', log, tableRows: [...table]
+                });
+
+                if (comp in seen) {
+                    // Hit
+                    log += `YES! Index ${seen[comp]}.\n-> RETURN [${seen[comp]}, ${i}]\n`;
+                    table.push(`
+                        <div class="grid grid-cols-6 border-b border-gray-800/50 py-1 text-green-400">
+                            <div>${i}</div><div>${val}</div><div>${comp}</div>
+                            <div class="truncate pr-2">${mapBeforeStr}</div>
+                            <div class="font-bold">HIT -> Ret</div>
+                            <div class="truncate">${JSON.stringify(seen)}</div>
+                        </div>`);
+                    frames.push({
+                        activeLine: 17, i, val, comp, mapState: {...seen}, result: [seen[comp], i],
+                        status: 'HIT', log, tableRows: [...table]
+                    });
+                    return {frames, nums, target}; // End execution
+                } else {
+                    // Miss -> Store
+                    seen[val] = i;
+                    log += `NO.\n-> Map add {${val}: ${i}}\n`;
+                    table.push(`
+                        <div class="grid grid-cols-6 border-b border-gray-800/50 py-1 text-gray-400">
+                            <div>${i}</div><div>${val}</div><div class="text-cyan-500">${comp}</div>
+                            <div class="truncate pr-2">${mapBeforeStr}</div>
+                            <div class="text-red-400">MISS -> Store</div>
+                            <div class="truncate text-white">${JSON.stringify(seen)}</div>
+                        </div>`);
+                    frames.push({
+                        activeLine: 21, i, val, comp, mapState: {...seen}, 
+                        status: 'STORE', log, tableRows: [...table]
+                    });
+                }
+            }
+            
+            // Unreachable in valid LeetCode constraints, but for completeness
+            frames.push({ activeLine: 23, i: null, val: null, comp: null, mapState: {...seen}, status: 'END', log, tableRows: [...table]});
+            return {frames, nums, target};
+        }
+
+        // INIT & RENDER
+        function initApp(nums, target) {
+            // Update UI Globals
+            elTarget.innerText = target;
+            document.getElementById('custom-array').value = nums.join(', ');
+            document.getElementById('custom-target').value = target;
+
+            // Generate State Machine
+            const engine = compileEngineState(nums, target);
+            engineFrames = engine.frames;
+            currentFrameIdx = 0;
+
+            // Setup Timeline
+            elTimeline.max = engineFrames.length - 1;
+            elTimeline.value = 0;
+
+            // Build Code Block Once
+            elCode.innerHTML = codeLines.map(l => 
+                `<div id="code-line-${l.line}" class="px-4 py-[2px] border-l-4 border-transparent flex gap-4 transition-colors">
+                    <span class="text-gray-600 w-6 text-right select-none">${l.line}</span>
+                    <span class="whitespace-pre">${l.text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</span>
+                </div>`
+            ).join('');
+
+            renderFrame();
+        }
+
+        function renderFrame() {
+            const f = engineFrames[currentFrameIdx];
+            const nums = document.getElementById('custom-array').value.split(',').map(n=>parseInt(n.trim()));
+
+            // 1. Update Timeline & Counter
+            elTimeline.value = currentFrameIdx;
+            elCounter.innerText = `Step ${currentFrameIdx} / ${engineFrames.length - 1}`;
+
+            // 2. Render Code Sync
+            document.querySelectorAll('[id^="code-line-"]').forEach(el => {
+                el.className = "px-4 py-[2px] border-l-4 border-transparent flex gap-4 transition-colors";
+            });
+            const activeLineEl = document.getElementById(`code-line-${f.activeLine}`);
+            if(activeLineEl) {
+                if(f.status === 'HIT') activeLineEl.className = "px-4 py-[2px] flex gap-4 transition-colors line-hit";
+                else if(f.status === 'STORE') activeLineEl.className = "px-4 py-[2px] flex gap-4 transition-colors line-miss";
+                else activeLineEl.className = "px-4 py-[2px] flex gap-4 transition-colors line-active";
+                activeLineEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            // 3. Render Array Strip
+            elArray.innerHTML = nums.map((n, idx) => {
+                let border = "border-gray-700 bg-gray-900 text-gray-500";
+                let size = "scale-100";
+                
+                if(idx === f.i) {
+                    border = "border-yellow-400 bg-yellow-400/10 text-yellow-400 border-yellow-glow z-10";
+                    size = "scale-110";
+                } else if (f.i !== null && idx < f.i) {
+                    border = "border-gray-800 bg-[#0a0a0a] text-gray-600"; // processed
+                }
+
+                if (f.status === 'HIT' && f.result.includes(idx)) {
+                    border = "border-green-400 bg-green-400/20 text-green-400 border-green-glow z-10";
+                    size = "scale-110";
+                }
+
+                return `
+                <div class="flex flex-col items-center transition-all duration-300 ${size}">
+                    <div class="w-12 h-12 flex items-center justify-center border-2 rounded text-lg font-bold ${border}">${n}</div>
+                    <div class="text-[10px] mt-1 text-gray-500 code-font">i=${idx}</div>
+                </div>`;
+            }).join('');
+
+            // 4. Render ALU
+            if (f.status === 'INIT' || f.status === 'LOOP' || f.status === 'END') {
+                elAlu.innerHTML = `<span class="text-gray-600">Awaiting math cycle...</span>`;
+            } else {
+                let glow = "text-cyan-glow";
+                if(f.status === 'HIT') glow = "text-green-glow";
+                if(f.status === 'STORE') glow = "text-gray-500"; // fades out
+
+                elAlu.innerHTML = `
+                    <div class="flex items-center gap-4 text-2xl md:text-4xl">
+                        <span class="text-white">${document.getElementById('custom-target').value}</span> 
+                        <span class="text-gray-600">-</span> 
+                        <span class="text-yellow-glow">${f.val}</span> 
+                        <span class="text-gray-600">=</span> 
+                        <span class="${glow} font-bold">${f.comp}</span>
+                    </div>
+                `;
+            }
+
+            // 5. Render Hash Map
+            const mapEntries = Object.entries(f.mapState);
+            if(mapEntries.length === 0) {
+                elMap.innerHTML = `<div class="text-gray-600 italic">{} // Empty</div>`;
+            } else {
+                elMap.innerHTML = mapEntries.map(([k, v]) => {
+                    let classes = "grid grid-cols-2 p-2 bg-gray-900 border border-gray-800 rounded transition-all";
+                    if (f.status === 'STORE' && parseInt(k) === f.val) {
+                        classes += " border-red-500 bg-red-900/20 text-red-200"; // Flash red on insert
+                    } else if (f.status === 'HIT' && parseInt(k) === f.comp) {
+                        classes += " border-green-500 bg-green-900/20 text-green-400 text-green-glow"; // Flash green on hit
+                    } else {
+                        classes += " text-gray-400";
+                    }
+                    return `<div class="${classes}"><div>${k}</div><div class="text-white">${v}</div></div>`;
+                }).join('');
+            }
+
+            // 6. Badge
+            elBadge.className = "absolute top-4 right-4 px-3 py-1 rounded code-font text-xs font-bold transition-all";
+            if(f.status === 'INIT') { elBadge.classList.add('bg-gray-800','text-gray-400'); elBadge.innerText = 'INITIALIZED'; }
+            else if(f.status === 'LOOP') { elBadge.classList.add('bg-gray-800','text-gray-400'); elBadge.innerText = 'ITERATE'; }
+            else if(f.status === 'DERIVE') { elBadge.classList.add('bg-blue-900','text-blue-300','border','border-blue-500'); elBadge.innerText = 'COMPUTE'; }
+            else if(f.status === 'CHECK') { elBadge.classList.add('bg-blue-900','text-cyan-300','border','border-cyan-500','border-cyan-glow'); elBadge.innerText = 'LOOKUP'; }
+            else if(f.status === 'STORE') { elBadge.classList.add('bg-red-900','text-red-200','border','border-red-500'); elBadge.innerText = 'MISS -> STORE'; }
+            else if(f.status === 'HIT') { elBadge.classList.add('bg-green-900','text-green-300','border','border-green-500','border-green-glow','scale-110'); elBadge.innerText = 'HIT -> RETURN'; }
+
+            // 7. Trace Table & Notebook
+            elTable.innerHTML = f.tableRows.join('');
+            elNotebook.innerText = f.log;
+            elTable.scrollTop = elTable.scrollHeight;
+            elNotebook.scrollTop = elNotebook.scrollHeight;
+        }
+
+        // CONTROLS
+        function nextStep() {
+            if(currentFrameIdx < engineFrames.length - 1) {
+                currentFrameIdx++;
+                renderFrame();
+            } else {
+                pauseAutoplay();
+            }
+        }
+
+        function prevStep() {
+            if(currentFrameIdx > 0) {
+                currentFrameIdx--;
+                renderFrame();
+            }
+        }
+
+        elTimeline.addEventListener('input', (e) => {
+            currentFrameIdx = parseInt(e.target.value);
+            renderFrame();
+        });
+
+        function loadScenario(key) {
+            const s = scenarios[key];
+            pauseAutoplay();
+            initApp(s.nums, s.target);
+        }
+
+        function applyCustom() {
+            pauseAutoplay();
+            try {
+                const numsRaw = document.getElementById('custom-array').value;
+                const nums = numsRaw.split(',').map(n => parseInt(n.trim())).filter(n => !isNaN(n));
+                const target = parseInt(document.getElementById('custom-target').value);
+                if(nums.length < 2 || isNaN(target)) throw new Error("Invalid input");
+                initApp(nums, target);
+            } catch (e) {
+                alert("Please enter a valid comma-separated list of numbers and an integer target.");
+            }
+        }
+
+        function togglePlay() {
+            const btn = document.getElementById('play-btn');
+            if(isPlaying) {
+                pauseAutoplay();
+            } else {
+                isPlaying = true;
+                btn.innerHTML = "⏸ Pause Auto Play";
+                btn.classList.replace('bg-green-900', 'bg-red-900');
+                btn.classList.replace('text-green-300', 'text-red-300');
+                btn.classList.replace('border-green-700', 'border-red-700');
+                if(currentFrameIdx === engineFrames.length - 1) currentFrameIdx = 0; // reset if at end
+                playInterval = setInterval(nextStep, 1000); // 1 sec per micro-step
+            }
+        }
+
+        function pauseAutoplay() {
+            isPlaying = false;
+            clearInterval(playInterval);
+            const btn = document.getElementById('play-btn');
+            btn.innerHTML = "▶ Auto Play";
+            btn.classList.replace('bg-red-900', 'bg-green-900');
+            btn.classList.replace('text-red-300', 'text-green-300');
+            btn.classList.replace('border-red-700', 'border-green-700');
+        }
+
+        // STARTUP
+        window.onload = () => loadScenario('standard');
+    </script>
+</body>
+</html>
